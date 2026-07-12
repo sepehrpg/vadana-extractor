@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">استخراج‌گر وادانا</string>
+    <string name="notification_channel_description">پیشرفت دانلود و ساخت خروجی کلاس</string>
+    <string name="notification_channel_name">پردازش کلاس وادانا</string>
+    <style name="Theme.VadanaExtractor" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

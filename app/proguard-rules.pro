@@ -1,0 +1,5 @@
+-keep class com.arthenica.ffmpegkit.** { *; }
+-dontwarn com.arthenica.ffmpegkit.**
+-keep class ir.vadana.extractor.domain.** { *; }
+-keep class com.arthenica.smartexception.** { *; }
+-dontwarn com.arthenica.smartexception.**

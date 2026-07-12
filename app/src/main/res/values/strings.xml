@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">استخراج‌گر وادانا</string>
+    <string name="notification_channel_name">پردازش کلاس وادانا</string>
+    <string name="notification_channel_description">پیشرفت دانلود و ساخت خروجی کلاس</string>
+</resources>

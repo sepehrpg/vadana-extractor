@@ -1,0 +1,1827 @@
+com.arthenica.smartexception.StackTraceElementSerializer
+com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback
+ir.vadana.extractor.domain.PageNavigationEvent
+com.arthenica.ffmpegkit.Statistics
+com.arthenica.ffmpegkit.AsyncFFprobeExecuteTask
+androidx.compose.foundation.selection.TriStateToggleableElement
+androidx.room.MultiInstanceInvalidationService
+androidx.work.impl.background.systemjob.SystemJobService
+androidx.work.impl.WorkDatabase_Impl
+androidx.compose.ui.draw.DrawBehindElement
+androidx.lifecycle.ProcessLifecycleInitializer
+androidx.core.graphics.drawable.IconCompatParcelizer
+androidx.compose.ui.graphics.GraphicsLayerElement
+androidx.compose.ui.layout.LayoutIdElement
+androidx.compose.foundation.gestures.DraggableElement
+androidx.graphics.path.PathIteratorPreApi34Impl
+androidx.versionedparcelable.CustomVersionedParcelable
+androidx.work.impl.WorkDatabase
+com.arthenica.ffmpegkit.FFprobeSession
+ir.vadana.extractor.domain.BoardShape$Text
+com.arthenica.smartexception.java.JavaPackageLoader
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$compareBy$1
+androidx.compose.foundation.layout.IntrinsicWidthElement
+androidx.compose.ui.draw.DrawWithContentElement
+com.arthenica.ffmpegkit.ReturnCode
+androidx.compose.ui.semantics.ClearAndSetSemanticsElement
+androidx.compose.foundation.gestures.ScrollableElement
+android.support.v4.app.RemoteActionCompatParcelizer
+com.arthenica.ffmpegkit.LogRedirectionStrategy
+com.arthenica.ffmpegkit.FFmpegSession
+ir.vadana.extractor.domain.StreamSegment
+com.arthenica.smartexception.ClassLoader
+com.arthenica.ffmpegkit.AbiDetect
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl
+ir.vadana.extractor.domain.StreamType
+okhttp3.internal.publicsuffix.PublicSuffixDatabase
+androidx.compose.foundation.lazy.layout.LazyLayoutBeyondBoundsModifierElement
+kotlinx.coroutines.internal.StackTraceRecoveryKt
+com.arthenica.ffmpegkit.AsyncFFmpegExecuteTask
+androidx.compose.ui.layout.OnGloballyPositionedElement
+ir.vadana.extractor.domain.Whiteboard
+androidx.compose.ui.platform.AndroidComposeView$bringIntoViewNode$1
+com.arthenica.ffmpegkit.LogCallback
+com.arthenica.ffmpegkit.MediaInformationJsonParser
+com.arthenica.ffmpegkit.AbstractSession
+com.arthenica.ffmpegkit.MediaInformation
+com.arthenica.ffmpegkit.Log
+androidx.compose.foundation.layout.WrapContentElement
+androidx.compose.foundation.text.handwriting.StylusHandwritingElement
+com.arthenica.ffmpegkit.CameraSupport
+androidx.compose.foundation.lazy.layout.TraversablePrefetchStateModifierElement
+androidx.work.OverwritingInputMerger
+androidx.compose.foundation.text.modifiers.TextStringSimpleElement
+ir.vadana.extractor.domain.BoardShape$Pencil
+com.arthenica.ffmpegkit.StreamInformation
+androidx.annotation.Keep
+android.support.v4.graphics.drawable.IconCompatParcelizer
+androidx.compose.animation.EnterExitTransitionElement
+androidx.compose.foundation.text.input.internal.CoreTextFieldSemanticsModifier
+androidx.work.impl.workers.ConstraintTrackingWorker
+androidx.compose.ui.semantics.AppendedSemanticsElement
+com.arthenica.smartexception.StackTraceElementWrapper
+androidx.compose.foundation.ScrollingLayoutElement
+com.arthenica.smartexception.java.Exceptions
+com.arthenica.ffmpegkit.FFmpegKit
+androidx.startup.InitializationProvider
+androidx.compose.foundation.MagnifierElement
+androidx.versionedparcelable.ParcelImpl
+androidx.compose.ui.draw.DrawWithCacheElement
+ir.vadana.extractor.MainActivity
+androidx.compose.foundation.lazy.layout.LazyLayoutItemAnimator$DisplayingDisappearingItemsElement
+androidx.lifecycle.ReportFragment$LifecycleCallbacks
+androidx.work.WorkManagerInitializer
+com.arthenica.ffmpegkit.StatisticsCallback
+androidx.compose.foundation.BackgroundElement
+com.arthenica.smartexception.ThrowableWrapper
+ir.vadana.extractor.domain.BoardShape
+androidx.compose.foundation.ScrollingContainerElement
+androidx.work.CoroutineWorker
+com.arthenica.ffmpegkit.Chapter
+com.arthenica.ffmpegkit.FFmpegKitConfig$1
+com.arthenica.ffmpegkit.R
+androidx.compose.foundation.BorderModifierNodeElement
+ir.vadana.extractor.domain.ExtractionRequest
+androidx.compose.foundation.layout.FillElement
+ir.vadana.extractor.domain.Recording
+ir.vadana.extractor.VadanaApplication
+androidx.compose.ui.focus.FocusRequesterElement
+com.arthenica.smartexception.AbstractExceptions
+androidx.compose.ui.layout.LayoutElement
+kotlin.coroutines.jvm.internal.BaseContinuationImpl
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback
+androidx.compose.foundation.text.input.internal.LegacyAdaptingPlatformTextInputModifier
+ir.vadana.extractor.domain.FileCategory
+androidx.compose.ui.draw.PainterElement
+ir.vadana.extractor.domain.StreamType$Companion
+androidx.compose.foundation.lazy.layout.LazyLayoutSemanticsModifier
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask
+androidx.compose.foundation.layout.UnspecifiedConstraintsElement
+androidx.compose.ui.semantics.EmptySemanticsElement
+com.arthenica.ffmpegkit.Session
+androidx.work.impl.background.systemalarm.RescheduleReceiver
+androidx.compose.ui.input.key.KeyInputElement
+ir.vadana.extractor.domain.BoardEvent
+kotlinx.coroutines.android.AndroidDispatcherFactory
+androidx.compose.material3.MinimumInteractiveModifier
+com.arthenica.ffmpegkit.Signal
+androidx.compose.foundation.relocation.BringIntoViewRequesterElement
+androidx.compose.foundation.text.modifiers.TextAnnotatedStringElement
+androidx.lifecycle.ReportFragment
+androidx.work.impl.workers.DiagnosticsWorker
+androidx.compose.ui.input.pointer.PointerHoverIconModifierElement
+androidx.compose.foundation.layout.LayoutWeightElement
+androidx.core.graphics.drawable.IconCompat
+androidx.compose.ui.layout.OnSizeChangedModifier
+androidx.work.impl.diagnostics.DiagnosticsReceiver
+androidx.compose.foundation.layout.HorizontalAlignElement
+androidx.profileinstaller.ProfileInstallReceiver
+ir.vadana.extractor.domain.SharedFile
+ir.vadana.extractor.worker.VadanaExtractionWorker
+ir.vadana.extractor.domain.PageKey
+androidx.compose.ui.input.rotary.RotaryInputElement
+com.arthenica.ffmpegkit.FFmpegKitConfig
+com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback
+androidx.work.WorkerParameters
+androidx.compose.ui.input.pointer.PointerInputEventHandler
+ir.vadana.extractor.domain.OutputKind
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer
+androidx.profileinstaller.ProfileInstallerInitializer
+androidx.compose.foundation.layout.PaddingElement
+com.arthenica.ffmpegkit.Abi
+com.arthenica.ffmpegkit.FFprobeKit
+androidx.work.Worker
+androidx.compose.foundation.ClickableElement
+androidx.lifecycle.ProcessLifecycleOwner$attach$1
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$thenBy$1
+com.arthenica.ffmpegkit.R$raw
+com.arthenica.ffmpegkit.Level
+androidx.compose.ui.draganddrop.AndroidDragAndDropManager$modifier$1
+androidx.compose.ui.graphics.BlockGraphicsLayerElement
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1
+androidx.emoji2.text.EmojiCompatInitializer
+ir.vadana.extractor.domain.VideoQuality
+androidx.compose.ui.input.pointer.StylusHoverIconModifierElement
+androidx.compose.foundation.FocusableElement
+androidx.work.impl.foreground.SystemForegroundService
+androidx.compose.foundation.layout.AlignmentLineOffsetDpElement
+com.arthenica.ffmpegkit.FFmpegKitConfig$2
+ir.vadana.extractor.domain.PointerEvent
+androidx.compose.foundation.text.modifiers.SelectableTextAnnotatedStringElement
+androidx.core.app.CoreComponentFactory
+com.arthenica.smartexception.java.JavaClassLoader
+ir.vadana.extractor.domain.ExportedItem
+androidx.graphics.path.ConicConverter
+androidx.compose.ui.platform.AndroidCompositionLocals_androidKt
+androidx.compose.ui.focus.FocusOwnerImpl$modifier$1
+com.arthenica.ffmpegkit.MediaInformationSession
+androidx.core.app.RemoteActionCompatParcelizer
+com.arthenica.ffmpegkit.SessionState
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback
+com.arthenica.ffmpegkit.Packages
+androidx.compose.ui.draw.ShadowGraphicsLayerElement
+androidx.compose.foundation.IndicationModifierElement
+ir.vadana.extractor.domain.RecordingAnalysis
+androidx.lifecycle.SavedStateHandlesVM
+androidx.compose.foundation.layout.SizeElement
+com.arthenica.smartexception.PackageLoader
+com.arthenica.ffmpegkit.NativeLoader
+androidx.compose.ui.input.pointer.SuspendPointerInputElement
+androidx.compose.foundation.layout.PaddingValuesElement
+ir.vadana.extractor.ui.MainViewModel
+androidx.core.app.RemoteActionCompat
+androidx.lifecycle.LegacySavedStateHandleController$OnRecreation
+androidx.compose.ui.focus.FocusChangedElement
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback globalFFprobeSessionCompleteCallback
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: java.lang.Thread thread
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object sendSegment$volatile
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_START_TIME
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_ERROR
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState COMPLETED
+com.arthenica.ffmpegkit.AsyncFFprobeExecuteTask: com.arthenica.ffmpegkit.FFprobeSession ffprobeSession
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType CAMERA_VOIP
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_QUIET
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType$Companion Companion
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String[] LIBRARIES_LINKED_WITH_CXX
+kotlinx.coroutines.internal.ResizableAtomicArray: java.util.concurrent.atomic.AtomicReferenceArray array
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy PRINT_LOGS_WHEN_SESSION_CALLBACK_NOT_DEFINED
+com.arthenica.ffmpegkit.R$raw: int license_libuuid
+com.arthenica.ffmpegkit.R$raw: int license_giflib
+kotlinx.coroutines.internal.ThreadSafeHeap: int _size$volatile
+androidx.activity.result.ActivityResult: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.internal.LimitedDispatcher: int runningWorkers$volatile
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion Companion
+com.arthenica.ffmpegkit.Signal: int value
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.StatisticsCallback statisticsCallback
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _rootCause$volatile
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_DURATION
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _queue$volatile
+ir.vadana.extractor.domain.ExtractionRequest: int $stable
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$thenBy$1: java.util.Comparator $this_thenBy
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String ARM_V7A_NEON
+kotlinx.coroutines.android.HandlerDispatcherKt: android.view.Choreographer choreographer
+kotlinx.coroutines.scheduling.CoroutineScheduler: int _isTerminated$volatile
+com.arthenica.ffmpegkit.Level: int value
+com.arthenica.ffmpegkit.R$raw: int license_zimg
+kotlinx.coroutines.channels.BufferedChannel: long bufferEnd$volatile
+ir.vadana.extractor.domain.BoardShape$Text: int $stable
+ir.vadana.extractor.domain.RecordingAnalysis: ir.vadana.extractor.domain.Recording recording
+androidx.activity.result.IntentSenderRequest: android.os.Parcelable$Creator CREATOR
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType OTHER
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_FORMAT
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality QHD
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: androidx.concurrent.futures.AbstractResolvableFuture$Waiter next
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind AUDIO_M4A
+com.arthenica.ffmpegkit.Log: com.arthenica.ffmpegkit.Level level
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy PRINT_LOGS_WHEN_NO_CALLBACKS_DEFINED
+com.arthenica.smartexception.AbstractExceptions: boolean DEFAULT_PRINT_SUPPRESSED_EXCEPTIONS
+ir.vadana.extractor.domain.BoardShape$Text: int color
+com.arthenica.ffmpegkit.MediaInformationJsonParser: java.lang.String KEY_CHAPTERS
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_FATAL
+ir.vadana.extractor.domain.PointerEvent: float xPercent
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject jsonObject
+com.arthenica.smartexception.java.Exceptions: com.arthenica.smartexception.PackageLoader packageLoader
+com.arthenica.ffmpegkit.R$raw: int license_shine
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_TIME_BASE
+com.arthenica.ffmpegkit.Statistics: int videoFrameNumber
+ir.vadana.extractor.domain.Whiteboard: int $stable
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality[] $VALUES
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.ThrowableWrapper cause
+ir.vadana.extractor.domain.BoardShape$Text: int depth
+kotlinx.coroutines.internal.LockFreeTaskQueue: java.lang.Object _cur$volatile
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory AUDIO
+com.arthenica.ffmpegkit.R$raw: int license_leptonica
+com.arthenica.ffmpegkit.R$raw: int license_libass
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType[] $VALUES
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String ARM_V7A
+com.arthenica.ffmpegkit.AsyncFFprobeExecuteTask: com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback completeCallback
+com.arthenica.ffmpegkit.MediaInformationJsonParser: java.lang.String KEY_STREAMS
+com.arthenica.ffmpegkit.AbstractSession: java.util.concurrent.atomic.AtomicLong sessionIdGenerator
+com.arthenica.ffmpegkit.Statistics: double time
+kotlinx.coroutines.EventLoopImplBase: int _isCompleted$volatile
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String failStackTrace
+kotlinx.coroutines.CancelledContinuation: int _resumed$volatile
+ir.vadana.extractor.domain.PageKey: int podIndex
+kotlinx.coroutines.JobSupport: java.lang.Object _parentHandle$volatile
+com.arthenica.ffmpegkit.Statistics: long sessionId
+com.arthenica.ffmpegkit.ReturnCode: int SUCCESS
+kotlinx.coroutines.DefaultExecutor: java.lang.Thread _thread
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_ANY
+kotlinx.coroutines.flow.StateFlowImpl: java.lang.Object _state$volatile
+ir.vadana.extractor.domain.StreamSegment: ir.vadana.extractor.domain.StreamType type
+kotlinx.coroutines.channels.BufferedChannel: long sendersAndCloseStatus$volatile
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String[] arguments
+kotlinx.coroutines.android.AndroidExceptionPreHandler: java.lang.Object _preHandler
+ir.vadana.extractor.domain.Recording: java.lang.String recordingId
+ir.vadana.extractor.domain.Whiteboard: java.util.Map finalShapes
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.LogRedirectionStrategy logRedirectionStrategy
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_END
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_ARM64_V8A
+ir.vadana.extractor.domain.ExportedItem: java.lang.String mimeType
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_FORMAT_PROPERTIES
+ir.vadana.extractor.domain.BoardShape$Text: float y
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.BoardShape shape
+kotlinx.coroutines.InvokeOnCancelling: int _invoked$volatile
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_ARMV7A
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _exceptionsHolder$volatile
+com.arthenica.ffmpegkit.Statistics: double bitrate
+com.arthenica.smartexception.AbstractExceptions: boolean DEFAULT_PRINT_MODULE_NAME
+kotlinx.coroutines.sync.SemaphoreAndMutexImpl: int _availablePermits$volatile
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_INFO
+kotlinx.coroutines.scheduling.CoroutineScheduler: long parkedWorkersStack$volatile
+ir.vadana.extractor.domain.Recording: int $stable
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Waiter waiters
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory VIDEO
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String[] FFMPEG_LIBRARIES
+com.arthenica.ffmpegkit.R$raw: int license_libilbc
+com.arthenica.ffmpegkit.R$raw: int license_libwebp
+com.arthenica.ffmpegkit.R$raw: int license_tiff
+com.arthenica.ffmpegkit.MediaInformation: java.util.List chapters
+com.arthenica.ffmpegkit.ReturnCode: int CANCEL
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_PANIC
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType SCREEN_SHARE
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int workerCtl$volatile
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback globalFFmpegSessionCompleteCallback
+com.arthenica.ffmpegkit.FFmpegSession: java.lang.Object statisticsLock
+com.arthenica.ffmpegkit.StreamInformation: org.json.JSONObject jsonObject
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _next$volatile
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_CHANNEL_LAYOUT
+ir.vadana.extractor.domain.PageNavigationEvent: ir.vadana.extractor.domain.PageKey page
+ir.vadana.extractor.domain.BoardEvent: long timestampMs
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal SIGPIPE
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind SHARED_FILES
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_END_TIME
+ir.vadana.extractor.domain.BoardShape$Pencil: int depth
+kotlinx.coroutines.CompletedExceptionally: int _handled$volatile
+androidx.compose.runtime.ParcelableSnapshotMutableIntState: android.os.Parcelable$Creator CREATOR
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory DOCUMENT
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_ARM
+ir.vadana.extractor.domain.RecordingAnalysis: int whiteboardPages
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_START
+com.arthenica.ffmpegkit.AbstractSession: java.util.List logs
+ir.vadana.extractor.domain.SharedFile: java.lang.String sourceBase
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.Object sessionHistoryLock
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy ALWAYS_PRINT_LOGS
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind WHITEBOARD_PDF
+com.arthenica.ffmpegkit.Log: long sessionId
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_SIZE
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_START
+com.arthenica.ffmpegkit.R$raw: int license_kvazaar
+kotlinx.coroutines.CancellableContinuationImpl: int _decisionAndIndex$volatile
+com.arthenica.ffmpegkit.R$raw: int license_libvpx
+ir.vadana.extractor.domain.RecordingAnalysis: int whiteboardEvents
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _prev$volatile
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_CODEC
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal SIGQUIT
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal SIGTERM
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_BIT_RATE
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind[] $VALUES
+com.arthenica.ffmpegkit.R$raw: int license_openh264
+com.arthenica.smartexception.AbstractExceptions: int DEFAULT_MAX_DEPTH
+com.arthenica.ffmpegkit.R$raw: int source
+androidx.compose.foundation.lazy.layout.DefaultLazyKey: android.os.Parcelable$Creator CREATOR
+com.arthenica.ffmpegkit.R$raw: int license_jpeg
+ir.vadana.extractor.domain.BoardShape$Text: java.util.List lines
+com.arthenica.ffmpegkit.R$raw: int license_libaom
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_STDERR
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.ThrowableWrapper[] suppressed
+kotlinx.coroutines.sync.SemaphoreAndMutexImpl: long enqIdx$volatile
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] $VALUES
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_HEIGHT
+ir.vadana.extractor.domain.PointerEvent: boolean visible
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _prev$volatile
+com.arthenica.ffmpegkit.R$raw: int license_libxml2
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback completeCallback
+com.arthenica.ffmpegkit.R$raw: int license_vo_amrwbenc
+androidx.compose.runtime.ParcelableSnapshotMutableLongState: android.os.Parcelable$Creator CREATOR
+com.arthenica.ffmpegkit.Log: java.lang.String message
+ir.vadana.extractor.domain.Recording: java.lang.String sessionToken
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_TAGS
+com.arthenica.ffmpegkit.FFmpegKitConfig$2: int[] $SwitchMap$com$arthenica$ffmpegkit$LogRedirectionStrategy
+ir.vadana.extractor.domain.BoardShape$Pencil: float width
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback completeCallback
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_ARMV7A_NEON
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_FORMAT_LONG
+ir.vadana.extractor.domain.BoardShape$Text: float x
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_REAL_FRAME_RATE
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners
+com.arthenica.ffmpegkit.R$raw: int license_soxr
+androidx.compose.runtime.ParcelableSnapshotMutableState: android.os.Parcelable$Creator CREATOR
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date endTime
+kotlinx.coroutines.internal.DispatchedContinuation: java.lang.Object _reusableCancellableContinuation$volatile
+kotlinx.coroutines.JobSupport: java.lang.Object _state$volatile
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.Map sessionHistoryMap
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List sessionHistoryList
+kotlinx.coroutines.EventLoopImplBase$DelayedTask: java.lang.Object _heap
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String FFMPEG_KIT_NAMED_PIPE_PREFIX
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event$Companion Companion
+ir.vadana.extractor.domain.RecordingAnalysis: int $stable
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: java.lang.String openMode
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback completeCallback
+com.arthenica.ffmpegkit.Packages: java.util.List supportedExternalLibraries
+com.arthenica.ffmpegkit.FFmpegKitConfig$2: int[] $SwitchMap$com$arthenica$ffmpegkit$Level
+ir.vadana.extractor.domain.VideoQuality: int height
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_AVERAGE_FRAME_RATE
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState FAILED
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.LogCallback globalLogCallback
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_FILENAME
+com.arthenica.ffmpegkit.R$raw: int license_freetype
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: java.lang.Integer safId
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_TYPE
+com.arthenica.ffmpegkit.FFmpegKitConfig: int asyncConcurrencyLimit
+com.arthenica.ffmpegkit.R$raw: int license_libpng
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.StatisticsCallback globalStatisticsCallback
+com.arthenica.smartexception.AbstractExceptions: boolean printSuppressedExceptions
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState RUNNING
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_FORMAT
+com.arthenica.smartexception.AbstractExceptions: boolean DEFAULT_PRINT_PACKAGE_INFORMATION
+kotlinx.coroutines.DefaultExecutor: int debugStatus
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int indexInArray
+com.arthenica.ffmpegkit.R$raw: int license_twolame
+com.arthenica.smartexception.StackTraceElementWrapper: java.lang.StackTraceElement stackTraceElement
+androidx.lifecycle.Lifecycle$Event: kotlin.enums.EnumEntries $ENTRIES
+ir.vadana.extractor.domain.ExportedItem: int $stable
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.content.ContentResolver contentResolver
+com.arthenica.smartexception.ThrowableWrapper: java.lang.String message
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.ReturnCode returnCode
+ir.vadana.extractor.domain.BoardShape$Pencil: int color
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.LogRedirectionStrategy globalLogRedirectionStrategy
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_SAMPLE_FORMAT
+kotlinx.coroutines.channels.BufferedChannel: long receivers$volatile
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object closeHandler$volatile
+ir.vadana.extractor.domain.SharedFile: java.lang.String fileName
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState[] $VALUES
+com.arthenica.ffmpegkit.Statistics: float videoQuality
+com.arthenica.ffmpegkit.R$raw: int license_lame
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object bufferEndSegment$volatile
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_SAMPLE_ASPECT_RATIO
+ir.vadana.extractor.domain.Whiteboard: java.util.List events
+kotlinx.coroutines.scheduling.WorkQueue: int producerIndex$volatile
+ir.vadana.extractor.domain.PageNavigationEvent: int $stable
+com.arthenica.smartexception.AbstractExceptions: boolean ignoreAllCauses
+androidx.compose.runtime.ParcelableSnapshotMutableFloatState: android.os.Parcelable$Creator CREATOR
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_X86_64
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date createTime
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _next$volatile
+com.arthenica.ffmpegkit.R$raw: int license_libiconv
+com.arthenica.ffmpegkit.R$raw: int license_chromaprint
+ir.vadana.extractor.domain.PageNavigationEvent: long timestampMs
+kotlin.SafePublicationLazyImpl: java.lang.Object _value
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _state$volatile
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_TAGS
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_WARNING
+kotlinx.coroutines.scheduling.WorkQueue: int consumerIndex$volatile
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_CODEC_TIME_BASE
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal[] $VALUES
+ir.vadana.extractor.domain.FileCategory: kotlin.enums.EnumEntries $ENTRIES
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory[] $VALUES
+kotlinx.coroutines.channels.BufferedChannel: long completedExpandBuffersAndPauseFlag$volatile
+com.arthenica.ffmpegkit.FFmpegKitConfig: int sessionHistorySize
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _parentHandle$volatile
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: java.lang.Object nextParkedWorker
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_CODEC_LONG
+com.arthenica.smartexception.java.Exceptions: com.arthenica.smartexception.ClassLoader classLoader
+com.arthenica.smartexception.AbstractExceptions: com.arthenica.smartexception.StackTraceElementSerializer stackTraceElementSerializer
+com.arthenica.ffmpegkit.R$raw: int license_opencore_amr
+com.arthenica.ffmpegkit.R$raw: int license_expat
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_PAUSE
+kotlinx.coroutines.JobSupport$Finishing: int _isCompleting$volatile
+ir.vadana.extractor.domain.RecordingAnalysis: boolean hasSharedPdfTimeline
+ir.vadana.extractor.domain.BoardShape$Pencil: int $stable
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level[] $VALUES
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: com.arthenica.ffmpegkit.MediaInformationSession mediaInformationSession
+ir.vadana.extractor.domain.RecordingAnalysis: java.lang.String packagePath
+ir.vadana.extractor.domain.Whiteboard: java.util.List navigation
+ir.vadana.extractor.domain.RecordingAnalysis: long estimatedDurationMs
+com.arthenica.smartexception.AbstractExceptions: boolean printPackageInformation
+ir.vadana.extractor.domain.ExtractionRequest: java.lang.String recordingUrl
+kotlinx.coroutines.UndispatchedCoroutine: boolean threadLocalIsSet
+com.arthenica.ffmpegkit.AbstractSession: java.util.concurrent.Future future
+com.arthenica.ffmpegkit.R$raw: int license_cpu_features
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_STOP
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_BIT_RATE
+com.arthenica.ffmpegkit.AbiDetect: boolean armV7aNeonLoaded
+ir.vadana.extractor.domain.ExtractionRequest: ir.vadana.extractor.domain.VideoQuality quality
+com.arthenica.ffmpegkit.FFmpegKitConfig: android.util.SparseArray safFileDescriptorMap
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_TIME_BASE
+ir.vadana.extractor.domain.ExtractionRequest: java.util.Set outputKinds
+ir.vadana.extractor.domain.PointerEvent: int $stable
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.SessionState state
+ir.vadana.extractor.domain.Recording: java.lang.String host
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.Level activeLogLevel
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _removedRef$volatile
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal SIGXCPU
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_RESUME
+kotlinx.coroutines.sync.SemaphoreAndMutexImpl: long deqIdx$volatile
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _delayed$volatile
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback globalMediaInformationSessionCompleteCallback
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory IMAGE
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality HD_720
+ir.vadana.extractor.domain.PointerEvent: long timestampMs
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_DISPLAY_ASPECT_RATIO
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.StackTraceElementWrapper[] stackTrace
+com.arthenica.ffmpegkit.R$raw: int license_libsndfile
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.concurrent.atomic.AtomicInteger uniqueIdGenerator
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: java.lang.Integer waitTimeout
+com.arthenica.smartexception.ThrowableWrapper: java.lang.String className
+kotlinx.coroutines.scheduling.CoroutineScheduler: long controlState$volatile
+com.arthenica.ffmpegkit.AsyncFFmpegExecuteTask: com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback completeCallback
+ir.vadana.extractor.domain.ExportedItem: java.lang.String uri
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_X86
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_SAMPLE_RATE
+com.arthenica.ffmpegkit.R$raw: int license_gmp
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.net.Uri uri
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_START_TIME
+ir.vadana.extractor.domain.BoardShape$Pencil: java.util.List points
+com.arthenica.ffmpegkit.FFmpegSession: java.util.List statistics
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+ir.vadana.extractor.domain.BoardShape$Text: float textSize
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: java.lang.Object _next$volatile
+com.arthenica.ffmpegkit.R$raw: int license_speex
+com.arthenica.ffmpegkit.Abi: java.lang.String name
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String TAG
+kotlinx.coroutines.DispatchedCoroutine: int _decision$volatile
+ir.vadana.extractor.domain.PageKey: int $stable
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date startTime
+ir.vadana.extractor.domain.PointerEvent: float yPercent
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.os.ParcelFileDescriptor parcelFileDescriptor
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind SYNCED_VIDEO
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy PRINT_LOGS_WHEN_GLOBAL_CALLBACK_NOT_DEFINED
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String KEY_TAGS
+ir.vadana.extractor.domain.StreamType: kotlin.enums.EnumEntries $ENTRIES
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.LogCallback logCallback
+kotlinx.coroutines.internal.Segment: int cleanedAndPointers$volatile
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: long _state$volatile
+kotlin.coroutines.SafeContinuation: java.lang.Object result
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformation mediaInformation
+com.arthenica.ffmpegkit.AbstractSession: int DEFAULT_TIMEOUT_FOR_ASYNCHRONOUS_MESSAGES_IN_TRANSMIT
+com.arthenica.ffmpegkit.Statistics: long size
+ir.vadana.extractor.domain.Recording: java.lang.String originalUrl
+com.arthenica.ffmpegkit.Statistics: float videoFps
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory OTHER
+ir.vadana.extractor.domain.BoardShape$Pencil: long timestampMs
+com.arthenica.ffmpegkit.R$raw: int license_dav1d
+com.arthenica.ffmpegkit.AbstractSession: java.lang.Object logsLock
+com.arthenica.ffmpegkit.R$raw: int license_fribidi
+com.arthenica.ffmpegkit.Chapter: org.json.JSONObject jsonObject
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object _closeCause$volatile
+com.arthenica.ffmpegkit.R$raw: int license
+com.arthenica.ffmpegkit.R$raw: int license_sdl
+com.arthenica.ffmpegkit.R$raw: int license_tesseract
+com.arthenica.ffmpegkit.Statistics: double speed
+ir.vadana.extractor.domain.SharedFile: ir.vadana.extractor.domain.FileCategory category
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy[] $VALUES
+ir.vadana.extractor.domain.BoardEvent: int $stable
+com.arthenica.ffmpegkit.AbstractSession: long sessionId
+ir.vadana.extractor.domain.VideoQuality: java.lang.String label
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi ABI_UNKNOWN
+ir.vadana.extractor.domain.StreamSegment: java.lang.String name
+com.arthenica.smartexception.AbstractExceptions: boolean printModuleName
+com.arthenica.ffmpegkit.R$raw: int license_fontconfig
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object receiveSegment$volatile
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_DEBUG
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.concurrent.ExecutorService asyncExecutorService
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy NEVER_PRINT_LOGS
+com.arthenica.smartexception.AbstractExceptions: java.util.Set ignorePackageSet
+com.arthenica.smartexception.AbstractExceptions: java.util.Set ignoreCausePackageSet
+ir.vadana.extractor.domain.RecordingAnalysis: boolean hasAudio
+ir.vadana.extractor.domain.BoardEvent: java.lang.String shapeId
+com.arthenica.ffmpegkit.FFmpegKitConfig: android.util.SparseArray safIdMap
+ir.vadana.extractor.domain.VideoQuality: int width
+kotlinx.coroutines.scheduling.WorkQueue: int blockingTasksInBuffer$volatile
+ir.vadana.extractor.domain.RecordingAnalysis: boolean hasScreenShare
+kotlinx.coroutines.scheduling.WorkQueue: java.lang.Object lastScheduledTask$volatile
+com.arthenica.ffmpegkit.R$raw: int license_harfbuzz
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_DESTROY
+androidx.versionedparcelable.ParcelImpl: android.os.Parcelable$Creator CREATOR
+com.arthenica.smartexception.AbstractExceptions: java.util.Set rootPackageSet
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi[] $VALUES
+com.arthenica.ffmpegkit.R$raw: int license_opus
+ir.vadana.extractor.domain.BoardShape$Text: long timestampMs
+ir.vadana.extractor.domain.VideoQuality: kotlin.enums.EnumEntries $ENTRIES
+kotlinx.coroutines.sync.SemaphoreAndMutexImpl: java.lang.Object head$volatile
+com.arthenica.smartexception.AbstractExceptions: boolean DEFAULT_IGNORE_ALL_CAUSES
+ir.vadana.extractor.domain.SharedFile: int $stable
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_WIDTH
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality FULL_HD
+ir.vadana.extractor.domain.RecordingAnalysis: java.util.List sharedFiles
+com.arthenica.ffmpegkit.R$raw: int license_libvorbis
+ir.vadana.extractor.domain.StreamSegment: long startMs
+ir.vadana.extractor.domain.ExportedItem: java.lang.String displayName
+com.arthenica.ffmpegkit.R$raw: int license_libogg
+ir.vadana.extractor.domain.StreamSegment: java.lang.String publisherId
+com.arthenica.ffmpegkit.R$raw: int license_libtheora
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal SIGINT
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.PageKey page
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_VERBOSE
+com.arthenica.ffmpegkit.ReturnCode: int value
+kotlinx.coroutines.sync.SemaphoreAndMutexImpl: java.lang.Object tail$volatile
+ir.vadana.extractor.domain.PageKey: int pageNumber
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String KEY_INDEX
+com.arthenica.ffmpegkit.MediaInformation: java.util.List streams
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level AV_LOG_TRACE
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState CREATED
+ir.vadana.extractor.domain.ExtractionRequest: float maxFrameRate
+com.arthenica.smartexception.AbstractExceptions: java.util.Set groupPackageSet
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback completeCallback
+kotlinx.coroutines.sync.MutexImpl: java.lang.Object owner$volatile
+ir.vadana.extractor.domain.StreamSegment: int $stable
+com.arthenica.ffmpegkit.Chapter: java.lang.String KEY_ID
+androidx.concurrent.futures.AbstractResolvableFuture: java.lang.Object value
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_CREATE
+com.arthenica.ffmpegkit.AsyncFFmpegExecuteTask: com.arthenica.ffmpegkit.FFmpegSession ffmpegSession
+ir.vadana.extractor.domain.OutputKind: kotlin.enums.EnumEntries $ENTRIES
+androidx.core.view.WindowInsetsCompat$BuilderImpl30: WindowInsetsCompat$BuilderImpl30(androidx.core.view.WindowInsetsCompat)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,java.util.concurrent.ExecutorService)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSession create(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.pointer.PointerIconService getPointerIconService()
+ir.vadana.extractor.domain.Recording: int hashCode()
+ir.vadana.extractor.domain.Recording: java.lang.String component1()
+ir.vadana.extractor.domain.Recording: java.lang.String component4()
+androidx.compose.ui.platform.MotionEventVerifierApi29: boolean isValidMotionEvent(android.view.MotionEvent,int)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationAsync(java.lang.String,com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,java.util.concurrent.ExecutorService,int)
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState[] values()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String getDisplayName()
+com.arthenica.ffmpegkit.Chapter: java.lang.Long getNumberProperty(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl34: boolean isVisible(int)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.Long getWidth()
+ir.vadana.extractor.domain.RecordingAnalysis: boolean component7()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.lang.String)
+com.arthenica.smartexception.AbstractExceptions: boolean getPrintModuleName()
+ir.vadana.extractor.domain.Whiteboard: java.util.List getNavigation()
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject getTags()
+androidx.compose.ui.internal.InlineClassHelperKt: void throwIndexOutOfBoundsException(java.lang.String)
+androidx.compose.material3.tokens.TypographyKeyTokens: androidx.compose.material3.tokens.TypographyKeyTokens valueOf(java.lang.String)
+androidx.room.Transactor$SQLiteTransactionType: androidx.room.Transactor$SQLiteTransactionType[] values()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStarted(android.app.Activity)
+com.arthenica.smartexception.ThrowableWrapper: ThrowableWrapper(java.lang.Throwable,java.util.Set)
+androidx.compose.ui.util.ListUtilsKt: void throwUnsupportedOperationException(java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostResumed(android.app.Activity)
+ir.vadana.extractor.domain.OutputKind: kotlin.enums.EnumEntries getEntries()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPreCreated(android.app.Activity,android.os.Bundle)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getSampleAspectRatio()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getSystemGestureInsets()
+androidx.core.view.WindowInsetsCompat$Impl21: WindowInsetsCompat$Impl21(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+ir.vadana.extractor.domain.RecordingAnalysis: long getEstimatedDurationMs()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void ffprobeExecute(com.arthenica.ffmpegkit.FFprobeSession)
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String getNativeCpuAbi()
+androidx.compose.foundation.layout.IntrinsicSize: androidx.compose.foundation.layout.IntrinsicSize[] values()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setFontDirectory(android.content.Context,java.lang.String,java.util.Map)
+androidx.activity.EdgeToEdgeApi21: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getSampleFormat()
+androidx.compose.ui.window.PopupLayout: void setParentLayoutCoordinates(androidx.compose.ui.layout.LayoutCoordinates)
+androidx.compose.foundation.text.TextContextMenuItems: androidx.compose.foundation.text.TextContextMenuItems valueOf(java.lang.String)
+androidx.compose.material3.internal.TextFieldType: androidx.compose.material3.internal.TextFieldType valueOf(java.lang.String)
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.collection.IntObjectMap getLayoutNodes()
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent valueOf(java.lang.String)
+androidx.compose.material3.internal.InputPhase: androidx.compose.material3.internal.InputPhase valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Statistics: void setSessionId(long)
+ir.vadana.extractor.domain.BoardShape$Text: float getX()
+androidx.compose.ui.graphics.Path$Direction: androidx.compose.ui.graphics.Path$Direction valueOf(java.lang.String)
+ir.vadana.extractor.domain.RecordingAnalysis: java.lang.String component2()
+com.arthenica.ffmpegkit.AbstractSession: void setFuture(java.util.concurrent.Future)
+androidx.work.impl.WorkDatabase_Impl: WorkDatabase_Impl()
+com.arthenica.ffmpegkit.FFmpegKitConfig: int nativeFFmpegExecute(long,java.lang.String[])
+androidx.core.view.WindowInsetsCompat$Impl: void setRootWindowInsets(androidx.core.view.WindowInsetsCompat)
+androidx.compose.ui.focus.CustomDestinationResult: androidx.compose.ui.focus.CustomDestinationResult[] values()
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
+ir.vadana.extractor.domain.Whiteboard: java.util.List getPages()
+ir.vadana.extractor.domain.PointerEvent: PointerEvent(long,float,float,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig$1: FFmpegKitConfig$1()
+ir.vadana.extractor.domain.BoardShape$Pencil: float getWidth()
+com.arthenica.ffmpegkit.FFmpegKitConfig: boolean isLTSBuild()
+com.arthenica.ffmpegkit.AbiDetect: AbiDetect()
+com.arthenica.ffmpegkit.FFmpegKitConfig: int safOpen(int)
+com.arthenica.ffmpegkit.Log: java.lang.String getMessage()
+com.arthenica.ffmpegkit.MediaInformation: java.util.List getChapters()
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getCommand()
+com.arthenica.ffmpegkit.Session: java.lang.String getAllLogsAsString(int)
+ir.vadana.extractor.domain.BoardShape$Text: int hashCode()
+androidx.activity.EdgeToEdgeApi29: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.compose.ui.platform.AbstractComposeView: void getDisposeViewCompositionStrategy$annotations()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: ProcessLifecycleOwner$attach$1$onActivityPreCreated$1(androidx.lifecycle.ProcessLifecycleOwner)
+ir.vadana.extractor.domain.BoardEvent: BoardEvent(long,ir.vadana.extractor.domain.PageKey,java.lang.String,ir.vadana.extractor.domain.BoardShape)
+androidx.graphics.path.PathIteratorPreApi34Impl: void destroyInternalPathIterator(long)
+androidx.core.view.WindowInsetsCompat$Impl: void setSystemUiVisibility(int)
+androidx.compose.foundation.text.selection.CrossStatus: androidx.compose.foundation.text.selection.CrossStatus[] values()
+ir.vadana.extractor.domain.RecordingAnalysis: boolean component6()
+androidx.work.OverwritingInputMerger: OverwritingInputMerger()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getBuildDate()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.RootForTest getRootForTest()
+androidx.compose.foundation.text.selection.CrossStatus: androidx.compose.foundation.text.selection.CrossStatus valueOf(java.lang.String)
+ir.vadana.extractor.domain.ExtractionRequest: ir.vadana.extractor.domain.ExtractionRequest copy(java.lang.String,java.util.Set,ir.vadana.extractor.domain.VideoQuality,float)
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.LogRedirectionStrategy getLogRedirectionStrategy()
+androidx.core.view.WindowInsetsCompat$Impl: WindowInsetsCompat$Impl(androidx.core.view.WindowInsetsCompat)
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostStarted(android.app.Activity)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: LifecycleDispatcher$DispatcherActivityCallback()
+com.arthenica.ffmpegkit.AbstractSession: void complete(com.arthenica.ffmpegkit.ReturnCode)
+androidx.core.view.WindowInsetsCompat$Impl20: void setRootWindowInsets(androidx.core.view.WindowInsetsCompat)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getSafParameterForWrite(android.content.Context,android.net.Uri)
+androidx.compose.ui.platform.OutlineVerificationHelper: void setPath(android.graphics.Outline,androidx.compose.ui.graphics.Path)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback)
+androidx.graphics.path.ConicConverter: int internalConicToQuadratics(float[],int,float[],float,float)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.layout.Placeable$PlacementScope getPlacementScope()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.FontFamily$Resolver getFontFamilyResolver()
+androidx.compose.ui.window.PopupLayout: void setContent(kotlin.jvm.functions.Function2)
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback getCompleteCallback()
+androidx.compose.ui.platform.AbstractComposeView: void setPreviousAttachedWindowToken(android.os.IBinder)
+com.arthenica.smartexception.java.Exceptions: void registerGroupPackage(java.lang.String)
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable getCause(java.lang.Throwable)
+androidx.compose.animation.core.AnimationEndReason: androidx.compose.animation.core.AnimationEndReason valueOf(java.lang.String)
+ir.vadana.extractor.domain.Whiteboard: ir.vadana.extractor.domain.Whiteboard copy$default(ir.vadana.extractor.domain.Whiteboard,java.util.Map,java.util.List,java.util.List,int,java.lang.Object)
+androidx.compose.ui.platform.ViewLayer: long getOwnerViewId()
+androidx.compose.ui.platform.AbstractComposeView: void setShowLayoutBounds(boolean)
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl30: void copyRootViewBounds(android.view.View)
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String[] getArguments()
+com.arthenica.ffmpegkit.Level: int getValue()
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType[] $values()
+ir.vadana.extractor.domain.Whiteboard: java.util.List getEvents()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.lang.String)
+ir.vadana.extractor.domain.PageKey: ir.vadana.extractor.domain.PageKey copy$default(ir.vadana.extractor.domain.PageKey,int,int,int,java.lang.Object)
+androidx.core.view.WindowInsetsCompat$Impl20: WindowInsetsCompat$Impl20(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl20)
+androidx.compose.ui.platform.AbstractComposeView: void setParentContext(androidx.compose.runtime.CompositionContext)
+androidx.core.view.WindowInsetsCompat$Impl20: boolean isVisible(int)
+ir.vadana.extractor.domain.ExtractionRequest: ir.vadana.extractor.domain.VideoQuality component3()
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+ir.vadana.extractor.domain.PageKey: boolean equals(java.lang.Object)
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable getCause(java.lang.Throwable)
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String getNativeBuildConf()
+androidx.compose.ui.platform.ViewLayerContainer: void dispatchGetDisplayList()
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal[] $values()
+ir.vadana.extractor.domain.FileCategory: kotlin.enums.EnumEntries getEntries()
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.LogCallback getLogCallback()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession execute(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.TextToolbar getTextToolbar()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getFFprobeSessions()
+ir.vadana.extractor.domain.StreamSegment: java.lang.String component2()
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy[] values()
+ir.vadana.extractor.domain.Recording: java.lang.String getSessionToken()
+androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand: androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand[] values()
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.BoardShape component4()
+com.arthenica.ffmpegkit.Abi: Abi(java.lang.String,int,java.lang.String)
+com.arthenica.smartexception.java.Exceptions: void clearRootPackages()
+androidx.compose.foundation.text.HandleState: androidx.compose.foundation.text.HandleState valueOf(java.lang.String)
+androidx.compose.ui.focus.CustomDestinationResult: androidx.compose.ui.focus.CustomDestinationResult valueOf(java.lang.String)
+com.arthenica.smartexception.AbstractExceptions: boolean containsCause(java.lang.Throwable,java.lang.Class,java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getSessionsByState(com.arthenica.ffmpegkit.SessionState)
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.Session getLastCompletedSession()
+com.arthenica.smartexception.AbstractExceptions: void getAllMessages(java.lang.Throwable,java.lang.StringBuilder)
+com.arthenica.ffmpegkit.AbstractSession: void addLog(com.arthenica.ffmpegkit.Log)
+ir.vadana.extractor.domain.ExtractionRequest: float component4()
+com.arthenica.ffmpegkit.FFmpegSession: java.lang.String toString()
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: java.lang.String getUnknownSourceDefinition()
+androidx.compose.ui.platform.ComposeView: java.lang.CharSequence getAccessibilityClassName()
+androidx.core.view.WindowInsetsCompat$Impl: boolean isRound()
+com.arthenica.smartexception.AbstractExceptions: java.lang.StackTraceElement[] getStackTrace(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set)
+com.arthenica.ffmpegkit.StreamInformation: StreamInformation(org.json.JSONObject)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getSessions()
+androidx.work.impl.workers.DiagnosticsWorker: DiagnosticsWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.foundation.internal.InlineClassHelperKt: void throwIndexOutOfBoundsException(java.lang.String)
+com.arthenica.ffmpegkit.MediaInformationSession: MediaInformationSession(java.lang.String[],com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback)
+com.arthenica.ffmpegkit.R: R()
+com.arthenica.ffmpegkit.AbstractSession: java.util.List getAllLogs()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,boolean)
+com.arthenica.smartexception.AbstractExceptions: void clearRootPackages()
+androidx.compose.ui.node.LayoutNode: java.lang.String exceptionMessageForParentingOrOwnership(androidx.compose.ui.node.LayoutNode)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNodeDrawScope getSharedDrawScope()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,java.util.concurrent.ExecutorService)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback getCompleteCallback()
+ir.vadana.extractor.domain.SharedFile: ir.vadana.extractor.domain.FileCategory getCategory()
+ir.vadana.extractor.domain.ExtractionRequest: float getMaxFrameRate()
+ir.vadana.extractor.domain.BoardShape$Text: long getTimestampMs()
+com.arthenica.smartexception.java.Exceptions: com.arthenica.smartexception.StackTraceElementSerializer getStackTraceElementSerializer()
+ir.vadana.extractor.domain.PageKey: java.lang.String toString()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncFFprobeExecute(com.arthenica.ffmpegkit.FFprobeSession,java.util.concurrent.ExecutorService)
+androidx.core.view.WindowInsetsCompat$Impl: boolean equals(java.lang.Object)
+com.arthenica.ffmpegkit.AsyncFFprobeExecuteTask: AsyncFFprobeExecuteTask(com.arthenica.ffmpegkit.FFprobeSession)
+com.arthenica.ffmpegkit.FFmpegKit: FFmpegKit()
+com.arthenica.ffmpegkit.AbstractSession: java.util.concurrent.Future getFuture()
+androidx.core.view.WindowInsetsCompat$Impl29: void setStableInsets(androidx.core.graphics.Insets)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStopped(android.app.Activity)
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState[] $values()
+com.arthenica.ffmpegkit.FFmpegKit: void cancel()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.Font$ResourceLoader getFontLoader()
+androidx.core.view.ViewCompat$Api21Impl: void callCompatInsetAnimationCallback(android.view.WindowInsets,android.view.View)
+androidx.core.view.WindowInsetsCompat$Impl28: int hashCode()
+ir.vadana.extractor.domain.PointerEvent: ir.vadana.extractor.domain.PointerEvent copy$default(ir.vadana.extractor.domain.PointerEvent,long,float,float,boolean,int,java.lang.Object)
+com.arthenica.ffmpegkit.NativeLoader: void loadFFmpegKit(boolean)
+com.arthenica.ffmpegkit.Statistics: long getSize()
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSession create(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.draganddrop.DragAndDropManager getDragAndDropManager()
+androidx.lifecycle.ReportFragment: ReportFragment()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.lang.String,java.lang.String)
+ir.vadana.extractor.domain.PointerEvent: java.lang.String toString()
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow[] values()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.view.WindowInsetsCompat consumeDisplayCutout()
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeViewAssistHelperMethodsO: void setClassName(android.view.ViewStructure,android.view.View)
+kotlinx.coroutines.android.AndroidExceptionPreHandler: AndroidExceptionPreHandler()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.contentcapture.AndroidContentCaptureManager getContentCaptureManager$ui_release()
+com.arthenica.ffmpegkit.Session: com.arthenica.ffmpegkit.ReturnCode getReturnCode()
+androidx.compose.ui.platform.AndroidComposeView: long getLastMatrixRecalculationAnimationTime$ui_release()
+com.arthenica.ffmpegkit.FFprobeKit: java.lang.String[] defaultGetMediaInformationCommandArguments(java.lang.String)
+com.arthenica.smartexception.java.Exceptions: void clearGroupPackages()
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Session: boolean isFFmpeg()
+ir.vadana.extractor.domain.ExtractionRequest: int hashCode()
+ir.vadana.extractor.domain.SharedFile: int hashCode()
+androidx.core.view.WindowInsetsCompat$Impl21: androidx.core.view.WindowInsetsCompat consumeStableInsets()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void addSession(com.arthenica.ffmpegkit.Session)
+androidx.core.view.WindowInsetsCompat$Impl30: boolean isVisible(int)
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setInsets(int,androidx.core.graphics.Insets)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncFFprobeExecute(com.arthenica.ffmpegkit.FFprobeSession)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setSessionHistorySize(int)
+com.arthenica.smartexception.java.Exceptions: boolean getPrintSuppressedExceptions()
+androidx.compose.ui.platform.AndroidComposeView: void getFontLoader$annotations()
+ir.vadana.extractor.domain.BoardEvent: java.lang.String toString()
+ir.vadana.extractor.domain.StreamType$Companion: StreamType$Companion()
+androidx.tracing.TraceApi29Impl: boolean isEnabled()
+androidx.core.view.WindowInsetsCompat$Impl29: androidx.core.graphics.Insets getTappableElementInsets()
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.compose.ui.platform.AbstractComposeView: void setParentCompositionContext(androidx.compose.runtime.CompositionContext)
+com.arthenica.ffmpegkit.AbstractSession: AbstractSession(java.lang.String[],com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.LogRedirectionStrategy)
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
+com.arthenica.ffmpegkit.Abi: java.lang.String getName()
+androidx.compose.ui.window.SecureFlagPolicy: androidx.compose.ui.window.SecureFlagPolicy valueOf(java.lang.String)
+androidx.concurrent.futures.DirectExecutor: androidx.concurrent.futures.DirectExecutor valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Chapter: java.lang.Long getId()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.view.WindowInsetsCompat consumeStableInsets()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getVersion()
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.ReturnCode getReturnCode()
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy valueOf(java.lang.String)
+androidx.compose.material3.internal.TextFieldType: androidx.compose.material3.internal.TextFieldType[] values()
+com.arthenica.ffmpegkit.FFprobeSession: boolean isFFmpeg()
+androidx.compose.ui.platform.AndroidComposeView: void setFontFamilyResolver(androidx.compose.ui.text.font.FontFamily$Resolver)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getFormat()
+androidx.compose.ui.platform.AndroidComposeView: void set_viewTreeOwners(androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners)
+androidx.core.view.ViewCompat$Api28Impl: java.lang.CharSequence getAccessibilityPaneTitle(android.view.View)
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setAsyncConcurrencyLimit(int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.draganddrop.AndroidDragAndDropManager getDragAndDropManager()
+androidx.compose.ui.platform.AndroidComposeView: boolean getScrollCaptureInProgress$ui_release()
+androidx.compose.ui.contentcapture.ContentCaptureEventType: androidx.compose.ui.contentcapture.ContentCaptureEventType valueOf(java.lang.String)
+androidx.compose.ui.focus.FocusStateImpl: androidx.compose.ui.focus.FocusStateImpl[] values()
+androidx.compose.ui.platform.AbstractComposeView: void getShowLayoutBounds$annotations()
+androidx.core.view.WindowInsetsCompat$Impl30: androidx.core.graphics.Insets getInsets(int)
+androidx.core.view.ViewCompat$Api29Impl: android.view.View$AccessibilityDelegate getAccessibilityDelegate(android.view.View)
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String loadBuildDate()
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level[] values()
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidAccessibilityManager getAccessibilityManager()
+androidx.compose.ui.contentcapture.AndroidContentCaptureManager$TranslateStatus: androidx.compose.ui.contentcapture.AndroidContentCaptureManager$TranslateStatus valueOf(java.lang.String)
+ir.vadana.extractor.domain.BoardEvent: boolean equals(java.lang.Object)
+com.arthenica.ffmpegkit.Session: java.util.List getAllLogs(int)
+androidx.compose.animation.core.PreconditionsKt: void throwIllegalStateException(java.lang.String)
+ir.vadana.extractor.domain.ExtractionRequest: java.lang.String component1()
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.BoardEvent copy(long,ir.vadana.extractor.domain.PageKey,java.lang.String,ir.vadana.extractor.domain.BoardShape)
+androidx.emoji2.text.EmojiCompatInitializer: EmojiCompatInitializer()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String toString()
+androidx.core.view.ViewCompat$Api21Impl$1: android.view.WindowInsets onApplyWindowInsets(android.view.View,android.view.WindowInsets)
+com.arthenica.ffmpegkit.MediaInformation: java.util.List getStreams()
+androidx.room.MultiInstanceInvalidationService: MultiInstanceInvalidationService()
+androidx.compose.ui.platform.ViewLayer: float[] getUnderlyingMatrix-sQKQjiQ()
+androidx.compose.ui.window.PopupLayout: void setLayoutDirection(int)
+androidx.compose.ui.graphics.Path$Direction: androidx.compose.ui.graphics.Path$Direction[] values()
+androidx.compose.animation.core.RepeatMode: androidx.compose.animation.core.RepeatMode valueOf(java.lang.String)
+com.arthenica.smartexception.StackTraceElementSerializer: java.lang.String getModuleName(java.lang.StackTraceElement)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int getSessionHistorySize()
+com.arthenica.ffmpegkit.StreamInformation: org.json.JSONObject getAllProperties()
+com.arthenica.ffmpegkit.Session: long getDuration()
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,java.lang.String,int)
+ir.vadana.extractor.domain.RecordingAnalysis: boolean component8()
+ir.vadana.extractor.domain.StreamSegment: boolean equals(java.lang.Object)
+ir.vadana.extractor.domain.BoardShape$Text: java.util.List getLines()
+ir.vadana.extractor.domain.BoardEvent: int hashCode()
+com.arthenica.smartexception.java.Exceptions: void setPrintSuppressedExceptions(boolean)
+androidx.compose.material3.SnackbarDuration: androidx.compose.material3.SnackbarDuration valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: FFmpegKitConfig()
+com.arthenica.ffmpegkit.LogCallback: void apply(com.arthenica.ffmpegkit.Log)
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,java.lang.String)
+com.arthenica.ffmpegkit.Session: com.arthenica.ffmpegkit.SessionState getState()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.semantics.SemanticsOwner getSemanticsOwner()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.AndroidAutofillManager get_autofillManager$ui_release()
+androidx.compose.material3.tokens.ColorSchemeKeyTokens: androidx.compose.material3.tokens.ColorSchemeKeyTokens valueOf(java.lang.String)
+kotlin.io.FileWalkDirection: kotlin.io.FileWalkDirection[] values()
+com.arthenica.ffmpegkit.FFmpegSession: boolean isMediaInformation()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,int,boolean,boolean,boolean)
+androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction: androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction valueOf(java.lang.String)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String libraryName(java.lang.Class)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getRealFrameRate()
+androidx.compose.animation.core.AnimationEndReason: androidx.compose.animation.core.AnimationEndReason[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.content.ContentResolver getContentResolver()
+androidx.compose.ui.state.ToggleableState: androidx.compose.ui.state.ToggleableState[] values()
+com.arthenica.ffmpegkit.AbstractSession: long getDuration()
+androidx.compose.ui.window.PopupLayout: void setParentLayoutDirection(androidx.compose.ui.unit.LayoutDirection)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.StatisticsCallback getStatisticsCallback()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setLogRedirectionStrategy(com.arthenica.ffmpegkit.LogRedirectionStrategy)
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,boolean)
+androidx.compose.ui.platform.ViewLayer: float getCameraDistancePx()
+androidx.core.view.WindowInsetsCompat$Impl28: WindowInsetsCompat$Impl28(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+ir.vadana.extractor.domain.ExportedItem: ir.vadana.extractor.domain.ExportedItem copy(java.lang.String,java.lang.String,java.lang.String)
+com.arthenica.ffmpegkit.Session: java.lang.String getCommand()
+androidx.compose.ui.platform.AbstractComposeView: void setViewCompositionStrategy(androidx.compose.ui.platform.ViewCompositionStrategy)
+ir.vadana.extractor.domain.StreamType$Companion: ir.vadana.extractor.domain.StreamType fromWire(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl34: androidx.core.graphics.Insets getInsets(int)
+androidx.core.view.WindowInsetsCompat$Impl28: androidx.core.view.WindowInsetsCompat consumeDisplayCutout()
+androidx.core.view.WindowInsetsCompat$Impl20: boolean equals(java.lang.Object)
+androidx.compose.material3.SnackbarResult: androidx.compose.material3.SnackbarResult[] values()
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal[] values()
+ir.vadana.extractor.domain.RecordingAnalysis: int component4()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.util.Set,java.util.Set,java.util.Set,boolean,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int messagesInTransmit(long)
+androidx.compose.foundation.internal.InlineClassHelperKt: java.lang.Void throwIllegalArgumentExceptionForNullCheck(java.lang.String)
+com.arthenica.ffmpegkit.Statistics: java.lang.String toString()
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult[] values()
+androidx.core.view.WindowInsetsCompat$Impl29: WindowInsetsCompat$Impl29(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+androidx.compose.animation.EnterExitState: androidx.compose.animation.EnterExitState valueOf(java.lang.String)
+androidx.compose.ui.text.font.FontWeightAdjustmentHelperApi31: int fontWeightAdjustment(android.content.Context)
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState valueOf(java.lang.String)
+kotlin.text.RegexOption: kotlin.text.RegexOption[] values()
+androidx.compose.ui.window.PopupLayout: void setPopupContentSize-fhxjrPA(androidx.compose.ui.unit.IntSize)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.Clipboard getClipboard()
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.ThrowableWrapper[] getSuppressed()
+com.arthenica.ffmpegkit.ReturnCode: boolean isValueCancel()
+com.arthenica.ffmpegkit.AbstractSession: boolean thereAreAsynchronousMessagesInTransmit()
+com.arthenica.ffmpegkit.MediaInformationSession: void setMediaInformation(com.arthenica.ffmpegkit.MediaInformation)
+kotlin.DeprecationLevel: kotlin.DeprecationLevel[] values()
+kotlin.io.FileWalkDirection: kotlin.io.FileWalkDirection valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidViewsHandler getAndroidViewsHandler$ui_release()
+com.arthenica.ffmpegkit.AsyncFFprobeExecuteTask: void run()
+ir.vadana.extractor.domain.Whiteboard: java.util.Map component1()
+androidx.compose.ui.window.PopupLayout: void getParams$ui_release$annotations()
+androidx.core.view.WindowInsetsCompat$Impl29: androidx.core.graphics.Insets getMandatorySystemGestureInsets()
+ir.vadana.extractor.domain.PointerEvent: long getTimestampMs()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationAsync(java.lang.String,com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,int)
+com.arthenica.ffmpegkit.Session: java.lang.String getAllLogsAsString()
+com.arthenica.ffmpegkit.NativeLoader: NativeLoader()
+com.arthenica.ffmpegkit.NativeLoader: void enableRedirection()
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.core.view.WindowInsetsCompat$Impl20: void setSystemUiVisibility(int)
+ir.vadana.extractor.domain.BoardShape$Text: int component1()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.Long getNumberProperty(java.lang.String)
+androidx.lifecycle.SavedStateHandlesVM: SavedStateHandlesVM()
+com.arthenica.ffmpegkit.Packages: Packages()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostStarted(android.app.Activity)
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.compose.ui.platform.AndroidComposeView: void setLayoutDirection(androidx.compose.ui.unit.LayoutDirection)
+androidx.compose.ui.platform.ViewLayer: long getLayerId()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getSystemWindowInsets()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: void setSystemGestureInsets(androidx.core.graphics.Insets)
+androidx.compose.ui.layout.IntrinsicMinMax: androidx.compose.ui.layout.IntrinsicMinMax valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableMediaInformationSessionCompleteCallback(com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback)
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver: ForceStopRunnable$BroadcastReceiver()
+com.arthenica.ffmpegkit.Statistics: void setSpeed(double)
+androidx.compose.ui.platform.AndroidComposeView: boolean getShowLayoutBounds()
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.Session getLastSession()
+androidx.core.view.WindowInsetsCompat$Impl20: void copyRootViewBounds(android.view.View)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String version(com.arthenica.smartexception.PackageLoader,java.lang.Class,java.lang.String)
+com.arthenica.ffmpegkit.AbiDetect: boolean isNativeLTSBuild()
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date getEndTime()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: androidx.core.view.WindowInsetsCompat build()
+androidx.core.view.WindowInsetsCompat$Impl20: void setOverriddenInsets(androidx.core.graphics.Insets[])
+kotlin.time.DurationUnit: kotlin.time.DurationUnit[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig: int setEnvironmentVariable(java.lang.String,java.lang.String)
+ir.vadana.extractor.domain.PointerEvent: long component1()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getMediaInformationSessions()
+androidx.work.impl.background.systemalarm.RescheduleReceiver: RescheduleReceiver()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformation(java.lang.String,int)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSession create(java.lang.String[])
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState valueOf(java.lang.String)
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: JavaStackTraceElementSerializer()
+ir.vadana.extractor.domain.BoardEvent: java.lang.String getShapeId()
+ir.vadana.extractor.domain.PageKey: int component2()
+androidx.core.view.WindowInsetsCompat$Impl21: boolean isConsumed()
+ir.vadana.extractor.domain.StreamSegment: java.lang.String getPublisherId()
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.StackTraceElementWrapper[] getStackTrace()
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSession create(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.LogRedirectionStrategy)
+androidx.compose.ui.contentcapture.ContentCaptureEventType: androidx.compose.ui.contentcapture.ContentCaptureEventType[] values()
+ir.vadana.extractor.domain.BoardShape$Pencil: int hashCode()
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.PageKey component2()
+com.arthenica.ffmpegkit.Statistics: void setBitrate(double)
+ir.vadana.extractor.domain.BoardShape$Text: int getDepth()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: WindowInsetsCompat$BuilderImpl20()
+ir.vadana.extractor.domain.Whiteboard: java.util.List component3()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String component3()
+com.arthenica.smartexception.AbstractExceptions: void setIgnoreAllCauses(boolean)
+com.arthenica.ffmpegkit.Statistics: long getSessionId()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String registerNewFFmpegPipe(android.content.Context)
+androidx.compose.ui.platform.AndroidComposeView: void getShowLayoutBounds$annotations()
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.LogRedirectionStrategy getLogRedirectionStrategy()
+ir.vadana.extractor.domain.StreamSegment: ir.vadana.extractor.domain.StreamSegment copy(long,java.lang.String,java.lang.String,ir.vadana.extractor.domain.StreamType)
+androidx.compose.ui.platform.AndroidComposeView: boolean getHasPendingMeasureOrLayout()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.core.view.WindowInsetsCompat$BuilderImpl30: void setInsets(int,androidx.core.graphics.Insets)
+androidx.compose.foundation.MutatePriority: androidx.compose.foundation.MutatePriority valueOf(java.lang.String)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getChannelLayout()
+com.arthenica.smartexception.ClassLoader: java.lang.Class loadClass(java.lang.String)
+androidx.core.view.WindowInsetsCompat$TypeImpl34: int toPlatformType(int)
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class)
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,int,boolean)
+androidx.compose.ui.unit.ConstraintsKt: void throwInvalidConstraintException(int,int)
+com.arthenica.ffmpegkit.AbstractSession: java.util.List getAllLogs(int)
+androidx.lifecycle.LegacySavedStateHandleController$OnRecreation: LegacySavedStateHandleController$OnRecreation()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getSampleRate()
+com.arthenica.ffmpegkit.Statistics: Statistics(long,int,float,float,long,double,double,double)
+com.arthenica.ffmpegkit.NativeLoader: boolean loadFFmpeg()
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: WindowInsetsCompat$BuilderImpl20(androidx.core.view.WindowInsetsCompat)
+ir.vadana.extractor.domain.ExportedItem: java.lang.String getUri()
+com.arthenica.smartexception.ThrowableWrapper: ThrowableWrapper(java.lang.Throwable)
+androidx.core.view.WindowInsetsCompat$Impl: void setRootViewData(androidx.core.graphics.Insets)
+androidx.compose.ui.internal.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getTimeBase()
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date getCreateTime()
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String getNativeAbi()
+androidx.compose.ui.text.AnnotationType: androidx.compose.ui.text.AnnotationType valueOf(java.lang.String)
+ir.vadana.extractor.domain.BoardShape$Pencil: float component5()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+com.arthenica.smartexception.AbstractExceptions: void clearIgnorePackages()
+androidx.core.view.ViewCompat$Api21Impl: void setOnApplyWindowInsetsListener(android.view.View,androidx.core.view.OnApplyWindowInsetsListener)
+ir.vadana.extractor.domain.BoardShape$Pencil: long getTimestampMs()
+com.arthenica.smartexception.java.Exceptions: void registerIgnorePackage(java.lang.String,boolean)
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getInsets(int)
+ir.vadana.extractor.domain.PointerEvent: float getXPercent()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String sessionStateToString(com.arthenica.ffmpegkit.SessionState)
+androidx.core.view.WindowInsetsCompat$Impl34: androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
+androidx.compose.ui.platform.ComposeView: void getShouldCreateCompositionOnAttachedToWindow$annotations()
+androidx.compose.ui.text.internal.InlineClassHelperKt: java.lang.Void throwIllegalArgumentExceptionForNullCheck(java.lang.String)
+androidx.core.view.ViewCompat$Api23Impl: androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View)
+androidx.core.view.WindowInsetsCompat$Impl: int hashCode()
+com.arthenica.ffmpegkit.Session: com.arthenica.ffmpegkit.LogRedirectionStrategy getLogRedirectionStrategy()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getCodecLong()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: ProcessLifecycleOwner$attach$1(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.compose.ui.window.PopupLayout: void setPositionProvider(androidx.compose.ui.window.PopupPositionProvider)
+com.arthenica.ffmpegkit.SessionState: SessionState(java.lang.String,int)
+androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper)
+com.arthenica.ffmpegkit.FFmpegSession: java.util.List getAllStatistics(int)
+com.arthenica.ffmpegkit.ReturnCode: boolean isCancel(com.arthenica.ffmpegkit.ReturnCode)
+ir.vadana.extractor.domain.ExtractionRequest: java.lang.String getRecordingUrl()
+androidx.compose.ui.platform.AndroidComposeView: android.view.View findViewByAccessibilityIdTraversal(int)
+com.arthenica.ffmpegkit.AbstractSession: void startRunning()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: void setMandatorySystemGestureInsets(androidx.core.graphics.Insets)
+androidx.startup.InitializationProvider: InitializationProvider()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,int,boolean,boolean,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void nativeFFmpegCancel(long)
+ir.vadana.extractor.domain.SharedFile: java.lang.String component1()
+ir.vadana.extractor.domain.RecordingAnalysis: java.lang.String getPackagePath()
+com.arthenica.ffmpegkit.NativeLoader: void loadFFmpegKitAbiDetect()
+ir.vadana.extractor.domain.Whiteboard: long getDurationMs()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: androidx.core.view.WindowInsetsCompat build()
+androidx.room.Transactor$SQLiteTransactionType: androidx.room.Transactor$SQLiteTransactionType valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.Session getSession(long)
+ir.vadana.extractor.domain.PointerEvent: int hashCode()
+androidx.compose.animation.core.RepeatMode: androidx.compose.animation.core.RepeatMode[] values()
+androidx.core.view.WindowInsetsCompat$Impl: boolean isConsumed()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,java.util.concurrent.ExecutorService)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.Long getNumberFormatProperty(java.lang.String)
+androidx.compose.ui.platform.TextToolbarStatus: androidx.compose.ui.platform.TextToolbarStatus valueOf(java.lang.String)
+ir.vadana.extractor.domain.ExtractionRequest: ir.vadana.extractor.domain.ExtractionRequest copy$default(ir.vadana.extractor.domain.ExtractionRequest,java.lang.String,java.util.Set,ir.vadana.extractor.domain.VideoQuality,float,int,java.lang.Object)
+ir.vadana.extractor.domain.RecordingAnalysis: int hashCode()
+com.arthenica.ffmpegkit.AbstractSession: java.util.Date getStartTime()
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType[] values()
+com.arthenica.ffmpegkit.NativeLoader: java.util.List loadExternalLibraries()
+androidx.compose.ui.platform.AndroidComposeView: androidx.collection.MutableIntObjectMap getLayoutNodes()
+ir.vadana.extractor.domain.PageKey: int getPodIndex()
+com.arthenica.ffmpegkit.StreamInformation: org.json.JSONObject getProperty(java.lang.String)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getType()
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.PageKey getPage()
+com.arthenica.ffmpegkit.Level: Level(java.lang.String,int,int)
+ir.vadana.extractor.domain.Recording: java.lang.String component2()
+com.arthenica.ffmpegkit.NativeLoader: boolean loadIsLTSBuild()
+androidx.core.view.WindowInsetsCompat$Impl21: void setStableInsets(androidx.core.graphics.Insets)
+ir.vadana.extractor.domain.PageNavigationEvent: ir.vadana.extractor.domain.PageNavigationEvent copy(long,ir.vadana.extractor.domain.PageKey)
+com.arthenica.smartexception.StackTraceElementSerializer: java.lang.String getNativeMethodDefinition()
+com.arthenica.ffmpegkit.Session: long getSessionId()
+androidx.compose.ui.graphics.layer.ViewLayer: void setCanUseCompositingLayer$ui_graphics_release(boolean)
+com.arthenica.smartexception.java.Exceptions: void setPrintPackageInformation(boolean)
+androidx.lifecycle.ProcessLifecycleInitializer: ProcessLifecycleInitializer()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.AutofillManager getAutofillManager()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getFFmpegVersion()
+ir.vadana.extractor.domain.VideoQuality: int getWidth()
+ir.vadana.extractor.domain.BoardShape$Text: int getColor()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void deleteExpiredSessions()
+androidx.graphics.path.PathIteratorPreApi34Impl: int internalPathIteratorNext(long,float[],int)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityStopped(android.app.Activity)
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: java.lang.String getPackageInformation(java.lang.StackTraceElement)
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: android.view.WindowInsets createWindowInsetsInstance()
+androidx.core.view.WindowInsetsCompat$Impl28: androidx.core.view.DisplayCutoutCompat getDisplayCutout()
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$BuilderImpl34: void setInsets(int,androidx.core.graphics.Insets)
+ir.vadana.extractor.domain.PageNavigationEvent: long component1()
+com.arthenica.ffmpegkit.SessionState: com.arthenica.ffmpegkit.SessionState[] values()
+com.arthenica.smartexception.ThrowableWrapper: java.lang.String getMessage()
+ir.vadana.extractor.domain.ExtractionRequest: boolean equals(java.lang.Object)
+androidx.compose.ui.platform.AndroidComposeView: void setConfigurationChangeObserver(kotlin.jvm.functions.Function1)
+androidx.compose.material3.tokens.ShapeKeyTokens: androidx.compose.material3.tokens.ShapeKeyTokens[] values()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.view.DisplayCutoutCompat getDisplayCutout()
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getRootStableInsets()
+androidx.compose.ui.state.ToggleableState: androidx.compose.ui.state.ToggleableState valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.Level getLogLevel()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String getMimeType()
+androidx.compose.ui.platform.AndroidComposeViewVerificationHelperMethodsO: void focusable(android.view.View,int,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: FFmpegKitConfig$SAFProtocolUrl(java.lang.Integer,android.net.Uri,java.lang.String,android.content.ContentResolver)
+ir.vadana.extractor.domain.RecordingAnalysis: java.util.List component3()
+com.arthenica.smartexception.AbstractExceptions: boolean isPrintPackageInformation()
+androidx.compose.runtime.collection.MutableVectorKt: void throwReversedIndicesException(int,int)
+ir.vadana.extractor.domain.ExportedItem: ExportedItem(java.lang.String,java.lang.String,java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getNativeFFmpegVersion()
+com.arthenica.ffmpegkit.LogRedirectionStrategy: LogRedirectionStrategy(java.lang.String,int)
+ir.vadana.extractor.domain.VideoQuality: java.lang.String getLabel()
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,java.lang.String)
+com.arthenica.ffmpegkit.FFmpegSession: boolean isFFmpeg()
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind valueOf(java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPaused(android.app.Activity)
+com.arthenica.ffmpegkit.ReturnCode: int getValue()
+com.arthenica.ffmpegkit.Log: long getSessionId()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.InputModeManager getInputModeManager()
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformation getMediaInformation()
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformationSession create(java.lang.String[],com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void registerIn(android.app.Activity)
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: AsyncGetMediaInformationTask(com.arthenica.ffmpegkit.MediaInformationSession)
+androidx.compose.runtime.SlotTableKt: void throwConcurrentModificationException()
+ir.vadana.extractor.domain.RecordingAnalysis: int component5()
+ir.vadana.extractor.domain.BoardShape$Text: float getTextSize()
+androidx.compose.ui.platform.DrawChildContainer: int getChildCount()
+androidx.core.view.ViewCompat$Api21Impl$1: ViewCompat$Api21Impl$1(android.view.View,androidx.core.view.OnApplyWindowInsetsListener)
+androidx.core.view.WindowInsetsCompat$BuilderImpl34: WindowInsetsCompat$BuilderImpl34()
+com.arthenica.ffmpegkit.AsyncFFmpegExecuteTask: void run()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ViewConfiguration getViewConfiguration()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncFFmpegExecute(com.arthenica.ffmpegkit.FFmpegSession)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableNativeRedirection()
+androidx.compose.ui.window.PopupLayout: boolean getCanCalculatePosition()
+androidx.compose.material.ripple.RippleHostView: void setRippleState$lambda$2(androidx.compose.material.ripple.RippleHostView)
+ir.vadana.extractor.domain.VideoQuality: kotlin.enums.EnumEntries getEntries()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String[] parseArguments(java.lang.String)
+androidx.work.impl.workers.ConstraintTrackingWorker: ConstraintTrackingWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy[] values()
+ir.vadana.extractor.domain.VideoQuality: VideoQuality(java.lang.String,int,int,int,java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl34: WindowInsetsCompat$Impl34(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners getViewTreeOwners()
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType valueOf(java.lang.String)
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent[] values()
+com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback: void apply(com.arthenica.ffmpegkit.FFmpegSession)
+ir.vadana.extractor.domain.BoardShape$Pencil: boolean equals(java.lang.Object)
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: WindowInsetsCompat$BuilderImpl29(androidx.core.view.WindowInsetsCompat)
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode valueOf(java.lang.String)
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback getCompleteCallback()
+com.arthenica.ffmpegkit.FFprobeSession: java.lang.String toString()
+com.arthenica.ffmpegkit.Statistics: void setVideoQuality(float)
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality[] values()
+kotlin.LazyThreadSafetyMode: kotlin.LazyThreadSafetyMode valueOf(java.lang.String)
+okhttp3.TlsVersion: okhttp3.TlsVersion[] values()
+androidx.compose.ui.platform.AndroidComposeView: kotlin.jvm.functions.Function1 getConfigurationChangeObserver()
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: WindowInsetsCompat$BuilderImpl29()
+com.arthenica.ffmpegkit.AbstractSession: void cancel()
+androidx.compose.ui.window.PopupLayout: void setTestTag(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegSession: boolean isFFprobe()
+ir.vadana.extractor.domain.Whiteboard: java.util.List component2()
+com.arthenica.ffmpegkit.MediaInformationJsonParser: com.arthenica.ffmpegkit.MediaInformation fromWithError(java.lang.String)
+androidx.compose.runtime.PreconditionsKt: void throwIllegalStateException(java.lang.String)
+com.arthenica.ffmpegkit.ReturnCode: boolean isValueError()
+androidx.core.view.WindowInsetsCompat$TypeImpl30: int toPlatformType(int)
+ir.vadana.extractor.domain.SharedFile: java.lang.String getSourceBase()
+ir.vadana.extractor.domain.SharedFile: java.lang.String toString()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: void setStableInsets(androidx.core.graphics.Insets)
+ir.vadana.extractor.domain.ExtractionRequest: java.util.Set getOutputKinds()
+androidx.core.app.RemoteActionCompat: RemoteActionCompat()
+com.arthenica.smartexception.ThrowableWrapper: com.arthenica.smartexception.ThrowableWrapper getCause()
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax valueOf(java.lang.String)
+ir.vadana.extractor.domain.Whiteboard: int hashCode()
+ir.vadana.extractor.domain.Recording: boolean equals(java.lang.Object)
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getLayoutNodeToHolder()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+com.arthenica.ffmpegkit.Session: java.util.List getAllLogs()
+androidx.emoji2.text.ConcurrencyHelpers$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+com.arthenica.ffmpegkit.AsyncFFmpegExecuteTask: AsyncFFmpegExecuteTask(com.arthenica.ffmpegkit.FFmpegSession)
+com.arthenica.ffmpegkit.NativeLoader: int loadLogLevel()
+ir.vadana.extractor.domain.PageNavigationEvent: PageNavigationEvent(long,ir.vadana.extractor.domain.PageKey)
+com.arthenica.ffmpegkit.Statistics: void setSize(long)
+androidx.compose.ui.platform.ComposeView: void setContent(kotlin.jvm.functions.Function2)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostResumed(android.app.Activity)
+androidx.compose.ui.text.style.ResolvedTextDirection: androidx.compose.ui.text.style.ResolvedTextDirection[] values()
+androidx.core.view.WindowInsetsCompat$Impl29: androidx.core.graphics.Insets getSystemGestureInsets()
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback)
+com.arthenica.smartexception.AbstractExceptions: boolean containsCause(java.lang.Throwable,java.lang.Class)
+androidx.room.ObservedTableStates$ObserveOp: androidx.room.ObservedTableStates$ObserveOp[] values()
+ir.vadana.extractor.domain.PointerEvent: float component2()
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformationSession create(java.lang.String[],com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback)
+ir.vadana.extractor.domain.Whiteboard: ir.vadana.extractor.domain.Whiteboard copy(java.util.Map,java.util.List,java.util.List)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPrePaused(android.app.Activity)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void ignoreNativeSignal(int)
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level[] $values()
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String loadNativeAbi()
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject getFormatProperty(java.lang.String)
+androidx.compose.ui.platform.AndroidCompositionLocals_androidKt: androidx.compose.runtime.ProvidableCompositionLocal getLocalLifecycleOwner()
+ir.vadana.extractor.domain.BoardShape$Text: java.util.List component5()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String component2()
+ir.vadana.extractor.domain.PointerEvent: float getYPercent()
+ir.vadana.extractor.domain.Recording: java.lang.String getRecordingId()
+ir.vadana.extractor.domain.BoardShape$Text: java.lang.String toString()
+androidx.compose.ui.platform.AndroidComposeView: void setOnViewTreeOwnersAvailable(kotlin.jvm.functions.Function1)
+ir.vadana.extractor.domain.BoardShape$Pencil: java.util.List getPoints()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void applyInsetTypes()
+androidx.work.DirectExecutor: androidx.work.DirectExecutor[] values()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.util.Set,java.util.Set,java.util.Set,boolean,boolean,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int getAsyncConcurrencyLimit()
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getAllLogsAsString()
+androidx.compose.animation.core.PreconditionsKt: void throwIllegalArgumentException(java.lang.String)
+com.arthenica.smartexception.java.Exceptions: void registerRootPackage(java.lang.String)
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons valueOf(java.lang.String)
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.BoardShape getShape()
+com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback: void apply(com.arthenica.ffmpegkit.FFprobeSession)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.graphics.Path getManualClipPath()
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: void setParcelFileDescriptor(android.os.ParcelFileDescriptor)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncFFmpegExecute(com.arthenica.ffmpegkit.FFmpegSession,java.util.concurrent.ExecutorService)
+androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy: androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.modifier.ModifierLocalManager getModifierLocalManager()
+androidx.core.view.WindowInsetsCompat$Impl: void copyRootViewBounds(android.view.View)
+com.arthenica.ffmpegkit.ReturnCode: java.lang.String toString()
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand[] values()
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons[] values()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: void setTappableElementInsets(androidx.core.graphics.Insets)
+com.arthenica.ffmpegkit.FFprobeKit: java.util.List listFFprobeSessions()
+com.arthenica.ffmpegkit.FFmpegKitConfig: int setNativeEnvironmentVariable(java.lang.String,java.lang.String)
+com.arthenica.smartexception.java.Exceptions: Exceptions()
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getLogsAsString()
+androidx.compose.ui.window.PopupLayout: android.view.View getViewRoot()
+com.arthenica.ffmpegkit.Chapter: Chapter(org.json.JSONObject)
+com.arthenica.ffmpegkit.Session: boolean thereAreAsynchronousMessagesInTransmit()
+com.arthenica.ffmpegkit.R$raw: R$raw()
+com.arthenica.smartexception.AbstractExceptions: void setPrintPackageInformation(boolean)
+com.arthenica.smartexception.AbstractExceptions: AbstractExceptions()
+ir.vadana.extractor.domain.FileCategory: FileCategory(java.lang.String,int)
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection valueOf(java.lang.String)
+kotlin.time.DurationUnit: kotlin.time.DurationUnit valueOf(java.lang.String)
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$compareBy$1: int compare(java.lang.Object,java.lang.Object)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getStringFormatProperty(java.lang.String)
+ir.vadana.extractor.domain.BoardShape$Pencil: int getColor()
+androidx.core.view.WindowInsetsCompat$BuilderImpl34: WindowInsetsCompat$BuilderImpl34(androidx.core.view.WindowInsetsCompat)
+ir.vadana.extractor.domain.ExtractionRequest: ExtractionRequest(java.lang.String,java.util.Set,ir.vadana.extractor.domain.VideoQuality,float)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int safClose(int)
+androidx.compose.material3.SnackbarDuration: androidx.compose.material3.SnackbarDuration[] values()
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncGetMediaInformationExecute(com.arthenica.ffmpegkit.MediaInformationSession,int)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void closeFFmpegPipe(java.lang.String)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getStringProperty(java.lang.String)
+ir.vadana.extractor.domain.BoardShape$Pencil: java.util.List component3()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String extractExtensionFromSafDisplayName(java.lang.String)
+com.arthenica.ffmpegkit.Statistics: void setTime(double)
+ir.vadana.extractor.domain.PageNavigationEvent: boolean equals(java.lang.Object)
+ir.vadana.extractor.domain.Whiteboard: java.util.Map getFinalShapes()
+ir.vadana.extractor.domain.BoardShape$Text: BoardShape$Text(int,long,float,float,java.util.List,int,float)
+androidx.core.view.WindowInsetsCompat$Impl20: void setRootViewData(androidx.core.graphics.Insets)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNode getRoot()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getAverageFrameRate()
+ir.vadana.extractor.domain.StreamSegment: java.lang.String getName()
+okhttp3.internal.publicsuffix.PublicSuffixDatabase: PublicSuffixDatabase()
+com.arthenica.smartexception.java.JavaPackageLoader: JavaPackageLoader()
+com.arthenica.ffmpegkit.Signal: int getValue()
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Session: java.lang.String getOutput()
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getAllLogsAsString(int)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getLongFormat()
+ir.vadana.extractor.domain.PageKey: int getPageNumber()
+androidx.core.view.WindowInsetsCompat$Impl30: androidx.core.graphics.Insets getInsetsIgnoringVisibility(int)
+androidx.core.view.WindowInsetsCompat$Impl29: WindowInsetsCompat$Impl29(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl29)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStarted(android.app.Activity)
+ir.vadana.extractor.domain.PointerEvent: float component3()
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ClipboardManager getClipboardManager()
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: androidx.core.view.WindowInsetsCompat build()
+androidx.compose.ui.platform.AndroidComposeView: long getMeasureIteration()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,int)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setNativeLogLevel(int)
+androidx.compose.ui.focus.FocusStateImpl: androidx.compose.ui.focus.FocusStateImpl valueOf(java.lang.String)
+ir.vadana.extractor.domain.PageNavigationEvent: ir.vadana.extractor.domain.PageKey component2()
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.Statistics getLastReceivedStatistics()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback)
+androidx.graphics.path.PathIteratorPreApi34Impl: int internalPathIteratorPeek(long)
+com.arthenica.ffmpegkit.Session: java.lang.String getLogsAsString()
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String loadPackageName()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getFormat()
+ir.vadana.extractor.domain.BoardShape$Text: ir.vadana.extractor.domain.BoardShape$Text copy(int,long,float,float,java.util.List,int,float)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableStatisticsCallback(com.arthenica.ffmpegkit.StatisticsCallback)
+androidx.compose.runtime.collection.MutableVectorKt: void throwListIndexOutOfBoundsException(int,int)
+androidx.compose.ui.graphics.AndroidPath_androidKt: void throwIllegalStateException(java.lang.String)
+com.arthenica.ffmpegkit.MediaInformationSession: com.arthenica.ffmpegkit.MediaInformationSession create(java.lang.String[])
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+ir.vadana.extractor.domain.PageNavigationEvent: java.lang.String toString()
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.Long getHeight()
+com.arthenica.ffmpegkit.FFmpegKitConfig: int nativeFFprobeExecute(long,java.lang.String[])
+ir.vadana.extractor.domain.BoardShape$Text: ir.vadana.extractor.domain.BoardShape$Text copy$default(ir.vadana.extractor.domain.BoardShape$Text,int,long,float,float,java.util.List,int,float,int,java.lang.Object)
+androidx.compose.ui.unit.InlineClassHelperKt: void throwIllegalStateException(java.lang.String)
+androidx.compose.foundation.layout.internal.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+androidx.compose.ui.internal.InlineClassHelperKt: java.lang.Void throwIllegalStateExceptionForNullCheck(java.lang.String)
+com.arthenica.ffmpegkit.ReturnCode: boolean isSuccess(com.arthenica.ffmpegkit.ReturnCode)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getFFmpegSessions()
+ir.vadana.extractor.domain.BoardShape$Text: float getY()
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,java.lang.String,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.OwnerSnapshotObserver getSnapshotObserver()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getSafParameter(android.content.Context,android.net.Uri,java.lang.String)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.unit.IntRect getVisibleDisplayBounds()
+androidx.core.view.WindowInsetsCompat$Impl: boolean isVisible(int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.SoftwareKeyboardController getSoftwareKeyboardController()
+ir.vadana.extractor.domain.Recording: ir.vadana.extractor.domain.Recording copy(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+com.arthenica.smartexception.java.Exceptions: void clearIgnorePackages()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.util.Set,java.util.Set,java.util.Set)
+ir.vadana.extractor.domain.BoardShape$Pencil: int component4()
+ir.vadana.extractor.domain.StreamType: StreamType(java.lang.String,int)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setFontDirectoryList(android.content.Context,java.util.List,java.util.Map)
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getFailStackTrace()
+androidx.compose.ui.graphics.layer.view.DrawChildContainer: int getChildCount()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableLogCallback(com.arthenica.ffmpegkit.LogCallback)
+androidx.compose.ui.graphics.layer.ViewLayer: androidx.compose.ui.graphics.CanvasHolder getCanvasHolder()
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSession create(java.lang.String[])
+ir.vadana.extractor.domain.Recording: java.lang.String toString()
+androidx.activity.EdgeToEdgeApi30: void adjustLayoutInDisplayCutoutMode(android.view.Window)
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: void run()
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType[] values()
+androidx.compose.material3.MinimumInteractiveModifier: MinimumInteractiveModifier()
+androidx.core.view.WindowInsetsCompat$Impl34: WindowInsetsCompat$Impl34(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl34)
+androidx.concurrent.futures.DirectExecutor: androidx.concurrent.futures.DirectExecutor[] values()
+androidx.compose.foundation.text.selection.SelectionHandleAnchor: androidx.compose.foundation.text.selection.SelectionHandleAnchor valueOf(java.lang.String)
+androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
+ir.vadana.extractor.domain.BoardEvent: ir.vadana.extractor.domain.BoardEvent copy$default(ir.vadana.extractor.domain.BoardEvent,long,ir.vadana.extractor.domain.PageKey,java.lang.String,ir.vadana.extractor.domain.BoardShape,int,java.lang.Object)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int getNativeLogLevel()
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.unit.IntSize getPopupContentSize-bOM6tXw()
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String getDeviceDebugInformation()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,boolean,boolean)
+com.arthenica.smartexception.AbstractExceptions: void registerIgnorePackage(java.lang.String,boolean)
+androidx.core.view.WindowInsetsCompat$Impl: void setOverriddenInsets(androidx.core.graphics.Insets[])
+androidx.core.view.ViewCompat$Api20Impl: void requestApplyInsets(android.view.View)
+ir.vadana.extractor.domain.RecordingAnalysis: int getWhiteboardPages()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getInsets(int)
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback)
+ir.vadana.extractor.domain.RecordingAnalysis: boolean getHasSharedPdfTimeline()
+ir.vadana.extractor.domain.BoardShape$Text: float component4()
+ir.vadana.extractor.domain.RecordingAnalysis: boolean getHasScreenShare()
+androidx.core.view.WindowInsetsCompat$Impl20: boolean isTypeVisible(int)
+androidx.compose.runtime.ComposerKt: java.lang.Void composeRuntimeError(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback)
+com.arthenica.smartexception.java.Exceptions: boolean containsCause(java.lang.Throwable,java.lang.Class,java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl30: WindowInsetsCompat$Impl30(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl30)
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void getMediaInformationExecute(com.arthenica.ffmpegkit.MediaInformationSession,int)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,java.util.concurrent.ExecutorService)
+androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getMandatorySystemGestureInsets()
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback getMediaInformationSessionCompleteCallback()
+androidx.compose.material3.internal.Listener$Api33Impl: void removeAccessibilityServicesStateChangeListener(android.view.accessibility.AccessibilityManager,android.view.accessibility.AccessibilityManager$AccessibilityServicesStateChangeListener)
+com.arthenica.ffmpegkit.Chapter: java.lang.Long getEnd()
+com.arthenica.ffmpegkit.Chapter: java.lang.String getStringProperty(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int setFontconfigConfigurationPath(java.lang.String)
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getNativeBuildDate()
+ir.vadana.extractor.domain.PageNavigationEvent: int hashCode()
+com.arthenica.smartexception.StackTraceElementWrapper: java.lang.StackTraceElement getStackTraceElement()
+com.arthenica.ffmpegkit.FFmpegKitConfig$1: boolean removeEldestEntry(java.util.Map$Entry)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$BuilderImpl30: WindowInsetsCompat$BuilderImpl30()
+androidx.compose.material3.SnackbarResult: androidx.compose.material3.SnackbarResult valueOf(java.lang.String)
+okhttp3.Protocol: okhttp3.Protocol valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback getFFprobeSessionCompleteCallback()
+com.arthenica.ffmpegkit.Chapter: java.lang.String getStartTime()
+androidx.graphics.path.PathIteratorPreApi34Impl: long createInternalPathIterator(android.graphics.Path,int,float)
+ir.vadana.extractor.domain.PageKey: ir.vadana.extractor.domain.PageKey copy(int,int)
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String getAbi()
+androidx.compose.ui.platform.AndroidComposeViewStartDragAndDropN: boolean startDragAndDrop(android.view.View,androidx.compose.ui.draganddrop.DragAndDropTransferData,androidx.compose.ui.draganddrop.ComposeDragShadowBuilder)
+com.arthenica.ffmpegkit.Session: java.util.Date getCreateTime()
+ir.vadana.extractor.domain.StreamSegment: ir.vadana.extractor.domain.StreamType component4()
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getStartTime()
+com.arthenica.ffmpegkit.FFmpegSession: FFmpegSession(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback,com.arthenica.ffmpegkit.LogRedirectionStrategy)
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: java.lang.Integer getSafId()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreDestroyed(android.app.Activity)
+com.arthenica.smartexception.AbstractExceptions: boolean getPrintSuppressedExceptions()
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: java.lang.String toString(java.lang.StackTraceElement,boolean,boolean)
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getCodecTimeBase()
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$thenBy$1: int compare(java.lang.Object,java.lang.Object)
+com.arthenica.ffmpegkit.CameraSupport: java.util.List extractSupportedCameraIds(android.content.Context)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSession create(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback,com.arthenica.ffmpegkit.LogRedirectionStrategy)
+androidx.core.view.WindowInsetsCompat$BuilderImpl: WindowInsetsCompat$BuilderImpl()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,int,boolean)
+com.arthenica.ffmpegkit.NativeLoader: boolean isTestModeDisabled()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationAsync(java.lang.String,com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback)
+androidx.core.view.WindowInsetsCompat$Impl20: boolean systemBarVisibilityEquals(int,int)
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getInsets(int,boolean)
+com.arthenica.ffmpegkit.Session: void cancel()
+androidx.work.NetworkType: androidx.work.NetworkType valueOf(java.lang.String)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPaused(android.app.Activity)
+ir.vadana.extractor.domain.Whiteboard: Whiteboard(java.util.Map,java.util.List,java.util.List)
+androidx.compose.ui.window.SecureFlagPolicy: androidx.compose.ui.window.SecureFlagPolicy[] values()
+ir.vadana.extractor.domain.ExportedItem: ir.vadana.extractor.domain.ExportedItem copy$default(ir.vadana.extractor.domain.ExportedItem,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class)
+androidx.compose.ui.text.AnnotationType: androidx.compose.ui.text.AnnotationType[] values()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback)
+com.arthenica.ffmpegkit.Chapter: java.lang.String getTimeBase()
+com.arthenica.ffmpegkit.CameraSupport: CameraSupport()
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: android.view.View getView()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getCodec()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AccessibilityManager getAccessibilityManager()
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.AndroidComposeView getOwnerView()
+androidx.compose.ui.text.internal.InlineClassHelperKt: void throwIllegalStateException(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidClipboardManager getClipboardManager()
+ir.vadana.extractor.domain.StreamSegment: ir.vadana.extractor.domain.StreamType getType()
+com.arthenica.ffmpegkit.Signal: com.arthenica.ffmpegkit.Signal valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.Density getDensity()
+ir.vadana.extractor.domain.Recording: java.lang.String getHost()
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart[] values()
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getInsetsForType(int,boolean)
+com.arthenica.smartexception.StackTraceElementSerializer: java.lang.String getPackageInformation(java.lang.StackTraceElement)
+androidx.compose.ui.platform.AndroidComposeView: void setLastMatrixRecalculationAnimationTime$ui_release(long)
+com.arthenica.smartexception.AbstractExceptions: void setPrintSuppressedExceptions(boolean)
+ir.vadana.extractor.ui.MainViewModel: MainViewModel(android.app.Application)
+androidx.compose.runtime.collection.MutableVectorKt: void throwOutOfRangeException(int,int)
+com.arthenica.smartexception.AbstractExceptions: boolean containsPackage(java.lang.String,java.util.Set)
+androidx.profileinstaller.ProfileInstallReceiver: ProfileInstallReceiver()
+androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand: androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl20: WindowInsetsCompat$Impl20(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+ir.vadana.extractor.domain.SharedFile: ir.vadana.extractor.domain.FileCategory component3()
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: android.view.WindowManager$LayoutParams getParams$ui_release()
+com.arthenica.ffmpegkit.MediaInformationSession: boolean isFFmpeg()
+androidx.compose.ui.contentcapture.AndroidContentCaptureManager$TranslateStatus: androidx.compose.ui.contentcapture.AndroidContentCaptureManager$TranslateStatus[] values()
+androidx.compose.material3.tokens.ColorSchemeKeyTokens: androidx.compose.material3.tokens.ColorSchemeKeyTokens[] values()
+androidx.compose.foundation.gestures.Orientation: androidx.compose.foundation.gestures.Orientation[] values()
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getFilename()
+com.arthenica.ffmpegkit.ReturnCode: boolean isValueSuccess()
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.unit.LayoutDirection getParentLayoutDirection()
+androidx.compose.ui.input.pointer.PointerInputEventHandler: java.lang.Object invoke(androidx.compose.ui.input.pointer.PointerInputScope,kotlin.coroutines.Continuation)
+ir.vadana.extractor.domain.SharedFile: java.lang.String component2()
+com.arthenica.ffmpegkit.Statistics: void setVideoFrameNumber(int)
+com.arthenica.smartexception.AbstractExceptions: boolean isEmpty(java.lang.String)
+com.arthenica.smartexception.java.JavaClassLoader: java.lang.Class loadClass(java.lang.String)
+ir.vadana.extractor.domain.PageNavigationEvent: ir.vadana.extractor.domain.PageNavigationEvent copy$default(ir.vadana.extractor.domain.PageNavigationEvent,long,ir.vadana.extractor.domain.PageKey,int,java.lang.Object)
+com.arthenica.ffmpegkit.Session: boolean isMediaInformation()
+ir.vadana.extractor.domain.PageNavigationEvent: long getTimestampMs()
+androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction: androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction[] values()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void disableNativeRedirection()
+androidx.compose.ui.platform.AbstractComposeView: boolean getHasComposition()
+ir.vadana.extractor.domain.RecordingAnalysis: java.util.List getSharedFiles()
+com.arthenica.ffmpegkit.MediaInformationJsonParser: MediaInformationJsonParser()
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory valueOf(java.lang.String)
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy[] values()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getTappableElementInsets()
+ir.vadana.extractor.domain.PointerEvent: ir.vadana.extractor.domain.PointerEvent copy(long,float,float,boolean)
+androidx.compose.foundation.text.HandleState: androidx.compose.foundation.text.HandleState[] values()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,java.util.concurrent.ExecutorService)
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+com.arthenica.smartexception.AbstractExceptions: void clearGroupPackages()
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getStringProperty(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: void getTextInputService$annotations()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,int,boolean,boolean)
+com.arthenica.smartexception.java.Exceptions: boolean isPrintPackageInformation()
+androidx.core.graphics.drawable.IconCompat: IconCompat()
+com.arthenica.ffmpegkit.FFmpegKitConfig: com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback getFFmpegSessionCompleteCallback()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners get_viewTreeOwners()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.focus.FocusOwner getFocusOwner()
+ir.vadana.extractor.domain.PointerEvent: boolean getVisible()
+ir.vadana.extractor.domain.ExtractionRequest: ir.vadana.extractor.domain.VideoQuality getQuality()
+com.arthenica.ffmpegkit.Chapter: java.lang.Long getStart()
+androidx.activity.ComponentActivity: void setContentView(android.view.View)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State[] values()
+androidx.compose.ui.platform.AndroidComposeViewTranslationCallbackS: void clearViewTranslationCallback(android.view.View)
+androidx.compose.ui.platform.AndroidComposeViewTranslationCallbackS: void setViewTranslationCallback(android.view.View)
+ir.vadana.extractor.worker.VadanaExtractionWorker: VadanaExtractionWorker(android.content.Context,androidx.work.WorkerParameters)
+okhttp3.internal.http2.ErrorCode: okhttp3.internal.http2.ErrorCode[] values()
+androidx.work.impl.background.systemjob.SystemJobService: SystemJobService()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationFromCommandAsync(java.lang.String,com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,int)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformation(java.lang.String)
+ir.vadana.extractor.domain.BoardShape$Text: float component3()
+androidx.compose.ui.unit.ConstraintsKt: java.lang.Void throwInvalidConstraintsSizeException(int)
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State[] values()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getBitrate()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,java.util.Set,java.util.Set,java.util.Set,boolean)
+androidx.work.WorkManagerInitializer: WorkManagerInitializer()
+com.arthenica.ffmpegkit.FFmpegSession: java.util.List getStatistics()
+com.arthenica.smartexception.java.JavaClassLoader: JavaClassLoader()
+androidx.compose.ui.graphics.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+androidx.compose.ui.platform.AbstractComposeView: boolean getShouldCreateCompositionOnAttachedToWindow()
+androidx.core.view.WindowInsetsCompat$Impl28: WindowInsetsCompat$Impl28(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl28)
+com.arthenica.smartexception.StackTraceElementSerializer: java.lang.String getUnknownSourceDefinition()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.compose.foundation.MutatePriority: androidx.compose.foundation.MutatePriority[] values()
+ir.vadana.extractor.domain.BoardShape$Text: long component2()
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi[] values()
+ir.vadana.extractor.domain.BoardShape$Pencil: int component1()
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$compareBy$1: Whiteboard$special$$inlined$compareBy$1()
+com.arthenica.smartexception.java.Exceptions: void setIgnoreAllCauses(boolean)
+androidx.compose.ui.text.style.ResolvedTextDirection: androidx.compose.ui.text.style.ResolvedTextDirection valueOf(java.lang.String)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getDuration()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationFromCommand(java.lang.String)
+androidx.emoji2.text.EmojiExclusions$EmojiExclusions_Api34: java.util.Set getExclusions()
+ir.vadana.extractor.domain.ExportedItem: java.lang.String component1()
+androidx.compose.ui.platform.actionmodecallback.MenuItemOption: androidx.compose.ui.platform.actionmodecallback.MenuItemOption valueOf(java.lang.String)
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight[] values()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getAllMessages(java.lang.Throwable)
+ir.vadana.extractor.domain.RecordingAnalysis: ir.vadana.extractor.domain.Recording getRecording()
+androidx.compose.ui.platform.AndroidComposeView: int getImportantForAutofill()
+androidx.compose.material3.ScaffoldLayoutContent: androidx.compose.material3.ScaffoldLayoutContent valueOf(java.lang.String)
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$BuilderImpl: WindowInsetsCompat$BuilderImpl(androidx.core.view.WindowInsetsCompat)
+com.arthenica.ffmpegkit.FFmpegSession: com.arthenica.ffmpegkit.FFmpegSession create(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback)
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,int)
+com.arthenica.ffmpegkit.Session: java.util.Date getEndTime()
+okhttp3.TlsVersion: okhttp3.TlsVersion valueOf(java.lang.String)
+com.arthenica.smartexception.java.Exceptions: java.lang.String getAllMessages(java.lang.Throwable)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.LayoutDirection getLayoutDirection()
+androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy: androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy valueOf(java.lang.String)
+ir.vadana.extractor.domain.Whiteboard$special$$inlined$thenBy$1: Whiteboard$special$$inlined$thenBy$1(java.util.Comparator)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,int,boolean,boolean)
+ir.vadana.extractor.domain.PageNavigationEvent: ir.vadana.extractor.domain.PageKey getPage()
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi[] $values()
+com.arthenica.ffmpegkit.FFmpegSession: java.util.List getAllStatistics()
+ir.vadana.extractor.domain.SharedFile: boolean equals(java.lang.Object)
+androidx.compose.ui.text.internal.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl21: WindowInsetsCompat$Impl21(androidx.core.view.WindowInsetsCompat,androidx.core.view.WindowInsetsCompat$Impl21)
+com.arthenica.ffmpegkit.AbstractSession: long getSessionId()
+ir.vadana.extractor.domain.Recording: Recording(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+androidx.compose.material.ripple.RippleHostView: void setRippleState(boolean)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.lang.String,java.lang.String)
+com.arthenica.ffmpegkit.ReturnCode: ReturnCode(int)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,boolean,boolean,java.util.Set,java.util.Set,java.util.Set,int,boolean,boolean,boolean,boolean)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getContainingPackage(java.lang.String,java.util.Set)
+androidx.compose.ui.platform.ComposeView: boolean getShouldCreateCompositionOnAttachedToWindow()
+com.arthenica.ffmpegkit.AbiDetect: void setArmV7aNeonLoaded()
+com.arthenica.ffmpegkit.Statistics: float getVideoFps()
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getVisibleInsets(android.view.View)
+androidx.compose.foundation.layout.IntrinsicSize: androidx.compose.foundation.layout.IntrinsicSize valueOf(java.lang.String)
+androidx.compose.material3.ScaffoldLayoutContent: androidx.compose.material3.ScaffoldLayoutContent[] values()
+androidx.compose.foundation.internal.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+com.arthenica.ffmpegkit.Statistics: double getSpeed()
+com.arthenica.smartexception.StackTraceElementSerializer: java.lang.String toString(java.lang.StackTraceElement,boolean,boolean)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableRedirection()
+ir.vadana.extractor.domain.RecordingAnalysis: boolean equals(java.lang.Object)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void clearSessions()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,int)
+com.arthenica.ffmpegkit.MediaInformationSession: boolean isMediaInformation()
+ir.vadana.extractor.domain.PageKey: int component1()
+androidx.compose.ui.node.LookaheadPassDelegate$PlacedState: androidx.compose.ui.node.LookaheadPassDelegate$PlacedState[] values()
+ir.vadana.extractor.domain.Whiteboard: boolean equals(java.lang.Object)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidClipboard getClipboard()
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject getProperty(java.lang.String)
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy[] $values()
+com.arthenica.ffmpegkit.Abi: com.arthenica.ffmpegkit.Abi from(java.lang.String)
+kotlin.LazyThreadSafetyMode: kotlin.LazyThreadSafetyMode[] values()
+androidx.compose.ui.window.PopupLayout: kotlin.jvm.functions.Function2 getContent()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,int,boolean,boolean)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.platform.AbstractComposeView getSubCompositionView()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String packageInformation(java.lang.String,java.lang.String)
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult[] values()
+androidx.compose.foundation.text.Handle: androidx.compose.foundation.text.Handle valueOf(java.lang.String)
+ir.vadana.extractor.domain.PointerEvent: boolean component4()
+androidx.compose.ui.unit.InlineClassHelperKt: void throwIllegalArgumentException(java.lang.String)
+androidx.work.NetworkType: androidx.work.NetworkType[] values()
+ir.vadana.extractor.domain.PageKey: int hashCode()
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getBitrate()
+ir.vadana.extractor.domain.RecordingAnalysis: ir.vadana.extractor.domain.RecordingAnalysis copy(ir.vadana.extractor.domain.Recording,java.lang.String,java.util.List,int,int,boolean,boolean,boolean,long)
+androidx.compose.ui.graphics.layer.ViewLayer: void setInvalidated(boolean)
+androidx.core.view.WindowInsetsCompat$Impl21: androidx.core.graphics.Insets getStableInsets()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.String getDisplayAspectRatio()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.lang.String,boolean,boolean,java.util.Set,java.util.Set,java.util.Set,int,boolean,boolean,boolean,boolean)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.core.view.WindowInsetsCompat$Impl28: boolean equals(java.lang.Object)
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory[] values()
+ir.vadana.extractor.domain.Recording: java.lang.String component3()
+androidx.work.impl.diagnostics.DiagnosticsReceiver: DiagnosticsReceiver()
+ir.vadana.extractor.domain.BoardShape$Text: int component6()
+ir.vadana.extractor.domain.BoardEvent: long component1()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setTappableElementInsets(androidx.core.graphics.Insets)
+androidx.work.impl.WorkDatabase: WorkDatabase()
+androidx.core.view.WindowInsetsCompat$Impl: void copyWindowDataInto(androidx.core.view.WindowInsetsCompat)
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName valueOf(java.lang.String)
+com.arthenica.smartexception.java.JavaPackageLoader: java.lang.Package getPackage(java.lang.ClassLoader,java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback,java.util.concurrent.ExecutorService)
+androidx.compose.material3.internal.InputPhase: androidx.compose.material3.internal.InputPhase[] values()
+com.arthenica.ffmpegkit.Signal: Signal(java.lang.String,int,int)
+androidx.graphics.path.PathIteratorPreApi34Impl: boolean internalPathIteratorHasNext(long)
+com.arthenica.ffmpegkit.Session: java.util.concurrent.Future getFuture()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationFromCommandArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,int)
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String loadAbi()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.StatisticsCallback,java.util.concurrent.ExecutorService)
+androidx.compose.runtime.collection.MutableVectorKt: void throwNegativeIndexException(int)
+androidx.compose.runtime.PreconditionsKt: void throwIllegalArgumentException(java.lang.String)
+com.arthenica.ffmpegkit.StatisticsCallback: void apply(com.arthenica.ffmpegkit.Statistics)
+ir.vadana.extractor.domain.SharedFile: ir.vadana.extractor.domain.SharedFile copy$default(ir.vadana.extractor.domain.SharedFile,java.lang.String,java.lang.String,ir.vadana.extractor.domain.FileCategory,int,java.lang.Object)
+com.arthenica.ffmpegkit.FFprobeSession: boolean isFFprobe()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.util.List getSupportedCameraIds(android.content.Context)
+com.arthenica.smartexception.ThrowableWrapper: ThrowableWrapper(java.lang.String,com.arthenica.smartexception.ThrowableWrapper,java.lang.String,com.arthenica.smartexception.ThrowableWrapper[],com.arthenica.smartexception.StackTraceElementWrapper[])
+com.arthenica.ffmpegkit.FFmpegKitConfig: void setLogLevel(com.arthenica.ffmpegkit.Level)
+com.arthenica.smartexception.ThrowableWrapper: java.lang.String getClassName()
+androidx.work.Worker: Worker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getHolderToLayoutNode()
+androidx.compose.foundation.text.Handle: androidx.compose.foundation.text.Handle[] values()
+com.arthenica.smartexception.AbstractExceptions: void registerRootPackage(java.lang.String)
+com.arthenica.ffmpegkit.Session: java.lang.String[] getArguments()
+androidx.core.view.WindowInsetsCompat$Impl: void setStableInsets(androidx.core.graphics.Insets)
+androidx.compose.ui.platform.AndroidComposeView: void setContentCaptureManager$ui_release(androidx.compose.ui.contentcapture.AndroidContentCaptureManager)
+androidx.compose.material3.internal.Listener$Api33Impl: void addAccessibilityServicesStateChangeListener(android.view.accessibility.AccessibilityManager,android.view.accessibility.AccessibilityManager$AccessibilityServicesStateChangeListener)
+ir.vadana.extractor.domain.BoardShape$Text: float component7()
+com.arthenica.smartexception.AbstractExceptions: boolean getIgnoreAllCauses()
+com.arthenica.ffmpegkit.MediaInformation: java.lang.String getSize()
+ir.vadana.extractor.domain.VideoQuality: int getHeight()
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State valueOf(java.lang.String)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+com.arthenica.ffmpegkit.FFprobeKit: FFprobeKit()
+androidx.compose.foundation.gestures.Orientation: androidx.compose.foundation.gestures.Orientation valueOf(java.lang.String)
+ir.vadana.extractor.domain.RecordingAnalysis: java.lang.String toString()
+androidx.compose.ui.platform.AndroidComposeView: kotlin.coroutines.CoroutineContext getCoroutineContext()
+com.arthenica.ffmpegkit.Statistics: double getBitrate()
+ir.vadana.extractor.domain.Recording: java.lang.String getBaseUrl()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void asyncGetMediaInformationExecute(com.arthenica.ffmpegkit.MediaInformationSession,java.util.concurrent.ExecutorService,int)
+androidx.compose.foundation.internal.InlineClassHelperKt: void throwIllegalStateException(java.lang.String)
+okhttp3.Protocol: okhttp3.Protocol[] values()
+androidx.work.DirectExecutor: androidx.work.DirectExecutor valueOf(java.lang.String)
+ir.vadana.extractor.domain.BoardShape: long getTimestampMs()
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult valueOf(java.lang.String)
+androidx.compose.ui.node.LookaheadPassDelegate$PlacedState: androidx.compose.ui.node.LookaheadPassDelegate$PlacedState valueOf(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl20: androidx.core.graphics.Insets getSystemWindowInsets()
+ir.vadana.extractor.domain.StreamSegment: java.lang.String component3()
+com.arthenica.ffmpegkit.Packages: java.util.List getExternalLibraries()
+com.arthenica.smartexception.AbstractExceptions: com.arthenica.smartexception.StackTraceElementSerializer getStackTraceElementSerializer()
+androidx.compose.foundation.layout.Direction: androidx.compose.foundation.layout.Direction valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void ffmpegExecute(com.arthenica.ffmpegkit.FFmpegSession)
+com.arthenica.ffmpegkit.Chapter: org.json.JSONObject getAllProperties()
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind[] $values()
+com.arthenica.ffmpegkit.NativeLoader: java.lang.String loadVersion()
+androidx.compose.runtime.ComposerKt: void composeImmediateRuntimeError(java.lang.String)
+kotlin.text.RegexOption: kotlin.text.RegexOption valueOf(java.lang.String)
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax[] values()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeAsync(java.lang.String,com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback,java.util.concurrent.ExecutorService)
+com.arthenica.ffmpegkit.Session: java.util.Date getStartTime()
+ir.vadana.extractor.domain.StreamType: kotlin.enums.EnumEntries getEntries()
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode[] values()
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable getCause(java.lang.Throwable,int)
+ir.vadana.extractor.domain.BoardShape$Text: boolean equals(java.lang.Object)
+androidx.work.CoroutineWorker: CoroutineWorker(android.content.Context,androidx.work.WorkerParameters)
+com.arthenica.ffmpegkit.FFmpegSession: void addStatistics(com.arthenica.ffmpegkit.Statistics)
+com.arthenica.ffmpegkit.FFmpegKit: void cancel(long)
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName[] values()
+ir.vadana.extractor.domain.BoardEvent: long getTimestampMs()
+androidx.compose.animation.EnterExitState: androidx.compose.animation.EnterExitState[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.AutofillTree getAutofillTree()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,int,boolean,boolean,boolean,boolean)
+com.arthenica.ffmpegkit.NativeLoader: void loadLibrary(java.lang.String)
+com.arthenica.ffmpegkit.FFprobeSession: boolean isMediaInformation()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void statistics(long,int,float,float,long,double,double,double)
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setStableInsets(androidx.core.graphics.Insets)
+com.arthenica.ffmpegkit.FFprobeKit: java.util.List listMediaInformationSessions()
+androidx.core.view.WindowInsetsCompat$BuilderImpl29: void setSystemWindowInsets(androidx.core.graphics.Insets)
+androidx.compose.foundation.text.selection.SelectionHandleAnchor: androidx.compose.foundation.text.selection.SelectionHandleAnchor[] values()
+com.arthenica.smartexception.java.Exceptions: boolean containsCause(java.lang.Throwable,java.lang.Class)
+ir.vadana.extractor.domain.PageKey: PageKey(int,int)
+androidx.compose.ui.layout.IntrinsicWidthHeight: androidx.compose.ui.layout.IntrinsicWidthHeight[] values()
+ir.vadana.extractor.domain.SharedFile: ir.vadana.extractor.domain.SharedFile copy(java.lang.String,java.lang.String,ir.vadana.extractor.domain.FileCategory)
+com.arthenica.ffmpegkit.Session: void addLog(com.arthenica.ffmpegkit.Log)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void log(long,int,byte[])
+androidx.compose.ui.internal.InlineClassHelperKt: void throwIllegalStateException(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: void setShowLayoutBounds(boolean)
+androidx.core.view.WindowInsetsCompat$Impl21: androidx.core.view.WindowInsetsCompat consumeSystemWindowInsets()
+ir.vadana.extractor.domain.BoardShape$Pencil: long component2()
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession execute(java.lang.String)
+androidx.compose.ui.layout.IntrinsicWidthHeight: androidx.compose.ui.layout.IntrinsicWidthHeight valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Chapter: org.json.JSONObject getProperty(java.lang.String)
+ir.vadana.extractor.domain.VideoQuality: ir.vadana.extractor.domain.VideoQuality[] $values()
+androidx.room.ObservedTableStates$ObserveOp: androidx.room.ObservedTableStates$ObserveOp valueOf(java.lang.String)
+ir.vadana.extractor.domain.StreamSegment: StreamSegment(long,java.lang.String,java.lang.String,ir.vadana.extractor.domain.StreamType)
+com.arthenica.ffmpegkit.MediaInformationSession: boolean isFFprobe()
+androidx.core.view.ViewCompat$Api21Impl: androidx.core.view.WindowInsetsCompat getRootWindowInsets(android.view.View)
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableFFprobeSessionCompleteCallback(com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback)
+com.arthenica.ffmpegkit.AbstractSession: void fail(java.lang.Exception)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.MediaInformationSession getMediaInformationAsync(java.lang.String,com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback,java.util.concurrent.ExecutorService)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set,boolean,boolean,boolean)
+com.arthenica.smartexception.AbstractExceptions: void setStackTraceElementSerializer(com.arthenica.smartexception.StackTraceElementSerializer)
+ir.vadana.extractor.MainActivity: MainActivity()
+com.arthenica.smartexception.AbstractExceptions: java.lang.Throwable searchCause(java.lang.Throwable,java.lang.Class,int)
+ir.vadana.extractor.domain.RecordingAnalysis: boolean getHasWhiteboard()
+androidx.core.view.WindowInsetsCompat$Impl30: WindowInsetsCompat$Impl30(androidx.core.view.WindowInsetsCompat,android.view.WindowInsets)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.spatial.RectManager getRectManager()
+androidx.compose.ui.platform.AndroidComposeView: void setAccessibilityEventBatchIntervalMillis(long)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String packageName(java.lang.String)
+com.arthenica.ffmpegkit.AbiDetect: java.lang.String getCpuAbi()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String argumentsToString(java.lang.String[])
+com.arthenica.ffmpegkit.MediaInformationJsonParser: com.arthenica.ffmpegkit.MediaInformation from(java.lang.String)
+com.arthenica.ffmpegkit.MediaInformationSessionCompleteCallback: void apply(com.arthenica.ffmpegkit.MediaInformationSession)
+com.arthenica.ffmpegkit.MediaInformationSession: java.lang.String toString()
+androidx.compose.ui.platform.AndroidComposeView: void setCoroutineContext(kotlin.coroutines.CoroutineContext)
+com.arthenica.ffmpegkit.Session: java.util.List getLogs()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable,int,boolean,boolean,boolean)
+androidx.compose.foundation.layout.Direction: androidx.compose.foundation.layout.Direction[] values()
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection[] values()
+okhttp3.internal.http2.ErrorCode: okhttp3.internal.http2.ErrorCode valueOf(java.lang.String)
+ir.vadana.extractor.domain.RecordingAnalysis: ir.vadana.extractor.domain.RecordingAnalysis copy$default(ir.vadana.extractor.domain.RecordingAnalysis,ir.vadana.extractor.domain.Recording,java.lang.String,java.util.List,int,int,boolean,boolean,boolean,long,int,java.lang.Object)
+com.arthenica.ffmpegkit.StreamInformation: org.json.JSONObject getTags()
+ir.vadana.extractor.domain.Recording: java.lang.String getOriginalUrl()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.Autofill getAutofill()
+ir.vadana.extractor.domain.Recording: ir.vadana.extractor.domain.Recording copy$default(ir.vadana.extractor.domain.Recording,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+androidx.activity.EdgeToEdgeApi23: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+com.arthenica.ffmpegkit.MediaInformation: MediaInformation(org.json.JSONObject,java.util.List,java.util.List)
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject getAllProperties()
+androidx.profileinstaller.ProfileInstallerInitializer: ProfileInstallerInitializer()
+ir.vadana.extractor.domain.BoardShape$Pencil: ir.vadana.extractor.domain.BoardShape$Pencil copy$default(ir.vadana.extractor.domain.BoardShape$Pencil,int,long,java.util.List,int,float,int,java.lang.Object)
+androidx.core.view.ViewCompat$Api30Impl: java.lang.CharSequence getStateDescription(android.view.View)
+androidx.compose.ui.platform.TextToolbarStatus: androidx.compose.ui.platform.TextToolbarStatus[] values()
+ir.vadana.extractor.domain.RecordingAnalysis: ir.vadana.extractor.domain.Recording component1()
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeWithArgumentsAsync(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void printToLogcat(int,java.lang.String)
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,java.util.Set,java.util.Set,java.util.Set)
+ir.vadana.extractor.domain.PointerEvent: boolean equals(java.lang.Object)
+androidx.compose.ui.platform.AndroidComposeView: void setDensity(androidx.compose.ui.unit.Density)
+ir.vadana.extractor.domain.SharedFile: java.lang.String getFileName()
+ir.vadana.extractor.domain.StreamType$Companion: StreamType$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.view.WindowInsetsCompat consumeSystemWindowInsets()
+com.arthenica.ffmpegkit.Chapter: org.json.JSONObject getTags()
+com.arthenica.ffmpegkit.Packages: java.lang.String getPackageName()
+androidx.activity.EdgeToEdgeApi28: void adjustLayoutInDisplayCutoutMode(android.view.Window)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.graphics.GraphicsContext getGraphicsContext()
+androidx.core.view.WindowInsetsCompat$Impl: androidx.core.graphics.Insets getStableInsets()
+com.arthenica.ffmpegkit.Statistics: double getTime()
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.window.PopupPositionProvider getPositionProvider()
+ir.vadana.extractor.domain.ExtractionRequest: java.lang.String toString()
+kotlinx.coroutines.android.AndroidDispatcherFactory: AndroidDispatcherFactory()
+com.arthenica.ffmpegkit.LogRedirectionStrategy: com.arthenica.ffmpegkit.LogRedirectionStrategy[] values()
+com.arthenica.ffmpegkit.Statistics: int getVideoFrameNumber()
+ir.vadana.extractor.domain.RecordingAnalysis: long component9()
+com.arthenica.ffmpegkit.FFprobeSession: com.arthenica.ffmpegkit.FFprobeSession create(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback)
+ir.vadana.extractor.domain.StreamType: ir.vadana.extractor.domain.StreamType valueOf(java.lang.String)
+com.arthenica.ffmpegkit.AbstractSession: java.lang.String getOutput()
+androidx.compose.ui.platform.AndroidComposeViewVerificationHelperMethodsN: void setPointerIcon(android.view.View,androidx.compose.ui.input.pointer.PointerIcon)
+androidx.compose.ui.input.pointer.PointerEventPass: androidx.compose.ui.input.pointer.PointerEventPass[] values()
+androidx.core.view.WindowInsetsCompat$Impl20: void loadReflectionField()
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getNativeVersion()
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.os.ParcelFileDescriptor getParcelFileDescriptor()
+ir.vadana.extractor.domain.BoardShape$Pencil: int getDepth()
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight[] values()
+com.arthenica.smartexception.AbstractExceptions: java.lang.String getStackTraceString(com.arthenica.smartexception.ThrowableWrapper,boolean)
+com.arthenica.ffmpegkit.FFmpegKit: com.arthenica.ffmpegkit.FFmpegSession executeWithArguments(java.lang.String[])
+androidx.compose.ui.graphics.layer.ViewLayer: android.view.View getOwnerView()
+ir.vadana.extractor.domain.ExportedItem: boolean equals(java.lang.Object)
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: void setStableInsets(androidx.core.graphics.Insets)
+androidx.core.app.NotificationCompat$BubbleMetadata$Api30Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+androidx.compose.ui.platform.AndroidComposeViewForceDarkModeQ: void disallowForceDark(android.view.View)
+com.arthenica.ffmpegkit.FFmpegKitConfig: java.lang.String getSafParameterForRead(android.content.Context,android.net.Uri)
+androidx.activity.EdgeToEdgeApi26: void setUp(androidx.activity.SystemBarStyle,androidx.activity.SystemBarStyle,android.view.Window,android.view.View,boolean,boolean)
+androidx.compose.ui.platform.AndroidComposeView: void getLastMatrixRecalculationAnimationTime$ui_release$annotations()
+com.arthenica.ffmpegkit.Chapter: java.lang.String getEndTime()
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.DrawChildContainer getContainer()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: ReportFragment$LifecycleCallbacks()
+ir.vadana.extractor.domain.ExtractionRequest: ExtractionRequest(java.lang.String,java.util.Set,ir.vadana.extractor.domain.VideoQuality,float,int,kotlin.jvm.internal.DefaultConstructorMarker)
+androidx.core.view.WindowInsetsCompat$Impl20: boolean isRound()
+ir.vadana.extractor.domain.StreamSegment: java.lang.String toString()
+androidx.compose.ui.platform.AbstractComposeView: boolean getShowLayoutBounds()
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: java.lang.String getNativeMethodDefinition()
+androidx.compose.foundation.layout.internal.InlineClassHelperKt: void throwIllegalStateException(java.lang.String)
+androidx.compose.animation.core.MutatePriority: androidx.compose.animation.core.MutatePriority[] values()
+ir.vadana.extractor.domain.StreamSegment: ir.vadana.extractor.domain.StreamSegment copy$default(ir.vadana.extractor.domain.StreamSegment,long,java.lang.String,java.lang.String,ir.vadana.extractor.domain.StreamType,int,java.lang.Object)
+androidx.compose.material3.tokens.TypographyKeyTokens: androidx.compose.material3.tokens.TypographyKeyTokens[] values()
+androidx.core.view.ViewCompat$Api28Impl: boolean isAccessibilityHeading(android.view.View)
+com.arthenica.smartexception.AbstractExceptions: java.lang.StackTraceElement[] getStackTrace(com.arthenica.smartexception.ThrowableWrapper,int)
+ir.vadana.extractor.domain.BoardShape$Pencil: ir.vadana.extractor.domain.BoardShape$Pencil copy(int,long,java.util.List,int,float)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.WindowInfo getWindowInfo()
+com.arthenica.smartexception.java.Exceptions: java.lang.Throwable getCause(java.lang.Throwable,int)
+androidx.graphics.path.PathIteratorPreApi34Impl: int internalPathIteratorSize(long)
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State[] values()
+com.arthenica.ffmpegkit.Session: com.arthenica.ffmpegkit.LogCallback getLogCallback()
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] values()
+androidx.compose.ui.input.pointer.PointerEventPass: androidx.compose.ui.input.pointer.PointerEventPass valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: void setCameraDistancePx(float)
+androidx.compose.ui.window.PopupLayout: java.lang.String getTestTag()
+com.arthenica.ffmpegkit.AsyncGetMediaInformationTask: AsyncGetMediaInformationTask(com.arthenica.ffmpegkit.MediaInformationSession,java.lang.Integer)
+ir.vadana.extractor.domain.RecordingAnalysis: int getWhiteboardEvents()
+androidx.compose.foundation.text.TextContextMenuItems: androidx.compose.foundation.text.TextContextMenuItems[] values()
+com.arthenica.ffmpegkit.FFmpegKit: java.util.List listSessions()
+kotlin.DeprecationLevel: kotlin.DeprecationLevel valueOf(java.lang.String)
+ir.vadana.extractor.domain.RecordingAnalysis: RecordingAnalysis(ir.vadana.extractor.domain.Recording,java.lang.String,java.util.List,int,int,boolean,boolean,boolean,long)
+com.arthenica.smartexception.java.Exceptions: void setStackTraceElementSerializer(com.arthenica.smartexception.StackTraceElementSerializer)
+com.arthenica.ffmpegkit.Session: boolean isFFprobe()
+androidx.compose.material3.tokens.ShapeKeyTokens: androidx.compose.material3.tokens.ShapeKeyTokens valueOf(java.lang.String)
+ir.vadana.extractor.domain.StreamSegment: long getStartMs()
+ir.vadana.extractor.domain.SharedFile: SharedFile(java.lang.String,java.lang.String,ir.vadana.extractor.domain.FileCategory)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void enableFFmpegSessionCompleteCallback(com.arthenica.ffmpegkit.FFmpegSessionCompleteCallback)
+com.arthenica.smartexception.AbstractExceptions: void setPrintModuleName(boolean)
+com.arthenica.smartexception.java.JavaStackTraceElementSerializer: java.lang.String getModuleName(java.lang.StackTraceElement)
+androidx.compose.animation.core.MutatePriority: androidx.compose.animation.core.MutatePriority valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFmpegKitConfig: void ignoreSignal(com.arthenica.ffmpegkit.Signal)
+com.arthenica.smartexception.AbstractExceptions: void registerGroupPackage(java.lang.String)
+com.arthenica.smartexception.java.Exceptions: boolean getIgnoreAllCauses()
+ir.vadana.extractor.domain.RecordingAnalysis: boolean getHasAudio()
+com.arthenica.ffmpegkit.StreamInformation: java.lang.Long getIndex()
+com.arthenica.ffmpegkit.FFmpegKitConfig: void disableRedirection()
+com.arthenica.ffmpegkit.Log: com.arthenica.ffmpegkit.Level getLevel()
+com.arthenica.ffmpegkit.Statistics: float getVideoQuality()
+androidx.compose.ui.platform.ViewLayer: void setInvalidated(boolean)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.layout.LayoutCoordinates getParentLayoutCoordinates()
+ir.vadana.extractor.domain.OutputKind: ir.vadana.extractor.domain.OutputKind[] values()
+ir.vadana.extractor.domain.BoardShape$Pencil: BoardShape$Pencil(int,long,java.util.List,int,float)
+com.arthenica.ffmpegkit.FFmpegKitConfig: int registerNewNativeFFmpegPipe(java.lang.String)
+androidx.core.view.WindowInsetsCompat$Impl20: void copyWindowDataInto(androidx.core.view.WindowInsetsCompat)
+androidx.work.impl.foreground.SystemForegroundService: SystemForegroundService()
+ir.vadana.extractor.domain.StreamSegment: int hashCode()
+ir.vadana.extractor.domain.OutputKind: OutputKind(java.lang.String,int)
+androidx.graphics.path.PathIteratorPreApi34Impl: int internalPathIteratorRawSize(long)
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: android.net.Uri getUri()
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level valueOf(java.lang.String)
+com.arthenica.ffmpegkit.Log: java.lang.String toString()
+ir.vadana.extractor.domain.BoardShape: int getDepth()
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState valueOf(java.lang.String)
+androidx.compose.ui.graphics.layer.ViewLayer: boolean getCanUseCompositingLayer$ui_graphics_release()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setSystemGestureInsets(androidx.core.graphics.Insets)
+androidx.compose.foundation.text.KeyCommand: androidx.compose.foundation.text.KeyCommand[] values()
+ir.vadana.extractor.domain.ExportedItem: int hashCode()
+com.arthenica.ffmpegkit.Log: Log(long,com.arthenica.ffmpegkit.Level,java.lang.String)
+com.arthenica.ffmpegkit.Level: com.arthenica.ffmpegkit.Level from(int)
+com.arthenica.ffmpegkit.Session: java.lang.String getFailStackTrace()
+com.arthenica.ffmpegkit.Statistics: void setVideoFps(float)
+com.arthenica.ffmpegkit.AbstractSession: java.util.List getLogs()
+com.arthenica.smartexception.java.Exceptions: java.lang.String getStackTraceString(java.lang.Throwable)
+ir.vadana.extractor.domain.ExtractionRequest: java.util.Set component2()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setMandatorySystemGestureInsets(androidx.core.graphics.Insets)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreStopped(android.app.Activity)
+com.arthenica.ffmpegkit.AbstractSession: com.arthenica.ffmpegkit.SessionState getState()
+ir.vadana.extractor.VadanaApplication: VadanaApplication()
+androidx.core.view.WindowInsetsCompat$BuilderImpl20: void setSystemWindowInsets(androidx.core.graphics.Insets)
+ir.vadana.extractor.domain.FileCategory: ir.vadana.extractor.domain.FileCategory[] $values()
+com.arthenica.ffmpegkit.FFmpegKitConfig$SAFProtocolUrl: java.lang.String getOpenMode()
+ir.vadana.extractor.domain.StreamSegment: long component1()
+ir.vadana.extractor.domain.BoardShape$Pencil: java.lang.String toString()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.input.TextInputService getTextInputService()
+com.arthenica.ffmpegkit.MediaInformation: org.json.JSONObject getFormatProperties()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State valueOf(java.lang.String)
+androidx.compose.ui.platform.CalculateMatrixToWindowApi29: void calculateMatrixToWindow-EL8BTi8(android.view.View,float[])
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.hapticfeedback.HapticFeedback getHapticFeedBack()
+androidx.compose.ui.window.PopupLayout: boolean getShouldCreateCompositionOnAttachedToWindow()
+androidx.core.view.ViewCompat$Api28Impl: boolean isScreenReaderFocusable(android.view.View)
+androidx.compose.ui.platform.actionmodecallback.MenuItemOption: androidx.compose.ui.platform.actionmodecallback.MenuItemOption[] values()
+androidx.compose.ui.platform.AbstractComposeView: void setTransitionGroup(boolean)
+com.arthenica.ffmpegkit.AbstractSession: void waitForAsynchronousMessagesInTransmit(int)
+androidx.compose.ui.layout.IntrinsicMinMax: androidx.compose.ui.layout.IntrinsicMinMax[] values()
+androidx.compose.foundation.text.KeyCommand: androidx.compose.foundation.text.KeyCommand valueOf(java.lang.String)
+com.arthenica.ffmpegkit.FFprobeSession: FFprobeSession(java.lang.String[],com.arthenica.ffmpegkit.FFprobeSessionCompleteCallback,com.arthenica.ffmpegkit.LogCallback,com.arthenica.ffmpegkit.LogRedirectionStrategy)
+com.arthenica.smartexception.PackageLoader: java.lang.Package getPackage(java.lang.ClassLoader,java.lang.String)
+com.arthenica.ffmpegkit.MediaInformation: java.lang.Long getNumberProperty(java.lang.String)
+ir.vadana.extractor.domain.Whiteboard: java.lang.String toString()
+ir.vadana.extractor.domain.BoardEvent: java.lang.String component3()
+androidx.core.view.WindowInsetsCompat$BuilderImpl: void setSystemWindowInsets(androidx.core.graphics.Insets)
+com.arthenica.ffmpegkit.FFprobeKit: com.arthenica.ffmpegkit.FFprobeSession executeWithArguments(java.lang.String[])
+com.arthenica.smartexception.StackTraceElementWrapper: StackTraceElementWrapper(java.lang.StackTraceElement)
+com.arthenica.smartexception.AbstractExceptions: int appendStackTraceGroupElement(java.lang.StringBuilder,java.lang.String,int,java.lang.StackTraceElement,boolean,boolean,java.lang.String)
