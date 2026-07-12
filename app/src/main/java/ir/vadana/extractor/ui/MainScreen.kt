@@ -37,6 +37,8 @@ import androidx.compose.material.icons.filled.Download
 import androidx.compose.material.icons.filled.Error
 import androidx.compose.material.icons.filled.FolderZip
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.ExpandLess
+import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material.icons.filled.Movie
 import androidx.compose.material.icons.filled.OpenInNew
 import androidx.compose.material.icons.filled.Refresh
@@ -80,11 +82,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -370,9 +374,14 @@ private fun OutputOptionCard(option: OutputOption, checked: Boolean, onToggle: (
     ) {
         Row(Modifier.fillMaxWidth().padding(14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             Icon(option.icon, null, tint = if (option.available) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant)
-            Column(Modifier.weight(1f)) {
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text(option.title, style = MaterialTheme.typography.titleMedium)
                 Text(if (option.available) option.description else stringResource(R.string.not_available_in_class), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Text(
+                    if (checked) stringResource(R.string.output_selected_status) else stringResource(R.string.output_not_selected_status),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = if (checked) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                )
             }
             Checkbox(checked = checked, enabled = option.available, onCheckedChange = { onToggle(option.kind) })
         }
@@ -417,10 +426,20 @@ private fun WorkProgressCard(state: MainUiState, onCancel: () -> Unit, onOpen: (
 
 @Composable
 private fun ErrorCard(message: String, onRetry: () -> Unit, onDismiss: () -> Unit) {
+    var diagnosticsExpanded by remember { mutableStateOf(false) }
     OutlinedCard(colors = CardDefaults.outlinedCardColors(containerColor = MaterialTheme.colorScheme.errorContainer)) {
         Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            SectionHeader(Icons.Default.Error, stringResource(R.string.error_title), message)
-            StaticSetting(stringResource(R.string.error_diagnostics), sanitizeDiagnostic(message))
+            SectionHeader(Icons.Default.Error, stringResource(R.string.error_title), stringResource(R.string.error_suggestion))
+            OutlinedButton(onClick = { diagnosticsExpanded = !diagnosticsExpanded }, modifier = Modifier.fillMaxWidth()) {
+                Icon(if (diagnosticsExpanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore, null)
+                Text(
+                    if (diagnosticsExpanded) stringResource(R.string.hide_diagnostics) else stringResource(R.string.show_diagnostics),
+                    modifier = Modifier.padding(start = 8.dp),
+                )
+            }
+            AnimatedVisibility(diagnosticsExpanded) {
+                StaticSetting(stringResource(R.string.error_diagnostics), sanitizeDiagnostic(message))
+            }
             Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 Button(onClick = onRetry) { Icon(Icons.Default.Refresh, null); Text(stringResource(R.string.retry), modifier = Modifier.padding(start = 8.dp)) }
                 OutlinedButton(onClick = onDismiss) { Text(stringResource(R.string.dismiss)) }
@@ -489,7 +508,7 @@ private fun QualityPicker(quality: VideoQuality, onQuality: (VideoQuality) -> Un
     var expanded by remember { mutableStateOf(false) }
     ExposedDropdownMenuBox(expanded = expanded, onExpandedChange = { expanded = !expanded }) {
         OutlinedTextField(
-            value = "${quality.label} (${quality.width}×${quality.height})",
+            value = qualityLabel(quality),
             onValueChange = {},
             readOnly = true,
             label = { Text(stringResource(R.string.video_quality)) },
@@ -498,10 +517,17 @@ private fun QualityPicker(quality: VideoQuality, onQuality: (VideoQuality) -> Un
         )
         ExposedDropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
             VideoQuality.entries.forEach { item ->
-                DropdownMenuItem(text = { Text("${item.label} (${item.width}×${item.height})") }, onClick = { onQuality(item); expanded = false })
+                DropdownMenuItem(text = { Text(qualityLabel(item)) }, onClick = { onQuality(item); expanded = false })
             }
         }
     }
+}
+
+@Composable
+private fun qualityLabel(quality: VideoQuality): String = when (quality) {
+    VideoQuality.HD_720 -> stringResource(R.string.quality_720p)
+    VideoQuality.FULL_HD -> stringResource(R.string.quality_1080p)
+    VideoQuality.QHD -> stringResource(R.string.quality_1440p)
 }
 
 private val activeWorkStates = setOf(WorkInfo.State.ENQUEUED, WorkInfo.State.RUNNING, WorkInfo.State.BLOCKED)
@@ -534,19 +560,50 @@ private fun formatDuration(milliseconds: Long): String {
     return if (hours > 0) String.format(Locale.US, "%d:%02d:%02d", hours, minutes, seconds) else String.format(Locale.US, "%02d:%02d", minutes, seconds)
 }
 
-@Preview(showBackground = true, widthDp = 420)
+@Preview(name = "Persian phone light", showBackground = true, widthDp = 420, locale = "fa")
 @Composable
-private fun MainScreenPreview() {
-    VadanaTheme {
-        MainScreenContent(
-            state = MainUiState(
-                url = "https://example.adobeconnect.com/demo/?session=sample",
-                analysis = previewAnalysis,
-                selectedOutputs = setOf(OutputKind.SYNCED_VIDEO, OutputKind.AUDIO_M4A),
-            ),
-            snackbarHostState = remember { SnackbarHostState() },
-            onUrlChange = {}, onPaste = {}, onAnalyze = {}, onToggle = {}, onQuality = {}, onStart = {}, onCancel = {}, onRetry = {}, onClearError = {}, onOpen = {}, onNewExtraction = {},
-        )
+private fun PersianPhoneLightPreview() {
+    PreviewMainScreen(localeDirection = LayoutDirection.Rtl, darkTheme = false)
+}
+
+@Preview(name = "Persian phone dark", showBackground = true, widthDp = 420, locale = "fa")
+@Composable
+private fun PersianPhoneDarkPreview() {
+    PreviewMainScreen(localeDirection = LayoutDirection.Rtl, darkTheme = true)
+}
+
+@Preview(name = "English phone light", showBackground = true, widthDp = 420, locale = "en")
+@Composable
+private fun EnglishPhoneLightPreview() {
+    PreviewMainScreen(localeDirection = LayoutDirection.Ltr, darkTheme = false)
+}
+
+@Preview(name = "English phone dark", showBackground = true, widthDp = 420, locale = "en")
+@Composable
+private fun EnglishPhoneDarkPreview() {
+    PreviewMainScreen(localeDirection = LayoutDirection.Ltr, darkTheme = true)
+}
+
+@Preview(name = "Persian tablet light", showBackground = true, widthDp = 840, heightDp = 1100, locale = "fa")
+@Composable
+private fun PersianTabletLightPreview() {
+    PreviewMainScreen(localeDirection = LayoutDirection.Rtl, darkTheme = false)
+}
+
+@Composable
+private fun PreviewMainScreen(localeDirection: LayoutDirection, darkTheme: Boolean) {
+    androidx.compose.runtime.CompositionLocalProvider(LocalLayoutDirection provides localeDirection) {
+        VadanaTheme(darkTheme = darkTheme) {
+            MainScreenContent(
+                state = MainUiState(
+                    url = "https://example.adobeconnect.com/demo/?session=sample",
+                    analysis = previewAnalysis,
+                    selectedOutputs = setOf(OutputKind.SYNCED_VIDEO, OutputKind.AUDIO_M4A),
+                ),
+                snackbarHostState = remember { SnackbarHostState() },
+                onUrlChange = {}, onPaste = {}, onAnalyze = {}, onToggle = {}, onQuality = {}, onStart = {}, onCancel = {}, onRetry = {}, onClearError = {}, onOpen = {}, onNewExtraction = {},
+            )
+        }
     }
 }
 
