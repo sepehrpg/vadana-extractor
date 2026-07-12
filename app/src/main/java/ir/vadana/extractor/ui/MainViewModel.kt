@@ -157,6 +157,11 @@ class MainViewModel(private val applicationContext: Application) : AndroidViewMo
         _state.update { it.copy(error = null) }
     }
 
+    fun startNewExtraction() {
+        workObserver?.cancel()
+        _state.value = MainUiState()
+    }
+
     private fun observeWork(id: UUID) {
         workObserver?.cancel()
         workObserver = viewModelScope.launch {
