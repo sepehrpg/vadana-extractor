@@ -251,14 +251,18 @@ string error_analysis_failed
 string error_analyze_link_first
 string error_diagnostics
 string error_enter_class_link
+string error_missing_job_id
 string error_processing_failed
+string error_read_request
 string error_select_output
+string error_suggestion
 string error_title
 string estimated_duration_format
 string extraction_complete
 string extraction_failed
 string frame_rate
 string frame_rate_fixed
+string hide_diagnostics
 string home_description
 string home_step_analyze
 string home_step_choose
@@ -332,10 +336,13 @@ string navigation_menu
 string no_media_detected
 string not_available_in_class
 string not_selected
+string notification_cancel
 string notification_channel_description
 string notification_channel_name
 string open_last_output
 string operation_cancelled
+string output_not_selected_status
+string output_selected_status
 string outputs_description
 string outputs_title
 string paste_content_description
@@ -343,6 +350,9 @@ string processing
 string processing_description
 string processing_title
 string progress_percent_format
+string quality_1080p
+string quality_1440p
+string quality_720p
 string range_end
 string range_start
 string recording_id_format
@@ -357,8 +367,14 @@ string selected_output
 string shared_files_count_format
 string shared_files_description
 string shared_files_title
+string show_diagnostics
 string snackbar_pane_title
+string stage_building_synced_video
+string stage_building_whiteboard_pdf
 string stage_done
+string stage_downloading_package
+string stage_downloading_shared_files
+string stage_extracting_audio
 string stage_queued
 string start_extraction
 string start_new_extraction
@@ -399,4 +415,5 @@ styleable GradientColor android_startColor android_endColor android_type android
 styleable GradientColorItem android_color android_offset
 xml backup_rules
 xml data_extraction_rules
+xml locales_config
 xml network_security_config

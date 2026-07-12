@@ -1,5 +1,6 @@
 package ir.vadana.extractor
 
+import android.content.Context
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -17,6 +18,21 @@ import java.util.Locale
 
 class MainActivity : ComponentActivity() {
     private val viewModel: MainViewModel by viewModels()
+
+    override fun attachBaseContext(newBase: Context) {
+        super.attachBaseContext(newBase.withPersianLocale())
+    }
+
+    private fun Context.withPersianLocale(): Context {
+        val locale = Locale("fa")
+        Locale.setDefault(locale)
+
+        val configuration = Configuration(resources.configuration)
+        configuration.setLocale(locale)
+        configuration.setLayoutDirection(locale)
+
+        return createConfigurationContext(configuration)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

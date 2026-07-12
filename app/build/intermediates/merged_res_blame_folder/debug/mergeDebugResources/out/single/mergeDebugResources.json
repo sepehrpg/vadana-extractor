@@ -1,22 +1,26 @@
 [
     {
-        "merged": "ir.vadana.extractor.app-debug-58:/xml_backup_rules.xml.flat",
-        "source": "ir.vadana.extractor.app-main-60:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-debug-58:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-main-60:\\xml\\network_security_config.xml"
     },
     {
-        "merged": "ir.vadana.extractor.app-debug-58:/xml_network_security_config.xml.flat",
-        "source": "ir.vadana.extractor.app-main-60:/xml/network_security_config.xml"
+        "merged": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-main-60:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "ir.vadana.extractor.app-debug-58:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "ir.vadana.extractor.app-main-60:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-debug-58:\\drawable_ic_stat_download.xml.flat",
+        "source": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-main-60:\\drawable\\ic_stat_download.xml"
     },
     {
-        "merged": "ir.vadana.extractor.app-debug-58:/xml_data_extraction_rules.xml.flat",
-        "source": "ir.vadana.extractor.app-main-60:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-main-60:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "ir.vadana.extractor.app-debug-58:/drawable_ic_stat_download.xml.flat",
-        "source": "ir.vadana.extractor.app-main-60:/drawable/ic_stat_download.xml"
+        "merged": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\sepehr\\.gradle\\daemon\\8.11.1\\ir.vadana.extractor.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "ir.vadana.extractor.app-debug-58:/xml_locales_config.xml.flat",
+        "source": "ir.vadana.extractor.app-main-60:/xml/locales_config.xml"
     }
 ]

@@ -5,17 +5,17 @@
     <string name="app_subtitle">خروجی حرفه‌ای رسانه‌های Adobe Connect</string>
     <string name="start_extraction">شروع استخراج</string>
     <string name="security_notice">فقط محتوایی را دانلود کنید که اجازه دسترسی به آن را دارید. توکن نشست در یک فایل رمزنگاری‌شده موقت ذخیره می‌شود و پس از پایان پردازش حذف خواهد شد.</string>
-    <string name="home_title">استخراج ضبط کلاس با خیال راحت</string>
-    <string name="home_description">لینک ضبط Adobe Connect را همراه با توکن نشست معتبر وارد کنید. وادانا بسته کلاس را بررسی می‌کند و سپس امکان ساخت ویدیو هماهنگ، صوت، PDF وایت‌برد و فایل‌های اشتراکی را فراهم می‌کند.</string>
+    <string name="home_title">دانلود فیلم کلاس ها</string>
+    <string name="home_description">لینک  کلاس ضبط شده را وارد کنید. برنامه  کلاس را بررسی می‌کند و سپس امکان ساخت ویدیو هماهنگ، صوت، PDF وایت‌برد و فایل‌های اشتراکی را فراهم می‌کند.</string>
     <string name="home_step_analyze">بررسی بسته ضبط</string>
     <string name="home_step_choose">انتخاب خروجی‌های موردنیاز</string>
-    <string name="home_step_process">ادامه پردازش در پس‌زمینه با WorkManager</string>
+    <string name="home_step_process">ادامه پردازش در پس‌زمینه </string>
     <string name="recording_link_label">لینک کلاس</string>
-    <string name="recording_link_supporting">لینک کامل را همراه با توکن نشست وارد کنید. توکن‌ها در بخش عیب‌یابی نمایش داده نمی‌شوند.</string>
+    <string name="recording_link_supporting">لینک کامل را همراه با توکن نشست وارد کنید. </string>
     <string name="recording_url_placeholder">https://example.adobeconnect.com/.../?session=...</string>
     <string name="paste_content_description">چسباندن لینک ضبط</string>
-    <string name="analyzing_class">در حال بررسی ضبط…</string>
-    <string name="analyze_class">بررسی ضبط</string>
+    <string name="analyzing_class">در حال بررسی کلاس…</string>
+    <string name="analyze_class">بررسی کلاس</string>
     <string name="analysis_title">بررسی</string>
     <string name="analysis_loading_title">آماده‌سازی اطلاعات کلاس</string>
     <string name="analysis_loading_body">وادانا در حال دانلود فراداده بسته و شناسایی جریان‌ها، وایت‌برد و فایل‌های اشتراکی است.</string>
