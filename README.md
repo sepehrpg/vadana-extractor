@@ -1,107 +1,234 @@
 # Vadana Extractor
 
-Android extractor for Adobe Connect / Vadana recordings, built with **Kotlin** and **Jetpack Compose**.
+![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.1.21-7F52FF?logo=kotlin&logoColor=white)
+![Min SDK](https://img.shields.io/badge/minSdk-29-blue)
+![Target SDK](https://img.shields.io/badge/targetSdk-35-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This project ports the core logic from `phoseinq/vadana-extractor` to an Android architecture:
+Vadana Extractor is an Android application for extracting and organizing online class recordings from Vadana virtual classrooms.
 
-- Parse recording links and session tokens.
-- Download Adobe Connect offline packages with progress reporting and retry support.
-- Extract Share Pod files with their real names.
-- Read `mainstream.xml`, `indexstream.xml`, and all `ftcontent*.xml` files.
-- Reconstruct pens, text, shape deletion, and whiteboard page changes.
-- Place shared PDFs behind handwriting as page backgrounds.
-- Build multi-page whiteboard PDFs.
-- Extract and merge `cameraVoip*.flv` audio segments.
-- Rebuild screen shares and PDF/pointer events on the timeline.
-- Produce synchronized MP4 output with H.264/MPEG-4 video and AAC audio.
-- Run foreground WorkManager jobs with progress notifications and cancellation.
-- Save outputs in `Downloads/Vadana`, `Movies/Vadana`, and `Music/Vadana`.
-- Encrypt temporary Worker URLs and session data with Android Keystore.
-- Protect against SSRF, cross-domain redirects, and filename/path traversal.
+The project helps solve practical limitations of the original platform:
+
+- Recordings do not always provide a direct download option.
+- The built-in playback experience is limited for reviewing long classes.
+- Long recordings may contain inactive time, waiting periods, or unused sections that are easier to review after exporting the useful media.
+
+Vadana Extractor lets users keep offline copies of their classes, convert recordings into useful formats, and access generated files through Android public storage.
+
+## Features
+
+- **Recording package extraction**: downloads Vadana / Adobe Connect recording packages from recording links, including links that contain session tokens.
+- **Video generation**: builds synchronized MP4 output from screen-share, shared PDF, whiteboard, pointer, and audio timeline data when those streams are present.
+- **Audio extraction**: extracts and merges available `cameraVoip*.flv` audio into M4A output.
+- **Whiteboard PDF export**: reconstructs whiteboard pages and exports them as a PDF, with matching shared PDFs used as page backgrounds when available.
+- **Shared file export**: downloads classroom shared files and publishes them with safe file names.
+- **Background processing**: runs long extraction jobs through WorkManager foreground work with a cancellable notification.
+- **Progress tracking**: reports analysis, download, export, audio, PDF, and video processing progress in the app and notification.
+
+## Screenshots
+
+> Screenshots are not included in this repository yet. Add current app screenshots here when preparing a public release.
+
+| Home / Recording Input | Output Selection | Processing Progress |
+| --- | --- | --- |
+| _Placeholder_ | _Placeholder_ | _Placeholder_ |
+
+## Technology Stack
+
+- **Kotlin** for Android application code.
+- **Jetpack Compose** for declarative UI.
+- **Material 3** for application components and theming.
+- **WorkManager** for foreground background processing, progress updates, and cancellation.
+- **OkHttp** for recording package and shared-file downloads.
+- **FFmpeg / FFmpegKit-compatible Android package** for audio extraction, audio merging, and video encoding workflows.
+- **Android Media APIs** including `MediaMuxer`, `MediaCodec`, `MediaMetadataRetriever`, `MediaStore`, and PDF rendering APIs where appropriate.
+- **Storage approach**:
+  - Private app storage for cached recording packages and encrypted worker request data.
+  - Temporary cache storage for active processing work directories.
+  - Android `MediaStore` public collections for exported videos, audio files, PDFs, and shared files.
 
 ## Requirements
 
-- A recent Android Studio version.
-- Android 10 or later (`minSdk 29`).
-- Internet access for Gradle dependencies.
+- Android Studio with Android Gradle Plugin support for this project.
+- Android 10 or later.
+- Minimum SDK: **29**.
+- Target SDK: **35**.
+- JDK: **17**.
+- Supported native architecture: **arm64-v8a**.
+- Network access to download Gradle dependencies and class recording content.
 
-## Running
+## Installation
 
-1. Open the folder in Android Studio.
+### Clone the project
+
+```bash
+git clone <repository-url>
+cd vadana-extractor
+```
+
+### Open in Android Studio
+
+1. Open the repository folder in Android Studio.
 2. Let Gradle Sync finish.
-3. Select an Android 10+ device or emulator.
-4. Run the `app` module.
+3. Select an Android 10+ physical device or emulator.
+4. Run the `app` configuration.
 
-Command-line build:
+### Build a debug APK
 
 ```bash
 ./gradlew assembleDebug
 ```
 
-On Windows:
+Debug APK output is generated under `app/build/outputs/apk/debug/`.
 
-```powershell
-.\gradlew.bat assembleDebug
+### Build a release APK
+
+```bash
+./gradlew assembleRelease
 ```
 
-The wrapper scripts download the configured Gradle distribution on first use. You can also use Android Studio's standard **Generate Gradle Wrapper** action if you need to regenerate wrapper artifacts.
+Release builds enable code shrinking through the configured Android release build type. Configure signing outside this repository before distributing release artifacts.
 
-## Usage
+## Usage Guide
 
-1. Enter the full recording link. Private classes must include the `session=` value in the link.
-2. Tap **Analyze class**.
-3. Select the outputs you want.
-4. Select video quality and start extraction.
-5. Processing continues in the foreground and can be cancelled from the notification.
+1. **Enter recording information**  
+   Paste the full Vadana recording link. Private recordings should include the `session=` value in the link when required by the server.
 
-## Structure
+2. **Analyze recording**  
+   Tap the analysis action to download or reuse the recording package and inspect available streams, whiteboard pages, audio, shared PDFs, and classroom files.
 
-```text
-app/src/main/java/ir/vadana/extractor/
-├── data/       Adobe Connect download, ZIP, and parser logic
-├── domain/     App-independent models
-├── render/     Canvas, PDF, and frame generation
-├── media/      FFmpeg, audio, and video composition
-├── storage/    MediaStore and Worker request encryption
-├── worker/     Foreground processing
-└── ui/         Compose UI and ViewModel
+3. **Select outputs**  
+   Choose the available outputs for the analyzed recording: synchronized video, audio-only export, whiteboard PDF, and/or shared classroom files.
+
+4. **Start extraction**  
+   Start the extraction job. Processing continues as foreground WorkManager work and can be cancelled from the notification.
+
+5. **Access generated files**  
+   Exported files are published through Android `MediaStore` and appear in public media/download locations depending on file type.
+
+## Output Files
+
+- **Video output**: synchronized MP4 files are exported to `Movies/Vadana`.
+- **Audio output**: M4A audio files are exported to `Music/Vadana`.
+- **PDF output**: reconstructed whiteboard PDFs are exported to `Downloads/Vadana`.
+- **Shared files**: classroom shared files are exported to `Downloads/Vadana` using their detected MIME types when possible.
+
+## Architecture Overview
+
+The application keeps responsibilities separated across focused layers:
+
+- **UI layer**: Compose screens, app theme, state management, user input, output selection, and work progress display.
+- **Worker layer**: foreground WorkManager jobs that coordinate package analysis, downloads, media generation, export, progress updates, cancellation, and cleanup.
+- **Data layer**: recording URL parsing, Vadana / Adobe Connect HTTP access, package archive reading, stream parsing, timeline parsing, and whiteboard parsing.
+- **Media processing layer**: FFmpeg-backed audio workflows and synchronized video composition.
+- **Storage layer**: encrypted worker request storage, temporary processing directories, and public output publishing through `MediaStore`.
+
+## Media Pipeline
+
+```mermaid
+flowchart LR
+    A[Recording package] --> B[Parser]
+    B --> C[Processing]
+    C --> D[Export]
+
+    B --> B1[Timeline streams]
+    B --> B2[Whiteboard events]
+    B --> B3[Shared files]
+
+    C --> C1[Video composition]
+    C --> C2[Audio extraction]
+    C --> C3[PDF rendering]
+
+    D --> D1[Movies/Vadana]
+    D --> D2[Music/Vadana]
+    D --> D3[Downloads/Vadana]
 ```
 
-## FFmpeg engine
+## Security Notes
 
-The project uses this Maven package:
+- **Session tokens are sensitive**. Recording URLs may contain `session=` values and are required for some private recordings. Do not commit, log, or share URLs that contain valid session tokens.
+- **Worker request storage** encrypts extraction requests with an Android Keystore-backed AES-GCM key before handing work to WorkManager.
+- **Temporary files** are created in app-private cache directories during processing and are deleted after completion, cancellation, or failure.
+- **Public output storage** uses Android `MediaStore`; exported files are intentionally visible to the user in public media/download collections.
+- **Network boundaries** block redirects to different origins before reusing session data and use a DNS implementation intended to avoid private-network targets.
+- **TLS considerations**: cleartext traffic is enabled for compatibility with legacy recording hosts. The current OkHttp client accepts all TLS certificates and hostnames for recording downloads, which improves compatibility with misconfigured servers but weakens certificate validation. Treat this as a known limitation before using the app in high-trust or enterprise environments.
 
-```kotlin
-implementation("io.github.arthenica:ffmpeg-kit-https:6.0-2")
-```
+## Build Notes
 
-This package provides an FFmpegKit-compatible API and native libraries compatible with Android's newer page-size requirements. The code tries `libx264` first and automatically falls back to Android's built-in `mpeg4` encoder when the encoder is unavailable.
-
-For store releases, review the exact binary license and enabled FFmpeg build features, and ship the required notices with the app.
-
-## Practical limitations
-
-- Building 1080p/1440p video on low-end phones can be slow and may heat the device.
-- Very large recordings can require several gigabytes of free temporary space.
-- Unusual Adobe Connect layouts may require parser or PDF-selection improvements.
-- Output is functionally equivalent to the Python version, but it is not byte-for-byte identical because device fonts and encoders vary.
-- Some old servers use HTTP. Cleartext is enabled for compatibility, but TLS is preferred whenever available.
-
-## Testing and CI
+Common Gradle commands:
 
 ```bash
 ./gradlew testDebugUnitTest
+./gradlew lintDebug
+./gradlew assembleDebug
+./gradlew assembleRelease
+```
+
+- Debug build: `./gradlew assembleDebug`.
+- Release build: `./gradlew assembleRelease`.
+- ABI configuration: the Android module filters native libraries to **arm64-v8a**.
+- The project uses JDK 17 source and target compatibility.
+- The FFmpeg dependency provides native media-processing support for the configured Android ABI.
+
+## Troubleshooting
+
+### Device connection issues
+
+- Confirm that the device or emulator runs Android 10 or later.
+- Enable USB debugging for physical devices.
+- Check device visibility with:
+
+```bash
+adb devices
+```
+
+### Gradle dependency problems
+
+- Verify that Android Studio uses JDK 17.
+- Confirm that network access is available for Gradle and Maven repositories.
+- Retry with:
+
+```bash
+./gradlew --refresh-dependencies assembleDebug
+```
+
+### SSL errors
+
+- Some legacy recording hosts have unusual TLS or certificate configurations.
+- The current downloader uses permissive certificate handling for compatibility, but network security products, captive portals, or expired sessions can still interrupt downloads.
+- If a download returns HTML instead of a ZIP, refresh the recording link and session token.
+
+### Download failures
+
+- Confirm that the recording URL is complete and belongs to the expected class recording.
+- For private recordings, include a valid `session=` token in the URL.
+- Retry after checking network stability and available storage space.
+
+### Unsupported recordings
+
+- Recordings with unusual Adobe Connect layouts or missing expected stream XML files may not produce every output type.
+- Output options depend on what the analyzer finds in the recording package.
+
+## Development
+
+- Keep changes focused and consistent with the existing package structure.
+- Follow official Kotlin coding conventions.
+- Keep user-facing text in Android string resources.
+- Preserve RTL support and Material 3 styling for UI changes.
+- Avoid adding dependencies unless they are necessary and documented.
+- Do not commit generated files, APKs, AABs, IDE files, secrets, keystores, or URLs containing credentials.
+
+Before submitting changes, run:
+
+```bash
+./gradlew testDebugUnitTest
+./gradlew lintDebug
 ./gradlew assembleDebug
 ```
 
-Basic tests for link parsing, shared files, and streams live under `app/src/test`. The `.github/workflows/android.yml` file also builds and tests the project on GitHub Actions and stores the debug APK as an artifact.
+## License and Attribution
 
-See `BUILD_STATUS.md` for package validation details.
+This repository is published under the MIT license. Its extraction logic is derived from the MIT-licensed `phoseinq/vadana-extractor` project.
 
-## License and attribution
-
-This repository is published under the MIT license. Its logic is derived from this MIT-licensed project:
-
-- https://github.com/phoseinq/vadana-extractor
-
-License text and dependency notes are available in `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+See `LICENSE` and `THIRD_PARTY_NOTICES.md` for license and dependency information.
