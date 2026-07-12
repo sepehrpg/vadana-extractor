@@ -44,15 +44,6 @@ Vadana Extractor lets users keep offline copies of their classes, convert record
   - Temporary cache storage for active processing work directories.
   - Android `MediaStore` public collections for exported videos, audio files, PDFs, and shared files.
 
-## Requirements
-
-- Android Studio with Android Gradle Plugin support for this project.
-- Android 10 or later.
-- Minimum SDK: **29**.
-- Target SDK: **35**.
-- JDK: **17**.
-- Supported native architecture: **arm64-v8a**.
-- Network access to download Gradle dependencies and class recording content.
 
 ## Installation
 
