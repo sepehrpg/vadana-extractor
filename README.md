@@ -1,10 +1,5 @@
 # Vadana Extractor
 
-![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.1.21-7F52FF?logo=kotlin&logoColor=white)
-![Min SDK](https://img.shields.io/badge/minSdk-29-blue)
-![Target SDK](https://img.shields.io/badge/targetSdk-35-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 Vadana Extractor is an Android application for extracting and organizing online class recordings from Vadana virtual classrooms.
 
