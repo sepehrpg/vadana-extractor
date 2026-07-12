@@ -1,7 +1,7 @@
 # Vadana Extractor
 
 
-Vadana Extractor is an Android application for extracting and organizing online class recordings from Vadana virtual classrooms.
+Vadana Extractor is an Android application for extracting and organizing online class recordings from [Vadana virtual classrooms](https://vadamap.ec.iau.ir/).
 
 The project helps solve practical limitations of the original platform:
 
