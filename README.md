@@ -11,16 +11,6 @@ The project helps solve practical limitations of the original platform:
 
 Vadana Extractor lets users keep offline copies of their classes, convert recordings into useful formats, and access generated files through Android public storage.
 
-## Features
-
-- **Recording package extraction**: downloads Vadana / Adobe Connect recording packages from recording links, including links that contain session tokens.
-- **Video generation**: builds synchronized MP4 output from screen-share, shared PDF, whiteboard, pointer, and audio timeline data when those streams are present.
-- **Audio extraction**: extracts and merges available `cameraVoip*.flv` audio into M4A output.
-- **Whiteboard PDF export**: reconstructs whiteboard pages and exports them as a PDF, with matching shared PDFs used as page backgrounds when available.
-- **Shared file export**: downloads classroom shared files and publishes them with safe file names.
-- **Background processing**: runs long extraction jobs through WorkManager foreground work with a cancellable notification.
-- **Progress tracking**: reports analysis, download, export, audio, PDF, and video processing progress in the app and notification.
-- **Localization**: supports Persian (`fa`) with RTL presentation while keeping English resources as the default fallback language.
 
 
 ## Video
@@ -35,6 +25,16 @@ https://github.com/user-attachments/assets/e6c5a32c-ac6b-4cfc-9b38-2a5d7ee8a67d
 | ![Home](screenshots/s1.jpg) | ![Home](screenshots/s2.jpg) | ![Home](screenshots/s3.jpg) |
 
 
+## Features
+
+- **Recording package extraction**: downloads Vadana / Adobe Connect recording packages from recording links, including links that contain session tokens.
+- **Video generation**: builds synchronized MP4 output from screen-share, shared PDF, whiteboard, pointer, and audio timeline data when those streams are present.
+- **Audio extraction**: extracts and merges available `cameraVoip*.flv` audio into M4A output.
+- **Whiteboard PDF export**: reconstructs whiteboard pages and exports them as a PDF, with matching shared PDFs used as page backgrounds when available.
+- **Shared file export**: downloads classroom shared files and publishes them with safe file names.
+- **Background processing**: runs long extraction jobs through WorkManager foreground work with a cancellable notification.
+- **Progress tracking**: reports analysis, download, export, audio, PDF, and video processing progress in the app and notification.
+- **Localization**: supports Persian (`fa`) with RTL presentation while keeping English resources as the default fallback language.
 
 
 
