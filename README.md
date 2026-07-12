@@ -20,6 +20,7 @@ Vadana Extractor lets users keep offline copies of their classes, convert record
 - **Shared file export**: downloads classroom shared files and publishes them with safe file names.
 - **Background processing**: runs long extraction jobs through WorkManager foreground work with a cancellable notification.
 - **Progress tracking**: reports analysis, download, export, audio, PDF, and video processing progress in the app and notification.
+- **Localization**: supports Persian (`fa`) with RTL presentation while keeping English resources as the default fallback language.
 
 ## Screenshots
 

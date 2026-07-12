@@ -38,7 +38,7 @@ class VadanaExtractionWorker(
 
     override suspend fun doWork(): Result {
         val jobId = inputData.getString(KEY_JOB_ID)
-            ?: return Result.failure(errorData("Missing job ID."))
+            ?: return Result.failure(errorData(applicationContext.getString(R.string.error_missing_job_id)))
 
         val jobStore = SecureJobStore(applicationContext)
 
@@ -46,7 +46,7 @@ class VadanaExtractionWorker(
             jobStore.load(jobId)
         }.getOrElse {
             return Result.failure(
-                errorData(it.message ?: "Could not read the request.")
+                errorData(it.message ?: applicationContext.getString(R.string.error_read_request))
             )
         }
 
@@ -55,7 +55,7 @@ class VadanaExtractionWorker(
         var workDirectory: File? = null
 
         return try {
-            update("Downloading class package", 1)
+            update(applicationContext.getString(R.string.stage_downloading_package), 1)
 
             val analysis = repository.analyze(request.recordingUrl) { downloaded, total ->
                 val percent = if (total > 0L) {
@@ -65,7 +65,7 @@ class VadanaExtractionWorker(
                 }
 
                 setProgressAsync(
-                    progressData("Downloading class package", percent)
+                    progressData(applicationContext.getString(R.string.stage_downloading_package), percent)
                 )
             }
 
@@ -83,7 +83,7 @@ class VadanaExtractionWorker(
             val allSharedDirectory = File(workDirectory, "shared")
 
             val downloadedShared = if (OutputKind.SHARED_FILES in request.outputKinds) {
-                update("Downloading shared files", 20)
+                update(applicationContext.getString(R.string.stage_downloading_shared_files), 20)
 
                 repository.downloadSharedFiles(
                     analysis,
@@ -101,7 +101,7 @@ class VadanaExtractionWorker(
                             ).toInt()
 
                     setProgressAsync(
-                        progressData("Downloading shared files", percent)
+                        progressData(applicationContext.getString(R.string.stage_downloading_shared_files), percent)
                     )
                 }
             } else {
@@ -147,7 +147,7 @@ class VadanaExtractionWorker(
 
             PackageArchive(File(analysis.packagePath)).use { archive ->
                 if (OutputKind.WHITEBOARD_PDF in request.outputKinds) {
-                    update("Building whiteboard PDF", 38)
+                    update(applicationContext.getString(R.string.stage_building_whiteboard_pdf), 38)
 
                     val whiteboard = WhiteboardParser.loadFromPackage(archive)
 
@@ -170,7 +170,7 @@ class VadanaExtractionWorker(
                                     )
 
                             setProgressAsync(
-                                progressData("Building whiteboard PDF", percent)
+                                progressData(applicationContext.getString(R.string.stage_building_whiteboard_pdf), percent)
                             )
                         }
 
@@ -188,7 +188,7 @@ class VadanaExtractionWorker(
                 var audioOutput: File? = null
 
                 if (OutputKind.AUDIO_M4A in request.outputKinds) {
-                    update("Extracting audio", 53)
+                    update(applicationContext.getString(R.string.stage_extracting_audio), 53)
 
                     audioOutput = File(
                         workDirectory,
@@ -218,7 +218,7 @@ class VadanaExtractionWorker(
                         ) { progress ->
                             setProgressAsync(
                                 progressData(
-                                    "Extracting audio",
+                                    applicationContext.getString(R.string.stage_extracting_audio),
                                     53 + (progress * 12).toInt(),
                                 )
                             )
@@ -231,7 +231,7 @@ class VadanaExtractionWorker(
                         ) { progress ->
                             setProgressAsync(
                                 progressData(
-                                    "Extracting audio",
+                                    applicationContext.getString(R.string.stage_extracting_audio),
                                     53 + (progress * 12).toInt(),
                                 )
                             )
@@ -249,7 +249,7 @@ class VadanaExtractionWorker(
                 }
 
                 if (OutputKind.SYNCED_VIDEO in request.outputKinds) {
-                    update("Building synced video", 65)
+                    update(applicationContext.getString(R.string.stage_building_synced_video), 65)
 
                     val output = File(
                         workDirectory,
@@ -304,7 +304,7 @@ class VadanaExtractionWorker(
                 }
             }
 
-            update("Done", 100)
+            update(applicationContext.getString(R.string.stage_done), 100)
             jobStore.delete(jobId)
 
             Result.success(
@@ -349,14 +349,14 @@ class VadanaExtractionWorker(
             VadanaApplication.CHANNEL_ID,
         )
             .setSmallIcon(R.drawable.ic_stat_download)
-            .setContentTitle("Vadana Extractor")
+            .setContentTitle(applicationContext.getString(R.string.app_name))
             .setContentText(stage)
             .setOnlyAlertOnce(true)
             .setOngoing(true)
             .setProgress(100, percent.coerceIn(0, 100), false)
             .addAction(
                 android.R.drawable.ic_menu_close_clear_cancel,
-                "Cancel",
+                applicationContext.getString(R.string.notification_cancel),
                 cancelIntent,
             )
             .build()
