@@ -22,12 +22,22 @@ Vadana Extractor lets users keep offline copies of their classes, convert record
 - **Progress tracking**: reports analysis, download, export, audio, PDF, and video processing progress in the app and notification.
 - **Localization**: supports Persian (`fa`) with RTL presentation while keeping English resources as the default fallback language.
 
+
+## Video
+https://github.com/user-attachments/assets/e6c5a32c-ac6b-4cfc-9b38-2a5d7ee8a67d
+
+
 ## Screenshots
 
 
 | Home / Recording Input      | Output Selection            | Processing Progress         |
 |-----------------------------|-----------------------------|-----------------------------|
 | ![Home](screenshots/s1.jpg) | ![Home](screenshots/s2.jpg) | ![Home](screenshots/s3.jpg) |
+
+
+
+
+
 
 ## Technology Stack
 
