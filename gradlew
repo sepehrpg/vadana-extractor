@@ -29,3 +29,6 @@ if [ ! -x "$DIST_DIR/bin/gradle" ]; then
 fi
 
 exec "$DIST_DIR/bin/gradle" "$@"
+
+
+
