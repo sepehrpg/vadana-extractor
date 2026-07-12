@@ -2,9 +2,13 @@
 .gradle
 /local.properties
 /.idea
-.DS_Store
+.DS_Storegi
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 app/release
+*.jks
+*.keystore
+keystore.properties
