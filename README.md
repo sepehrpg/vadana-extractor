@@ -24,7 +24,6 @@ Vadana Extractor lets users keep offline copies of their classes, convert record
 
 ## Screenshots
 
-> Screenshots are not included in this repository yet. Add current app screenshots here when preparing a public release.
 
 | Home / Recording Input      | Output Selection            | Processing Progress         |
 |-----------------------------|-----------------------------|-----------------------------|
