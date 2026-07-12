@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/e6c5a32c-ac6b-4cfc-9b38-2a5d7ee8a67d
 ## Screenshots
 
 
-| Home / Recording Input      | Output Selection            | Processing Progress         |
+| Home / Recording Input      |   Processing Progress       |  Output Selection        |
 |-----------------------------|-----------------------------|-----------------------------|
 | ![Home](screenshots/s1.jpg) | ![Home](screenshots/s2.jpg) | ![Home](screenshots/s3.jpg) |
 
