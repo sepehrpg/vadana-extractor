@@ -1,109 +1,107 @@
-# Vadana Extractor for Android
+# Vadana Extractor
 
-نسخهٔ اندرویدی استخراج‌گر ضبط‌های Adobe Connect / وادانا با **Kotlin** و **Jetpack Compose**.
+Android extractor for Adobe Connect / Vadana recordings, built with **Kotlin** and **Jetpack Compose**.
 
-این پروژه منطق اصلی مخزن `phoseinq/vadana-extractor` را به معماری اندروید منتقل می‌کند:
+This project ports the core logic from `phoseinq/vadana-extractor` to an Android architecture:
 
-- تحلیل لینک ضبط و session
-- دانلود بستهٔ آفلاین Adobe Connect با نمایش پیشرفت و retry
-- استخراج فایل‌های Share Pod با نام واقعی
-- خواندن `mainstream.xml`، `indexstream.xml` و تمام `ftcontent*.xml`
-- بازسازی قلم، متن، حذف شکل‌ها و تعویض صفحهٔ وایت‌برد
-- قرار دادن PDF اشتراکی در پس‌زمینهٔ دست‌خط
-- ساخت PDF چندصفحه‌ای وایت‌برد
-- استخراج و ترکیب segmentهای صوتی `cameraVoip*.flv`
-- بازسازی screen-share و PDF/pointer روی timeline
-- ساخت MP4 همگام با H.264/MPEG-4 + AAC
-- WorkManager foreground، اعلان پیشرفت و لغو عملیات
-- ذخیرهٔ خروجی در `Downloads/Vadana`، `Movies/Vadana` و `Music/Vadana`
-- رمزگذاری URL و session موقت Worker با Android Keystore
-- جلوگیری از SSRF، redirect بین دامنه‌ای و filename/path traversal
+- Parse recording links and session tokens.
+- Download Adobe Connect offline packages with progress reporting and retry support.
+- Extract Share Pod files with their real names.
+- Read `mainstream.xml`, `indexstream.xml`, and all `ftcontent*.xml` files.
+- Reconstruct pens, text, shape deletion, and whiteboard page changes.
+- Place shared PDFs behind handwriting as page backgrounds.
+- Build multi-page whiteboard PDFs.
+- Extract and merge `cameraVoip*.flv` audio segments.
+- Rebuild screen shares and PDF/pointer events on the timeline.
+- Produce synchronized MP4 output with H.264/MPEG-4 video and AAC audio.
+- Run foreground WorkManager jobs with progress notifications and cancellation.
+- Save outputs in `Downloads/Vadana`, `Movies/Vadana`, and `Music/Vadana`.
+- Encrypt temporary Worker URLs and session data with Android Keystore.
+- Protect against SSRF, cross-domain redirects, and filename/path traversal.
 
-## نیازمندی‌ها
+## Requirements
 
-- Android Studio جدید
-- JDK 17
-- Android SDK 35
-- Android 10 یا بالاتر (`minSdk 29`)
-- اینترنت برای دریافت وابستگی‌های Gradle
+- A recent Android Studio version.
+- Android 10 or later (`minSdk 29`).
+- Internet access for Gradle dependencies.
 
-## اجرا
+## Running
 
-1. پوشه را در Android Studio باز کنید.
-2. اجازه دهید Gradle Sync کامل شود.
-3. یک دستگاه یا شبیه‌ساز Android 10+ انتخاب کنید.
-4. ماژول `app` را اجرا کنید.
+1. Open the folder in Android Studio.
+2. Let Gradle Sync finish.
+3. Select an Android 10+ device or emulator.
+4. Run the `app` module.
 
-ساخت خط فرمان:
+Command-line build:
 
 ```bash
 ./gradlew assembleDebug
 ```
 
-در ویندوز:
+On Windows:
 
-```bat
-gradlew.bat assembleDebug
+```powershell
+.\gradlew.bat assembleDebug
 ```
 
-اسکریپت‌های `gradlew` این بسته در اولین اجرا Gradle 8.11.1 را دریافت می‌کنند. در صورت تمایل می‌توانید از Android Studio گزینهٔ استاندارد **Generate Gradle Wrapper** را اجرا کنید تا `gradle-wrapper.jar` نیز تولید شود.
+The wrapper scripts download the configured Gradle distribution on first use. You can also use Android Studio's standard **Generate Gradle Wrapper** action if you need to regenerate wrapper artifacts.
 
-## استفاده
+## Usage
 
-1. لینک کامل ضبط را وارد کنید؛ برای کلاس‌های خصوصی مقدار `session=` نیز باید داخل لینک باشد.
-2. روی «تحلیل کلاس» بزنید.
-3. خروجی‌های موردنظر را انتخاب کنید.
-4. کیفیت ویدئو را انتخاب و استخراج را شروع کنید.
-5. پردازش در foreground ادامه پیدا می‌کند و از اعلان قابل لغو است.
+1. Enter the full recording link. Private classes must include the `session=` value in the link.
+2. Tap **Analyze class**.
+3. Select the outputs you want.
+4. Select video quality and start extraction.
+5. Processing continues in the foreground and can be cancelled from the notification.
 
-## ساختار
+## Structure
 
 ```text
 app/src/main/java/ir/vadana/extractor/
-├── data/       دانلود، ZIP و parserهای Adobe Connect
-├── domain/     مدل‌های مستقل برنامه
-├── render/     Canvas، PDF و تولید frame
-├── media/      FFmpeg، صوت و ترکیب ویدئو
-├── storage/    MediaStore و رمزگذاری درخواست Worker
-├── worker/     پردازش foreground
-└── ui/         Compose و ViewModel
+├── data/       Adobe Connect download, ZIP, and parser logic
+├── domain/     App-independent models
+├── render/     Canvas, PDF, and frame generation
+├── media/      FFmpeg, audio, and video composition
+├── storage/    MediaStore and Worker request encryption
+├── worker/     Foreground processing
+└── ui/         Compose UI and ViewModel
 ```
 
-## موتور FFmpeg
+## FFmpeg engine
 
-پروژه از بستهٔ Maven زیر استفاده می‌کند:
+The project uses this Maven package:
 
 ```kotlin
-implementation("com.moizhassan.ffmpeg:ffmpeg-kit-16kb:6.1.1")
+implementation("io.github.arthenica:ffmpeg-kit-https:6.0-2")
 ```
 
-این بسته API سازگار با FFmpegKit و کتابخانه‌های native سازگار با page size جدید اندروید را ارائه می‌دهد. کد ابتدا `libx264` را امتحان می‌کند و در صورت نبودن encoder، خودکار به encoder داخلی `mpeg4` برمی‌گردد.
+This package provides an FFmpegKit-compatible API and native libraries compatible with Android's newer page-size requirements. The code tries `libx264` first and automatically falls back to Android's built-in `mpeg4` encoder when the encoder is unavailable.
 
-برای انتشار در فروشگاه، مجوز دقیق binary و قابلیت‌های فعال‌شده در build FFmpeg را بررسی و Noticeهای لازم را همراه برنامه منتشر کنید.
+For store releases, review the exact binary license and enabled FFmpeg build features, and ship the required notices with the app.
 
-## محدودیت‌های عملی
+## Practical limitations
 
-- ساخت ویدئوی 1080p/1440p روی گوشی ضعیف می‌تواند زمان‌بر و داغ‌کننده باشد.
-- ضبط‌های بسیار بزرگ به چند گیگابایت فضای خالی موقت نیاز دارند.
-- layoutهای غیرمعمول Adobe Connect ممکن است parser یا الگوریتم انتخاب PDF را نیازمند توسعه کنند.
-- خروجی از نظر عملکرد معادل نسخهٔ Python است، ولی به‌دلیل فونت و encoder دستگاه بایت‌به‌بایت یکسان نیست.
-- بعضی سرورهای قدیمی HTTP هستند؛ cleartext برای سازگاری فعال شده، اما TLS هرجا موجود باشد ترجیح داده می‌شود.
+- Building 1080p/1440p video on low-end phones can be slow and may heat the device.
+- Very large recordings can require several gigabytes of free temporary space.
+- Unusual Adobe Connect layouts may require parser or PDF-selection improvements.
+- Output is functionally equivalent to the Python version, but it is not byte-for-byte identical because device fonts and encoders vary.
+- Some old servers use HTTP. Cleartext is enabled for compatibility, but TLS is preferred whenever available.
 
-## تست و CI
+## Testing and CI
 
 ```bash
-./gradlew testDebugUnitTest assembleDebug
+./gradlew testDebugUnitTest
+./gradlew assembleDebug
 ```
 
-تست‌های پایه برای parsing لینک، فایل‌های اشتراکی و streamها در `app/src/test` قرار دارند. فایل `.github/workflows/android.yml` نیز build و تست را روی GitHub Actions اجرا و APK دیباگ را به‌عنوان artifact ذخیره می‌کند.
+Basic tests for link parsing, shared files, and streams live under `app/src/test`. The `.github/workflows/android.yml` file also builds and tests the project on GitHub Actions and stores the debug APK as an artifact.
 
-جزئیات اعتبارسنجی این بسته در `BUILD_STATUS.md` آمده است.
+See `BUILD_STATUS.md` for package validation details.
 
-## مجوز و انتساب
+## License and attribution
 
-کد این مخزن تحت MIT منتشر شده است. منطق آن از پروژهٔ MIT زیر اقتباس شده است:
+This repository is published under the MIT license. Its logic is derived from this MIT-licensed project:
 
-- `phoseinq/vadana-extractor`
-- Copyright (c) 2026 phoseinq
+- https://github.com/phoseinq/vadana-extractor
 
-متن مجوزها و توضیحات وابستگی‌ها در `LICENSE` و `THIRD_PARTY_NOTICES.md` آمده است.
+License text and dependency notes are available in `LICENSE` and `THIRD_PARTY_NOTICES.md`.

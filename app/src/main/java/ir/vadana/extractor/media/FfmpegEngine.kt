@@ -27,7 +27,7 @@ class FfmpegEngine {
                     ReturnCode.isCancel(returnCode) -> continuation.resumeWithException(CancellationException("FFmpeg cancelled"))
                     else -> continuation.resumeWithException(
                         IllegalStateException(
-                            "FFmpeg با کد ${returnCode?.value} متوقف شد.\n${completed.allLogsAsString.takeLast(4000)}"
+                            "FFmpeg stopped with code ${returnCode?.value}.\n${completed.allLogsAsString.takeLast(4000)}"
                         )
                     )
                 }

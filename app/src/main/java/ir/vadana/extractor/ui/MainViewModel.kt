@@ -8,6 +8,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.workDataOf
+import ir.vadana.extractor.R
 import ir.vadana.extractor.data.VadanaRepository
 import ir.vadana.extractor.domain.ExtractionRequest
 import ir.vadana.extractor.domain.OutputKind
@@ -41,10 +42,10 @@ data class MainUiState(
     val lastUri: String? = null,
 )
 
-class MainViewModel(application: Application) : AndroidViewModel(application) {
-    private val repository = VadanaRepository(application)
-    private val workManager = WorkManager.getInstance(application)
-    private val jobStore = SecureJobStore(application)
+class MainViewModel(private val applicationContext: Application) : AndroidViewModel(applicationContext) {
+    private val repository = VadanaRepository(applicationContext)
+    private val workManager = WorkManager.getInstance(applicationContext)
+    private val jobStore = SecureJobStore(applicationContext)
     private val _state = MutableStateFlow(MainUiState())
     val state: StateFlow<MainUiState> = _state.asStateFlow()
     private var workObserver: Job? = null
@@ -63,7 +64,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     fun analyze() {
         val url = state.value.url.trim()
         if (url.isBlank()) {
-            _state.update { it.copy(error = "لینک کلاس را وارد کنید.") }
+            _state.update { it.copy(error = applicationContext.getString(R.string.error_enter_class_link)) }
             return
         }
         viewModelScope.launch {
@@ -91,7 +92,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                     )
                 }
             }.onFailure { error ->
-                _state.update { it.copy(analyzing = false, error = error.message ?: "تحلیل کلاس انجام نشد.") }
+                _state.update { it.copy(analyzing = false, error = error.message ?: applicationContext.getString(R.string.error_analysis_failed)) }
             }
         }
     }
@@ -111,11 +112,11 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     fun startExtraction() {
         val current = state.value
         val analysis = current.analysis ?: run {
-            _state.update { it.copy(error = "ابتدا لینک را تحلیل کنید.") }
+            _state.update { it.copy(error = applicationContext.getString(R.string.error_analyze_link_first)) }
             return
         }
         if (current.selectedOutputs.isEmpty()) {
-            _state.update { it.copy(error = "حداقل یک خروجی انتخاب کنید.") }
+            _state.update { it.copy(error = applicationContext.getString(R.string.error_select_output)) }
             return
         }
         val request = ExtractionRequest(
@@ -138,7 +139,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             it.copy(
                 workId = work.id,
                 workState = WorkInfo.State.ENQUEUED,
-                workStage = "در صف پردازش",
+                workStage = applicationContext.getString(R.string.stage_queued),
                 workPercent = 0,
                 exportedCount = 0,
                 lastUri = null,
@@ -163,13 +164,13 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 if (info == null) return@collect
                 val progress = info.progress
                 val error = if (info.state == WorkInfo.State.FAILED) {
-                    info.outputData.getString(VadanaExtractionWorker.KEY_ERROR) ?: "پردازش ناموفق بود."
+                    info.outputData.getString(VadanaExtractionWorker.KEY_ERROR) ?: applicationContext.getString(R.string.error_processing_failed)
                 } else null
                 _state.update {
                     it.copy(
                         workState = info.state,
                         workStage = progress.getString(VadanaExtractionWorker.KEY_STAGE)
-                            ?: if (info.state == WorkInfo.State.SUCCEEDED) "تمام شد" else it.workStage,
+                            ?: if (info.state == WorkInfo.State.SUCCEEDED) applicationContext.getString(R.string.stage_done) else it.workStage,
                         workPercent = if (info.state == WorkInfo.State.SUCCEEDED) 100 else
                             progress.getInt(VadanaExtractionWorker.KEY_PERCENT, it.workPercent),
                         exportedCount = info.outputData.getInt(VadanaExtractionWorker.KEY_EXPORTED_COUNT, 0),

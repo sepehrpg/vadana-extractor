@@ -17,8 +17,8 @@ class PackageArchive(file: File) : Closeable {
     fun entry(name: String): ZipEntry? = zip.getEntry(name)
 
     fun readBytes(name: String, maxBytes: Long = MAX_TEXT_ENTRY_BYTES): ByteArray {
-        val entry = zip.getEntry(name) ?: throw NoSuchElementException("$name در بسته وجود ندارد.")
-        if (entry.size > maxBytes) throw IOException("ورودی $name بیش از حد بزرگ است.")
+        val entry = zip.getEntry(name) ?: throw NoSuchElementException("$name does not exist in the package.")
+        if (entry.size > maxBytes) throw IOException("Entry $name is too large.")
         return zip.getInputStream(entry).use { input ->
             val output = ByteArrayOutputStream(entry.size.coerceAtLeast(0).coerceAtMost(maxBytes).toInt())
             val buffer = ByteArray(DEFAULT_BUFFER_SIZE * 4)
@@ -27,7 +27,7 @@ class PackageArchive(file: File) : Closeable {
                 val read = input.read(buffer)
                 if (read < 0) break
                 total += read
-                if (total > maxBytes) throw IOException("ورودی $name بیش از حد بزرگ است.")
+                if (total > maxBytes) throw IOException("Entry $name is too large.")
                 output.write(buffer, 0, read)
             }
             output.toByteArray()
@@ -37,9 +37,9 @@ class PackageArchive(file: File) : Closeable {
     fun readText(name: String): String = readBytes(name).toString(Charsets.UTF_8)
 
     fun extract(name: String, destination: File, maxBytes: Long = MAX_MEDIA_ENTRY_BYTES): File {
-        val entry = zip.getEntry(name) ?: throw NoSuchElementException("$name در بسته وجود ندارد.")
-        require(!entry.isDirectory) { "ورودی ZIP یک پوشه است." }
-        if (entry.size > maxBytes) throw IOException("ورودی $name بیش از حد بزرگ است.")
+        val entry = zip.getEntry(name) ?: throw NoSuchElementException("$name does not exist in the package.")
+        require(!entry.isDirectory) { "ZIP entry is a directory." }
+        if (entry.size > maxBytes) throw IOException("Entry $name is too large.")
         destination.parentFile?.mkdirs()
         zip.getInputStream(entry).use { input ->
             destination.outputStream().buffered().use { output ->
@@ -51,7 +51,7 @@ class PackageArchive(file: File) : Closeable {
                     total += read
                     if (total > maxBytes) {
                         destination.delete()
-                        throw IOException("ورودی $name بیش از حد بزرگ است.")
+                        throw IOException("Entry $name is too large.")
                     }
                     output.write(buffer, 0, read)
                 }

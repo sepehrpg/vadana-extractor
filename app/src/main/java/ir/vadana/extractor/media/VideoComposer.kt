@@ -54,7 +54,7 @@ class VideoComposer(
             }
         var masterSeconds = max(metadataSeconds, max(whiteboard.durationMs / 1000.0, sequentialAudioSeconds))
 
-        onStage("صوت", 8)
+        onStage("Audio", 8)
         val audioFile = File(workDirectory, "master.m4a")
         val audio = if (streams.any { it.type == StreamType.CAMERA_VOIP }) {
             audioExtractor.buildMasterAudio(
@@ -63,10 +63,10 @@ class VideoComposer(
                 workDirectory,
                 audioFile,
                 (masterSeconds * 1000).toLong(),
-            ) { fraction -> onStage("صوت", 8 + (fraction * 12).toInt()) }
+            ) { fraction -> onStage("Audio", 8 + (fraction * 12).toInt()) }
         } else {
             audioExtractor.extractSequentialAudio(archive, workDirectory, audioFile) { fraction ->
-                onStage("صوت", 8 + (fraction * 12).toInt())
+                onStage("Audio", 8 + (fraction * 12).toInt())
             }
         }
 
@@ -74,7 +74,7 @@ class VideoComposer(
         val height = quality.height
         val whiteboardFrames = mutableListOf<WhiteboardFrameRenderer.TimedFrame>()
         if (whiteboard.pages.isNotEmpty()) {
-            onStage("رندر وایت‌برد", 22)
+            onStage("Rendering whiteboard", 22)
             val effectiveWhiteboard = if (pdfNavigation.isNotEmpty() && pdfFiles.isNotEmpty()) {
                 val pod = whiteboard.pages.first().podIndex
                 val nav = pdfNavigation.map { PageNavigationEvent(it.first, PageKey(pod, it.second)) }.toMutableList()
@@ -93,12 +93,12 @@ class VideoComposer(
                     maxFps,
                     backgrounds,
                 ) { done, total ->
-                    onStage("رندر وایت‌برد", 22 + (30f * done / total.coerceAtLeast(1)).toInt())
+                    onStage("Rendering whiteboard", 22 + (30f * done / total.coerceAtLeast(1)).toInt())
                 }
             }
         }
 
-        onStage("اشتراک صفحه", 54)
+        onStage("Screen share", 54)
         val screenFrames = mutableListOf<Frame>()
         val screenWindows = mutableListOf<Window>()
         val shares = streams.filter { it.type == StreamType.SCREEN_SHARE }
@@ -116,7 +116,7 @@ class VideoComposer(
             val command = "-y -i ${shellQuote(input.absolutePath)} -vf ${shellQuote(filter)} ${shellQuote(pattern.absolutePath)}"
             ffmpeg.execute(command, (duration * 1000).toLong()) { fraction ->
                 val base = 54 + (18f * index / shares.size.coerceAtLeast(1)).toInt()
-                onStage("اشتراک صفحه", base + (18f / shares.size.coerceAtLeast(1) * fraction).toInt())
+                onStage("Screen share", base + (18f / shares.size.coerceAtLeast(1) * fraction).toInt())
             }
             val generated = directory.listFiles { file -> file.extension.equals("png", true) }
                 ?.sortedBy { it.name }
@@ -131,7 +131,7 @@ class VideoComposer(
 
         var pdfResult = PdfTimelineFrameRenderer.Result(emptyList(), null)
         if (whiteboard.pages.isEmpty() && pdfNavigation.isNotEmpty() && pdfFiles.isNotEmpty()) {
-            onStage("رندر PDF", 72)
+            onStage("Rendering PDF", 72)
             pdfResult = PdfTimelineFrameRenderer().render(
                 pdfFiles,
                 pdfNavigation,
@@ -144,7 +144,7 @@ class VideoComposer(
 
         var slideshow = emptyList<PdfSlideshowRenderer.TimedFrame>()
         if (whiteboardFrames.isEmpty() && screenFrames.isEmpty() && pdfResult.frames.isEmpty() && pdfFiles.isNotEmpty()) {
-            onStage("اسلایدها", 72)
+            onStage("Slides", 72)
             slideshow = PdfSlideshowRenderer().render(
                 pdfFiles,
                 File(workDirectory, "slideshow"),
@@ -172,11 +172,11 @@ class VideoComposer(
         timeline.sortBy { it.time }
         masterSeconds = max(masterSeconds, timeline.last().time + 1.0)
 
-        onStage("کدگذاری ویدئو", 78)
+        onStage("Encoding video", 78)
         mux(timeline, audio, output, workDirectory, masterSeconds) { fraction ->
-            onStage("کدگذاری ویدئو", 78 + (fraction * 21).toInt())
+            onStage("Encoding video", 78 + (fraction * 21).toInt())
         }
-        onStage("تمام شد", 100)
+        onStage("Done", 100)
         return output
     }
 

@@ -38,7 +38,7 @@ class VadanaExtractionWorker(
 
     override suspend fun doWork(): Result {
         val jobId = inputData.getString(KEY_JOB_ID)
-            ?: return Result.failure(errorData("شناسهٔ کار وجود ندارد."))
+            ?: return Result.failure(errorData("Missing job ID."))
 
         val jobStore = SecureJobStore(applicationContext)
 
@@ -46,7 +46,7 @@ class VadanaExtractionWorker(
             jobStore.load(jobId)
         }.getOrElse {
             return Result.failure(
-                errorData(it.message ?: "خواندن درخواست انجام نشد.")
+                errorData(it.message ?: "Could not read the request.")
             )
         }
 
@@ -55,7 +55,7 @@ class VadanaExtractionWorker(
         var workDirectory: File? = null
 
         return try {
-            update("دریافت بستهٔ کلاس", 1)
+            update("Downloading class package", 1)
 
             val analysis = repository.analyze(request.recordingUrl) { downloaded, total ->
                 val percent = if (total > 0L) {
@@ -65,7 +65,7 @@ class VadanaExtractionWorker(
                 }
 
                 setProgressAsync(
-                    progressData("دریافت بستهٔ کلاس", percent)
+                    progressData("Downloading class package", percent)
                 )
             }
 
@@ -83,7 +83,7 @@ class VadanaExtractionWorker(
             val allSharedDirectory = File(workDirectory, "shared")
 
             val downloadedShared = if (OutputKind.SHARED_FILES in request.outputKinds) {
-                update("دانلود فایل‌های اشتراکی", 20)
+                update("Downloading shared files", 20)
 
                 repository.downloadSharedFiles(
                     analysis,
@@ -101,7 +101,7 @@ class VadanaExtractionWorker(
                             ).toInt()
 
                     setProgressAsync(
-                        progressData("دانلود فایل‌های اشتراکی", percent)
+                        progressData("Downloading shared files", percent)
                     )
                 }
             } else {
@@ -147,7 +147,7 @@ class VadanaExtractionWorker(
 
             PackageArchive(File(analysis.packagePath)).use { archive ->
                 if (OutputKind.WHITEBOARD_PDF in request.outputKinds) {
-                    update("ساخت PDF وایت‌برد", 38)
+                    update("Building whiteboard PDF", 38)
 
                     val whiteboard = WhiteboardParser.loadFromPackage(archive)
 
@@ -170,7 +170,7 @@ class VadanaExtractionWorker(
                                     )
 
                             setProgressAsync(
-                                progressData("ساخت PDF وایت‌برد", percent)
+                                progressData("Building whiteboard PDF", percent)
                             )
                         }
 
@@ -188,7 +188,7 @@ class VadanaExtractionWorker(
                 var audioOutput: File? = null
 
                 if (OutputKind.AUDIO_M4A in request.outputKinds) {
-                    update("استخراج صوت", 53)
+                    update("Extracting audio", 53)
 
                     audioOutput = File(
                         workDirectory,
@@ -218,7 +218,7 @@ class VadanaExtractionWorker(
                         ) { progress ->
                             setProgressAsync(
                                 progressData(
-                                    "استخراج صوت",
+                                    "Extracting audio",
                                     53 + (progress * 12).toInt(),
                                 )
                             )
@@ -231,7 +231,7 @@ class VadanaExtractionWorker(
                         ) { progress ->
                             setProgressAsync(
                                 progressData(
-                                    "استخراج صوت",
+                                    "Extracting audio",
                                     53 + (progress * 12).toInt(),
                                 )
                             )
@@ -249,7 +249,7 @@ class VadanaExtractionWorker(
                 }
 
                 if (OutputKind.SYNCED_VIDEO in request.outputKinds) {
-                    update("ساخت ویدئوی همگام", 65)
+                    update("Building synced video", 65)
 
                     val output = File(
                         workDirectory,
@@ -304,7 +304,7 @@ class VadanaExtractionWorker(
                 }
             }
 
-            update("تمام شد", 100)
+            update("Done", 100)
             jobStore.delete(jobId)
 
             Result.success(
@@ -314,13 +314,13 @@ class VadanaExtractionWorker(
                 )
             )
         } catch (e: CancellationException) {
-            // در نسخه‌های جدید WorkManager، onStopped در CoroutineWorker final است.
-            // بنابراین لغو FFmpeg را هنگام cancel شدن coroutine انجام می‌دهیم.
+            // In newer WorkManager versions, onStopped is final in CoroutineWorker.
+            // Therefore, cancel FFmpeg when the coroutine is cancelled.
             composer?.cancel()
             ffmpeg.cancel()
             jobStore.delete(jobId)
 
-            // باید دوباره پرتاب شود تا WorkManager وضعیت لغوشده را ثبت کند.
+            // Rethrow so WorkManager records the cancelled state.
             throw e
         } catch (t: Throwable) {
             jobStore.delete(jobId)
@@ -349,14 +349,14 @@ class VadanaExtractionWorker(
             VadanaApplication.CHANNEL_ID,
         )
             .setSmallIcon(R.drawable.ic_stat_download)
-            .setContentTitle("استخراج‌گر وادانا")
+            .setContentTitle("Vadana Extractor")
             .setContentText(stage)
             .setOnlyAlertOnce(true)
             .setOngoing(true)
             .setProgress(100, percent.coerceIn(0, 100), false)
             .addAction(
                 android.R.drawable.ic_menu_close_clear_cancel,
-                "لغو",
+                "Cancel",
                 cancelIntent,
             )
             .build()

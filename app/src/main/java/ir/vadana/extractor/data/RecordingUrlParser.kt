@@ -10,7 +10,7 @@ object RecordingUrlParser {
 
     fun parse(raw: String): Recording {
         val trimmed = raw.trim()
-        require(trimmed.isNotBlank()) { "لینک کلاس خالی است." }
+        require(trimmed.isNotBlank()) { "Class link is empty." }
         val normalized = if (trimmed.matches(Regex("^[A-Za-z][A-Za-z0-9+.-]*://.*"))) {
             trimmed
         } else {
@@ -18,24 +18,24 @@ object RecordingUrlParser {
         }
 
         val url = normalized.toHttpUrlOrNull()
-            ?: throw IllegalArgumentException("ساختار لینک معتبر نیست.")
-        require(url.scheme == "http" || url.scheme == "https") { "فقط HTTP و HTTPS پشتیبانی می‌شود." }
-        require(url.username.isEmpty() && url.password.isEmpty()) { "لینک نباید شامل نام کاربری یا رمز باشد." }
+            ?: throw IllegalArgumentException("The link structure is invalid.")
+        require(url.scheme == "http" || url.scheme == "https") { "Only HTTP and HTTPS are supported." }
+        require(url.username.isEmpty() && url.password.isEmpty()) { "The link must not include a username or password." }
 
         val host = url.host
         require(host != "localhost" && !host.endsWith(".local") &&
             !host.endsWith(".internal") && !host.endsWith(".lan")) {
-            "آدرس‌های محلی و داخلی مجاز نیستند."
+            "Local and private addresses are not allowed."
         }
         if (!host.contains(':') && host.any { it.isLetter() }) {
-            require(domainRegex.matches(host)) { "دامنهٔ لینک معتبر نیست." }
+            require(domainRegex.matches(host)) { "The link domain is invalid." }
         }
 
         val recordingId = url.pathSegments.lastOrNull { it.isNotBlank() }
-            ?: throw IllegalArgumentException("شناسهٔ ضبط در لینک پیدا نشد.")
+            ?: throw IllegalArgumentException("The recording ID was not found in the link.")
         val token = url.queryParameter("session").orEmpty()
-        require(idRegex.matches(recordingId)) { "شناسهٔ ضبط معتبر نیست." }
-        require(tokenRegex.matches(token)) { "توکن session معتبر نیست." }
+        require(idRegex.matches(recordingId)) { "The recording ID is invalid." }
+        require(tokenRegex.matches(token)) { "The session token is invalid." }
 
         val origin = url.newBuilder()
             .encodedPath("/")

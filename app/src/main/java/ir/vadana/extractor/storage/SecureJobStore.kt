@@ -37,10 +37,10 @@ class SecureJobStore(private val context: Context) {
     }
 
     fun load(id: String): ExtractionRequest {
-        require(id.matches(Regex("^[0-9a-fA-F-]{36}$"))) { "شناسهٔ کار معتبر نیست." }
+        require(id.matches(Regex("^[0-9a-fA-F-]{36}$"))) { "The job ID is invalid." }
         val bytes = File(jobsDir, "$id.job").readBytes()
         val ivLength = bytes.first().toInt() and 0xff
-        require(ivLength in 12..32 && bytes.size > ivLength + 1) { "فایل کار رمزگذاری‌شده معتبر نیست." }
+        require(ivLength in 12..32 && bytes.size > ivLength + 1) { "The encrypted job file is invalid." }
         val iv = bytes.copyOfRange(1, 1 + ivLength)
         val encrypted = bytes.copyOfRange(1 + ivLength, bytes.size)
         val cipher = Cipher.getInstance(TRANSFORMATION)

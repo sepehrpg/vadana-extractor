@@ -27,7 +27,7 @@ class PublicOutputStore(private val context: Context) {
             put(MediaStore.MediaColumns.IS_PENDING, 1)
         }
         val uri = context.contentResolver.insert(collection, values)
-            ?: error("ساخت فایل خروجی در حافظهٔ عمومی انجام نشد.")
+            ?: error("Could not create the output file in public storage.")
         try {
             context.contentResolver.openOutputStream(uri, "w")!!.use { output ->
                 source.inputStream().buffered().use { input -> input.copyTo(output) }

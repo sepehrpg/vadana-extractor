@@ -1,6 +1,6 @@
-# وضعیت اعتبارسنجی بسته
+# Package Validation Status
 
-- ساختار پروژه، Kotlin DSL، Manifest، منابع، parserها و مسیرهای اصلی پردازش به‌صورت ایستا بررسی شده‌اند.
-- تست‌های واحد برای parsing لینک، فایل‌های اشتراکی و streamها داخل پروژه قرار دارند.
-- workflow آمادهٔ GitHub Actions، وظایف `testDebugUnitTest` و `assembleDebug` را اجرا می‌کند.
-- محیط تولید این بسته Android SDK و دسترسی مستقیم Maven نداشت؛ بنابراین APK در همین محیط assemble نشده است. نخستین Gradle Sync یا اجرای workflow، اعتبارسنجی نهایی وابستگی‌های باینری و native را انجام می‌دهد.
+- The project structure, Kotlin DSL, manifest, resources, parsers, and main processing paths have been reviewed statically.
+- Unit tests for link parsing, shared files, and streams are included in the project.
+- The GitHub Actions workflow runs `testDebugUnitTest` and `assembleDebug`.
+- This package was originally prepared in an environment without the Android SDK or direct Maven access, so the APK was not assembled there. The first Gradle sync or workflow run performs final validation for binary and native dependencies.

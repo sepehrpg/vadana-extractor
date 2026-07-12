@@ -19,7 +19,6 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AudioFile
@@ -55,7 +54,6 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -65,16 +63,15 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.res.stringResource
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.work.WorkInfo
+import ir.vadana.extractor.R
 import ir.vadana.extractor.domain.OutputKind
 import ir.vadana.extractor.domain.RecordingAnalysis
 import ir.vadana.extractor.domain.VideoQuality
@@ -98,8 +95,7 @@ fun MainScreen(viewModel: MainViewModel) {
         }
     }
 
-    CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
-        Scaffold(
+    Scaffold(
             modifier = Modifier.fillMaxSize(),
             snackbarHost = { SnackbarHost(snackbar) },
             topBar = {
@@ -107,8 +103,8 @@ fun MainScreen(viewModel: MainViewModel) {
                     modifier = Modifier.statusBarsPadding(),
                     title = {
                         Column {
-                            Text("استخراج‌گر وادانا", fontWeight = FontWeight.Bold)
-                            Text("Adobe Connect Recording Extractor", fontSize = 11.sp)
+                            Text(stringResource(R.string.app_name), fontWeight = FontWeight.Bold)
+                            Text(stringResource(R.string.app_subtitle), fontSize = 11.sp)
                         }
                     },
                     colors = TopAppBarDefaults.topAppBarColors(
@@ -172,7 +168,7 @@ fun MainScreen(viewModel: MainViewModel) {
                             },
                         ) {
                             Icon(Icons.Default.Download, null)
-                            Text("شروع استخراج", modifier = Modifier.padding(start = 8.dp))
+                            Text(stringResource(R.string.start_extraction), modifier = Modifier.padding(start = 8.dp))
                         }
                     }
                 }
@@ -199,7 +195,7 @@ fun MainScreen(viewModel: MainViewModel) {
 
                 item {
                     Text(
-                        text = "فقط محتوایی را دریافت کنید که اجازهٔ دسترسی به آن را دارید. توکن session در فایل رمزگذاری‌شدهٔ موقت نگه‌داری و پس از پایان حذف می‌شود.",
+                        text = stringResource(R.string.security_notice),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.padding(bottom = 20.dp),
@@ -207,7 +203,6 @@ fun MainScreen(viewModel: MainViewModel) {
                 }
             }
         }
-    }
 }
 
 @Composable
@@ -221,7 +216,7 @@ private fun UrlCard(
 ) {
     Card {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Text("لینک ضبط کلاس", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+            Text(stringResource(R.string.recording_link_label), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
             OutlinedTextField(
                 value = url,
                 onValueChange = onUrlChange,
@@ -231,7 +226,7 @@ private fun UrlCard(
                 placeholder = { Text("https://vadana.../recording/?session=...") },
                 trailingIcon = {
                     IconButton(onClick = onPaste, enabled = !analyzing) {
-                        Icon(Icons.Default.ContentPaste, "چسباندن")
+                        Icon(Icons.Default.ContentPaste, stringResource(R.string.paste_content_description))
                     }
                 },
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
@@ -250,7 +245,7 @@ private fun UrlCard(
                     Icon(Icons.Default.Search, null)
                 }
                 Text(
-                    if (analyzing) "در حال دریافت و تحلیل…" else "تحلیل کلاس",
+                    if (analyzing) stringResource(R.string.analyzing_class) else stringResource(R.string.analyze_class),
                     modifier = Modifier.padding(start = 8.dp),
                 )
             }
@@ -277,22 +272,22 @@ private fun AnalysisCard(analysis: RecordingAnalysis) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Icon(Icons.Default.CheckCircle, null)
                 Text(
-                    "کلاس با موفقیت تحلیل شد",
+                    stringResource(R.string.analysis_success),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(start = 8.dp),
                 )
             }
-            Text("شناسه: ${analysis.recording.recordingId}")
-            Text("مدت تقریبی: ${formatDuration(analysis.estimatedDurationMs)}")
-            Text("فایل اشتراکی: ${analysis.sharedFiles.size}")
-            Text("صفحهٔ وایت‌برد: ${analysis.whiteboardPages}  •  رویداد: ${analysis.whiteboardEvents}")
+            Text(stringResource(R.string.recording_id_format, analysis.recording.recordingId))
+            Text(stringResource(R.string.estimated_duration_format, formatDuration(analysis.estimatedDurationMs)))
+            Text(stringResource(R.string.shared_files_count_format, analysis.sharedFiles.size))
+            Text(stringResource(R.string.whiteboard_stats_format, analysis.whiteboardPages, analysis.whiteboardEvents))
             Text(
                 listOfNotNull(
-                    "صوت".takeIf { analysis.hasAudio },
-                    "اشتراک صفحه".takeIf { analysis.hasScreenShare },
-                    "تایم‌لاین PDF".takeIf { analysis.hasSharedPdfTimeline },
-                ).joinToString("  •  ").ifBlank { "رسانه‌ای در بسته تشخیص داده نشد" },
+                    stringResource(R.string.media_audio).takeIf { analysis.hasAudio },
+                    stringResource(R.string.media_screen_share).takeIf { analysis.hasScreenShare },
+                    stringResource(R.string.media_pdf_timeline).takeIf { analysis.hasSharedPdfTimeline },
+                ).joinToString("  •  ").ifBlank { stringResource(R.string.no_media_detected) },
             )
         }
     }
@@ -307,19 +302,19 @@ private fun OutputSelectionCard(
     onQuality: (VideoQuality) -> Unit,
 ) {
     val options = listOf(
-        OutputOption(OutputKind.SHARED_FILES, "فایل‌های اشتراکی", "PDF، پاورپوینت، Word و سایر فایل‌ها", Icons.Default.FolderZip,
+        OutputOption(OutputKind.SHARED_FILES, stringResource(R.string.shared_files_title), stringResource(R.string.shared_files_description), Icons.Default.FolderZip,
             analysis.sharedFiles.isNotEmpty()),
-        OutputOption(OutputKind.WHITEBOARD_PDF, "وایت‌برد PDF", "یادداشت‌ها و دست‌خط استاد روی صفحات", Icons.Default.Description,
+        OutputOption(OutputKind.WHITEBOARD_PDF, stringResource(R.string.whiteboard_pdf_title), stringResource(R.string.whiteboard_pdf_description), Icons.Default.Description,
             analysis.hasWhiteboard),
-        OutputOption(OutputKind.AUDIO_M4A, "فایل صوتی M4A", "صوت کلاس با حفظ فاصله‌های زمانی", Icons.Default.AudioFile,
+        OutputOption(OutputKind.AUDIO_M4A, stringResource(R.string.audio_m4a_title), stringResource(R.string.audio_m4a_description), Icons.Default.AudioFile,
             analysis.hasAudio),
-        OutputOption(OutputKind.SYNCED_VIDEO, "ویدئوی همگام MP4", "وایت‌برد، PDF، اشتراک صفحه و صوت", Icons.Default.Movie,
+        OutputOption(OutputKind.SYNCED_VIDEO, stringResource(R.string.synced_video_title), stringResource(R.string.synced_video_description), Icons.Default.Movie,
             analysis.hasWhiteboard || analysis.hasScreenShare || analysis.hasSharedPdfTimeline ||
                 analysis.sharedFiles.any { it.fileName.endsWith(".pdf", true) }),
     )
     Card {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text("خروجی‌ها", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+            Text(stringResource(R.string.outputs_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
             options.forEach { option ->
                 Row(
                     modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp),
@@ -329,7 +324,7 @@ private fun OutputSelectionCard(
                     Column(Modifier.weight(1f).padding(horizontal = 10.dp)) {
                         Text(option.title, fontWeight = FontWeight.SemiBold)
                         Text(
-                            if (option.available) option.description else "در این کلاس موجود نیست",
+                            if (option.available) option.description else stringResource(R.string.not_available_in_class),
                             style = MaterialTheme.typography.bodySmall,
                             color = MaterialTheme.colorScheme.onSurfaceVariant,
                         )
@@ -361,7 +356,7 @@ private data class OutputOption(
 private fun QualityPicker(quality: VideoQuality, onQuality: (VideoQuality) -> Unit) {
     var expanded by remember { mutableStateOf(false) }
     Column(Modifier.padding(top = 8.dp)) {
-        Text("کیفیت ویدئو", style = MaterialTheme.typography.labelLarge)
+        Text(stringResource(R.string.video_quality), style = MaterialTheme.typography.labelLarge)
         ExposedDropdownMenuBox(
             expanded = expanded,
             onExpandedChange = { expanded = !expanded },
@@ -423,10 +418,10 @@ private fun WorkProgressCard(
                 )
                 Text(
                     when {
-                        succeeded -> "استخراج کامل شد"
-                        cancelled -> "عملیات لغو شد"
-                        state.workState == WorkInfo.State.FAILED -> "استخراج ناموفق بود"
-                        else -> state.workStage.ifBlank { "در حال پردازش" }
+                        succeeded -> stringResource(R.string.extraction_complete)
+                        cancelled -> stringResource(R.string.operation_cancelled)
+                        state.workState == WorkInfo.State.FAILED -> stringResource(R.string.extraction_failed)
+                        else -> state.workStage.ifBlank { stringResource(R.string.processing) }
                     },
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
@@ -441,15 +436,15 @@ private fun WorkProgressCard(
                 Text("${state.workPercent}%")
                 OutlinedButton(onClick = onCancel, modifier = Modifier.fillMaxWidth()) {
                     Icon(Icons.Default.Cancel, null)
-                    Text("لغو عملیات", modifier = Modifier.padding(start = 8.dp))
+                    Text(stringResource(R.string.cancel_operation), modifier = Modifier.padding(start = 8.dp))
                 }
             }
             if (succeeded) {
-                Text("${state.exportedCount} فایل در پوشه‌های Vadana داخل Downloads، Movies یا Music ذخیره شد.")
+                Text(stringResource(R.string.saved_files_format, state.exportedCount))
                 if (onOpen != null) {
                     Button(onClick = onOpen, modifier = Modifier.fillMaxWidth()) {
                         Icon(Icons.Default.OpenInNew, null)
-                        Text("باز کردن آخرین خروجی", modifier = Modifier.padding(start = 8.dp))
+                        Text(stringResource(R.string.open_last_output), modifier = Modifier.padding(start = 8.dp))
                     }
                 }
             }

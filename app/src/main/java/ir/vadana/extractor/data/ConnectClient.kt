@@ -45,9 +45,9 @@ class ConnectClient(
                 val part = File(destination.absolutePath + ".part").ensureParent()
                 execute(relative).use { response ->
                     if (!response.isSuccessful) {
-                        error("دانلود بسته ناموفق بود (HTTP ${response.code}). ممکن است session منقضی شده باشد.")
+                        error("Package download failed (HTTP ${response.code}). The session may have expired.")
                     }
-                    val body = response.body ?: error("پاسخ سرور خالی است.")
+                    val body = response.body ?: error("The server response is empty.")
                     val total = body.contentLength().coerceAtLeast(0L)
                     var downloaded = 0L
                     body.byteStream().buffered().use { input ->
@@ -65,10 +65,10 @@ class ConnectClient(
                 }
                 val header = part.inputStream().use { input -> ByteArray(2).also { input.read(it) } }
                 require(header.contentEquals(byteArrayOf('P'.code.toByte(), 'K'.code.toByte()))) {
-                    "فایل دریافت‌شده ZIP نیست؛ احتمالاً صفحهٔ ورود یا session منقضی برگشته است."
+                    "The downloaded file is not a ZIP; the server probably returned a login page or an expired session."
                 }
                 if (destination.exists()) destination.delete()
-                check(part.renameTo(destination)) { "انتقال فایل دانلودشده انجام نشد." }
+                check(part.renameTo(destination)) { "The downloaded file could not be moved." }
                 return destination
             } catch (t: Throwable) {
                 lastError = t
@@ -90,10 +90,10 @@ class ConnectClient(
 
         Log.i("ConnectClient",lastError.toString())
         throw IOException(
-            "دانلود بسته پس از چند تلاش انجام نشد.\nدلیل: $reason",
+            "Package download failed after multiple attempts.\nReason: $reason",
             lastError,
         )
-        //throw IOException("دانلود بسته پس از چند تلاش انجام نشد.", lastError)
+        //throw IOException("Package download failed after multiple attempts.", lastError)
     }
 
     fun downloadSharedFile(
@@ -154,21 +154,21 @@ class ConnectClient(
             val location = response.header("Location")
             response.close()
             val redirected = location?.let { url.resolve(it) }
-                ?: throw IOException("تغییر مسیر نامعتبر از سرور دریافت شد.")
+                ?: throw IOException("The server returned an invalid redirect.")
             require(
                 redirected.scheme == origin.scheme &&
                     redirected.host == origin.host &&
                     redirected.port == origin.port
             ) {
-                "تغییر مسیر به مبدأ دیگر برای جلوگیری از افشای session مسدود شد."
+                "Redirects to a different origin are blocked to prevent session disclosure."
             }
             url = redirected
         }
-        throw IOException("تعداد تغییر مسیرهای HTTP بیش از حد مجاز است.")
+        throw IOException("Too many HTTP redirects.")
     }
 
     private fun resolve(relative: String): HttpUrl = origin.resolve(relative)
-        ?: throw IllegalArgumentException("مسیر دانلود معتبر نیست: $relative")
+        ?: throw IllegalArgumentException("Invalid download path: $relative")
 
     private fun withSession(url: HttpUrl): HttpUrl {
         if (recording.sessionToken.isEmpty() || url.queryParameter("session") != null) return url

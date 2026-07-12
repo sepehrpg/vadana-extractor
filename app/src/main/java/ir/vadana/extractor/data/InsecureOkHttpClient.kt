@@ -17,14 +17,14 @@ object InsecureOkHttpClient {
                 chain: Array<out X509Certificate>?,
                 authType: String?,
             ) {
-                // همهٔ گواهی‌های کلاینت پذیرفته می‌شوند.
+                // Accept all client certificates.
             }
 
             override fun checkServerTrusted(
                 chain: Array<out X509Certificate>?,
                 authType: String?,
             ) {
-                // همهٔ گواهی‌های سرور پذیرفته می‌شوند.
+                // Accept all server certificates.
             }
 
             override fun getAcceptedIssuers(): Array<X509Certificate> {
